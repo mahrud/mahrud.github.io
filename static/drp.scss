@@ -1,0 +1,52 @@
+---
+sitemap: false
+---
+
+$link-color: #022b6d;
+$link-hover-color: #527bbd;
+
+body {
+    max-width: 90%;
+    margin: auto auto 50px 0;
+    font-family: Palatino, serif;
+}
+p { text-align: justify; max-width: 95%; margin: 0 auto; }
+#left  { float: left;  width: 45%; overflow: hidden; }
+#right { float: right; width: 45%; overflow: hidden; }
+div.flipper       { color: black;  background-color: rgb(216,230,255); }
+div.flipper:hover { color: #94cf9c; background-color: black }
+
+h1 {
+    font-size: 2em;
+    border-bottom: none;
+}
+
+.masthead {
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+    border-bottom: none;
+}
+
+.wrapper {
+    padding: 0px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+#content {
+    padding-left:2em;
+}
+
+a.menu-item:link,
+a.menu-item:visited,
+a.menu-item:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+}
+a.menu-item.active:link,
+a.menu-item.active:visited {
+    color: $link-color;
+    text-decoration: none;
+    border-bottom: 1px gray solid;
+}
+

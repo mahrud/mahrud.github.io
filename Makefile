@@ -1,14 +1,29 @@
-all: serve
+all: push
 
 check: build
 	bundle exec htmlproofer ./_site/ --only-4xx --check-html --disable-external --empty-alt-ignore # --check-favicon
 
 serve:
-	bundle exec jekyll serve -d _site/proof/
+	bundle exec jekyll serve -s . -d _site/
 
-build:
-	rm -rf _site
-	bundle exec jekyll build -d _site/proof/
+clean:
+	rm -rf ./_site/*
+
+build: build-vincent
+
+build-vincent: clean
+	bundle exec jekyll build -s . -d _site/
+
+build-keybase: clean
+	bundle exec jekyll build -s . -d _site/ -b ""
+
+push: push-vincent
+
+push-vincent: build-vincent
+	cd _site && git add . && git commit -m "`date`" && git push
+
+push-keybase: build-keybase
+	scp -r _site/* /keybase/public/mahrud/
 
 install:
 	gem install jekyll

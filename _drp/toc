@@ -1,0 +1,22 @@
+{% assign nodes="apply       expectations talks         faq#mentor faq#mentee" | split: ' ' %}
+{% assign title="Application Expectations Presentations Mentors    Mentees" | split: ' ' %}
+    <nav id="sidebar">
+      <div class="menu-category">DRP</div>
+      <a class="menu-item{% if page.url == '/drp/' %} active{% endif %}" href="{{ site.baseurl }}/drp/">About</a>
+      {%- for i in (0..2) -%}
+      <a class="menu-item
+        {%- if page.url contains nodes[i] %} active{% endif %}" href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
+      {%- endfor %}
+
+      <div class="menu-category">FAQ</div>
+      {%- for i in (3..4) -%}
+      <a class="menu-item
+        {%- if page.url contains nodes[i] %} active{% endif %}" href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
+      {%- endfor %}
+
+      <div class="menu-category">Resources</div>
+      <a class="menu-item
+        {%- if page.url contains 'books' %} active{% endif %}" href="{{ site.baseurl }}/drp/books">Past Readings</a>
+      <a class="menu-item" href="https://www.drp-network.org/local-drps">Other DRPs</a>
+      <a class="menu-item" href="http://wimmn.math.umn.edu/resources">Other Programs</a>
+    </nav>

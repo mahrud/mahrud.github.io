@@ -1,11 +1,12 @@
 # Setup
-title:               Proof
-tagline:             a Jekyll Theme for Mathematical Writings
+title:               Mahrud Sayrafi
+tagline:             Mahrud Sayrafi @ School of Mathematics, UMN
 description:         >- # this means to ignore newlines until "url:"
-  Proof is a minimal Jekyll theme for collaborating and documenting mathematics.
-url:                 https://mahrud.github.io
-baseurl:             '/proof' # the subpath of your site, e.g. /blog
-gtag:                UA-131373039-2 # Google Analytics Tag
+  I am a second year graduate student at the University of Minnesota
+  studying commutative algebra and algebraic geometry.
+url:                 http://math.umn.edu
+baseurl:             '/~mahrud' # the subpath of your site, e.g. /blog
+gtag:                UA-131373039-1 # Google Analytics Tag
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme:
@@ -19,7 +20,11 @@ encoding: utf-8
 
 # Collections for entries
 collections:
-  posts:
+  teaching:
+    output: true
+  arts:
+    output: true
+  drp:
     output: true
 
 # Markdown specs
@@ -28,15 +33,15 @@ markdown: kramdown
 kramdown:
   footnote_backlink: "&#x21a9;&#xfe0e;"
   enable_coderay: false
-#  math_engine: null # pending https://github.com/github/pages-gem/pull/545
+  math_engine: katex
 
 # Exclusions from the final site
 exclude:
   - vendor
-  - README.md
-  - LICENSE.md
   - Gemfile*
   - proof.gemspec
-
-# Theme
-remote_theme: "mahrud/proof"
+  - Makefile
+  - TODO
+  - _archive
+  - _drp/archive
+  - _teaching/archive
