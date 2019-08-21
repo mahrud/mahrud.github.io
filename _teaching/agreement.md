@@ -1,4 +1,4 @@
-## Course Agreement{{<a href=https://twitter.com/Anthony_Bonato/status/1027948080362967040>:</a>}}
+## Course Agreement[:](https://twitter.com/Anthony_Bonato/status/1027948080362967040)
 
  The goal of this course is to offer a meaningful, rigorous, and rewarding experience to every student;
  you will build that rich experience by devoting your strongest available effort to the class.
@@ -9,7 +9,7 @@
 
 ## Questions for First Class Meeting
 
- Share your math autobiography{{<a href=http://www.kenthaines.com/blog/2016/8/15/math-autobiographies>:</a>}}
+ Share your math autobiography[:](http://www.kenthaines.com/blog/2016/8/15/math-autobiographies)
 
 - Do you like math? Why or why not?
 - What sort of math student do you think you are? Why?
@@ -20,4 +20,4 @@
 
 ## Last Word:
  "I don't appreciate people with something useful to say keeping it to themselves.
- So next time, speak up!" -- President {{<a href=http://madam-secretary.wikia.com/wiki/Conrad_Dalton>Conrad Dalton</a>}}
+ So next time, speak up!" -- President [Conrad Dalton](http://madam-secretary.wikia.com/wiki/Conrad_Dalton)
