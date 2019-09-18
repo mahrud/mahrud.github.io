@@ -35,11 +35,15 @@ Feel free to reach out to me.
 {% endcomment %}
 
 
-## Useful links:
+## Useful reads:
 - MAA [Instructional Practices Guide]
-- Kathryn Mann's ["How to get an "A" in my class"]
+- Kathryn Mann: ["How to get an "A" in my class"]
+- Benjamin Braun: [Mathematical Maturity]
+- Kathryn Mulholland: [Engaging Students]
 
 
 [pedagogical strategies]: https://blogs.ams.org/matheducation/2018/09/15/comparing-educational-philosophies/
 [Instructional Practices Guide]: https://www.maa.org/sites/default/files/InstructPracGuide_web.pdf
 ["How to get an "A" in my class"]: https://math.berkeley.edu/~kpmann/113getanA.pdf
+[Mathematical Maturity]: https://blogs.ams.org/matheducation/2019/07/16/precise-definitions-of-mathematical-maturity-2/
+[Engaging Students]: http://sites.nd.edu/kaneb/2019/09/09/engaging-students-using-the-first-5-minutes-of-class/

@@ -8,7 +8,7 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
 
 <div style="padding: 10px;" class="row">
  <div class="col-10 col-sm-3 col-md-2">
-  ![Snoqualmie river, Washington. PC: Sophia Elia](static/mahrud.jpg){:height="100px" width="100px"}
+  ![Snoqualmie river, Washington, by Sophia Elia](static/mahrud.jpg){:width="125px"}
  </div>
 
  <div class="col">
@@ -25,17 +25,25 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
 [//]: Here is my [CV](mahrud.pdf).
 
 ### Research
-My research interests lie in the neighborhood of *algebraic geometry*, commutative algebra, and \[computational\] intersection theory.
-- $D$-Modules
-- Virtual Resolutions
+My interests lie in the neighborhood of algebraic geometry, commutative algebra, and intersection theory.
+- $D$-Modules and Hodge Ideals
+- Toric Vector Bundles and Virtual Resolutions
 
 [//]: - Matrix Multiplication
-[//]: - $p$-adic Hodge Theory
+
+*[algebraic geometry]: of the concrete kind!
+*[intersection theory]: of the computational kind!
+*[commutative algebra]: of the combinatorial kind!
 
 I'm also interested in studying [gerrymandering] as a source of interesting problems in mathematics.
 In previous lives I've studied quantum information, cryptography, and radio astronomy.
 
 ## Activities
+### [Student Commutative Algebra Seminar](seminars/commalg)
+Fall 2019 topics:
+- [Boij-Söderberg theory](https://arxiv.org/abs/1106.0381)
+- $D$-Modules and Spectral Sequences
+
 ### [Directed Reading Program](drp)
 The Directed Reading Program is a graduate student-run program that provides undergraduates with the
 opportunity to work closely with mathematics graduate students in an independent reading project.
@@ -53,3 +61,4 @@ Here are some packages I've contributed to:
 I'm always happy to chat about Macaulay2 and learn how others use it in research.
 
 [gerrymandering]: https://www.quantamagazine.org/the-mathematics-behind-gerrymandering-20170404/
+[//]: https://thenib.com/changing-the-math-on-gerrymandering
