@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "DRP @ UMN: Past Readings"
+title: Archive of Past Readings
 toc: "toc"
 ---
-
-# Archive of Past Readings
 
 This is a list of some books used by DRP participants in previous semesters.
 You are welcome to flip through these books in the library for inspiration,
@@ -32,7 +30,7 @@ help us expand it.
 - Deep Learning, Goodfellow
 - Markov Chains, Norris
 
-### Geometry, Topology:
+### Topology and Geometry:
 - Algebraic Topology, Hatcher
 - Introduction to Smooth Manifolds, Lee
 - Foundations of Differential Manifolds and Lie Groups, Warner
@@ -49,7 +47,7 @@ Some pairs have also opted to use online notes or various references.
 
 ## Other suggested books:
 
-### Algebra and Combinatorics
+### Algebraic and Combinatorial Geometry
 - Ideals, Varieties, Algorithms, by Cox, O'Shea, and Little
 - Combinatorial Commutative Algebra, Miller and Sturmfels
 

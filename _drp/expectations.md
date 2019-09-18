@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "DRP @ UMN: Expectations"
+title: Expectations for Participants
 toc: "toc"
 ---
-
-# Expectations for Participants
 
 ### For Mentors
 {:#mentor}

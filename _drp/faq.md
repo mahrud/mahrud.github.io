@@ -1,10 +1,8 @@
 ---
 layout: page
-title: "DRP @ UMN: FAQ"
+title: FAQ
 toc: "toc"
 ---
-
-# FAQ
 
 Have a question? Email mahrud@\[you know the rest\].
 
@@ -30,11 +28,18 @@ Have a question? Email mahrud@\[you know the rest\].
  Not at the moment.
 
 - **How can I help?**
- Glad you asked! Please get in touch with Mahrud Sayrafi, Matt Brisbin, or Maria Sanchez Muniz.
+ Glad you asked! Please get in touch with Libby Farrell, Trevor Karn, or Mahrud Sayrafi.
+
+[//]: Matt Brisbin, or Maria Sanchez Muniz.
 
 
 ### For Mentees
 {:#mentee}
+- **Can I get credit for the DRP?**
+ Not yet, but check out MATH 4991/2/3 in the meanwhile.
+ If you are looking for the department's directed study course, see
+ [here](https://cla.umn.edu/student-services-advising/cla-student-services-staff-advisors/directed-study-and-other-individualized-options).
+
 - **Can I apply if I don't have an idea for a project?**
  Don’t worry! You don’t need to know precisely what you want to do for a project in order to apply.
  However, the application will ask you for some general topic, direction, or goal for your project.
@@ -74,9 +79,6 @@ Have a question? Email mahrud@\[you know the rest\].
 #Q: What are some examples of possible DRP projects?
 #A: Here are pages containing past DRP projects at the University of Chicago and the University of Maryland.
 -->
-
-- **Can I get credit for the DRP?**
- Not yet, but check out MATH 4991/2/3 in the meanwhile.
 
 - **Is the DRP only for math majors?**
  Definitely not. While the DRP is focused on providing one-on-one math education,

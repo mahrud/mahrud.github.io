@@ -1,15 +1,15 @@
-{% assign nodes="apply       expectations talks         faq#mentor faq#mentee" | split: ' ' %}
-{% assign title="Application Expectations Presentations Mentors    Mentees" | split: ' ' %}
+{% assign nodes="apply       expectations bookshelf talks faq#mentor faq#mentee" | split: ' ' %}
+{% assign title="Application Expectations Bookshelf Talks Mentors    Mentees" | split: ' ' %}
     <nav id="sidebar">
       <div class="menu-category">DRP</div>
       <a class="menu-item{% if page.url == '/drp/' %} active{% endif %}" href="{{ site.baseurl }}/drp/">About</a>
-      {%- for i in (0..2) -%}
+      {%- for i in (0..3) -%}
       <a class="menu-item
         {%- if page.url contains nodes[i] %} active{% endif %}" href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
       {%- endfor %}
 
       <div class="menu-category">FAQ</div>
-      {%- for i in (3..4) -%}
+      {%- for i in (4..5) -%}
       <a class="menu-item
         {%- if page.url contains nodes[i] %} active{% endif %}" href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
       {%- endfor %}

@@ -1,17 +1,15 @@
 ---
 layout: page
-title: "DRP @ UMN: Presentations"
+title: Talks
 toc: "toc"
 ---
 
-# Spring 2019 Presentations
-
-### Spring 2019 Presentations will be on Thursday, April 25th in Vincent 570, and Friday, April 26th in Vincent 311, from 2:30pm to 4pm
+[//]: ### Spring 2019 Talks will be on Thursday, April 25th in Vincent 570, and Friday, April 26th in Vincent 311, from 2:30pm to 4pm
 
  The goal here is to communicate a flavor of your reading project to others participants as well as those interested in doing
  a DRP in the future. This is a great practice for speaking to a mathematical audience in a very low-stakes and friendly environment.
 
-.
+<br />
 
  We ask that students stay for the entire session, as it's a great opportunity to support your peers and
  learn some interesting mathematics. However, we understand if you have course conflicts.
@@ -39,7 +37,7 @@ toc: "toc"
 ## Write accurately for the deaf, speak clearly for the blind!
 Some of your audience will be bad at listening to you and some will be bad at following your boardwork. You need to accomodate both!
 
-## [Presentation Schedules](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing)
+# [Presentation Schedule](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing)
 
 ### Spring 2019
 
@@ -76,7 +74,7 @@ Some of your audience will be bad at listening to you and some will be bad at fo
 - An Elegant Proof of the Abelianess of Groups of Order p^2 Using Representations
 - The RSA Cipher
 
-### Other Resources
+# Other Resources
 
 Some of the tips above are inspired by tips on the
 [DRP Network](https://www.drp-network.org/resources-for-mentees.html).

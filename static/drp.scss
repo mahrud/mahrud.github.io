@@ -2,6 +2,10 @@
 sitemap: false
 ---
 
+$masthead-font: Palatino, serif;
+$main-font: Palatino, serif;
+$heading-font: Palatino, serif;
+
 $link-color: #022b6d;
 $link-hover-color: #527bbd;
 
@@ -10,27 +14,67 @@ body {
     margin: auto auto 50px 0;
     font-family: Palatino, serif;
 }
-p { text-align: justify; max-width: 95%; margin: 0 auto; }
-#left  { float: left;  width: 45%; overflow: hidden; }
-#right { float: right; width: 45%; overflow: hidden; }
-div.flipper       { color: black;  background-color: rgb(216,230,255); }
-div.flipper:hover { color: #94cf9c; background-color: black }
 
-h1 {
-    font-size: 2em;
-    border-bottom: none;
+.wrapper {
+    display: flex;
+    width: 95%;
+    max-width: 1000px;
+    align-items: stretch;
+    align-content: stretch;
+    padding-bottom: 8px;
 }
+
+p {
+    text-align: justify;
+    max-width: 95%;
+    margin: 0 auto;
+}
+li.flipper {
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(25,25,25,.16);
+    display:inline-block;
+    height:50px;
+    margin: 0px 5px 0px;
+    position:relative;
+    transition: border-color .1s linear, box-shadow .1s linear;
+    width:250px;
+    white-space: nowrap;
+}
+a.flipper {
+    color: $link-hover-color;
+    font-size:20px;
+    font-weight:bold;
+    height:48px;
+    width:248px;
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    position:absolute;
+    background-color: white;
+    text-decoration-color:rgb(25, 25, 25);
+    transition: background-color .1s linear, color .1s linear!important;
+}
+
+li.flipper:hover {
+    border: 1px solid green;
+    box-shadow: 0 1px 2px 0 green;
+}
+
+a.flipper:hover {
+    background-color: green;
+    color: white;
+}
+
+h1 { font-size: 2em; border-bottom: none; }
+h2 { font-size: 1em; }
 
 .masthead {
     padding-bottom: 0.2em;
     margin-bottom: 1em;
     border-bottom: none;
-}
-
-.wrapper {
-    padding: 0px;
-    margin: 0px;
-    max-width: 100%;
+    font-size: 1em;
+    font-variant: small-caps;
 }
 
 #content {
@@ -49,4 +93,3 @@ a.menu-item.active:visited {
     text-decoration: none;
     border-bottom: 1px gray solid;
 }
-

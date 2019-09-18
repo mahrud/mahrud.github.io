@@ -16,7 +16,14 @@
     <link rel="stylesheet"    href="{{ site.baseurl }}/static/drp.css" />
     {%- endif %}
 
-    <title>{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }}{% endif %}</title>
+    <title>{% case page.title -%}
+      {%- when "Home" -%}
+        {{ site.title }}
+      {%- when "DRP" -%}
+        DRP @ UMN
+      {%- else -%}
+        {{ page.title }}
+      {%- endcase %}</title>
 
     {%- comment %}
     <!-- Dublin Core metadata for Zotero -->
