@@ -11,11 +11,14 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
-## [Fall 2019 applications are now open!](apply){: style="color:red"}
-## Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.
-## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
+# [DRP Talks are this Thursday and Friday!](talks){: style="color:red"}
+We would like to invite you to attend the Fall 2019 DRP Presentations, when each
+undergraduate will give a 10-minute talk on their reading.
+### [See the schedule here](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=1177362489){: style="color:red"}
 
-[//]: ## [Fall 2018 talks are on Friday, February 1st, 1-3pm in Vincent 16.](talks){: style="color:red"}
+[//]: ## [Fall 2019 applications are now open!](apply){: style="color:red"}
+[//]: ## Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.
+[//]: ## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
 
 ### DRP is about community!
 
@@ -45,9 +48,8 @@ The original DRP started by graduate students at the University of Chicago over
 a decade ago, and has had immense success. It has since spread to many other
 math departments who are members of the [DRP Network](https://www.drp-network.org/about.html).
 
-## [Fall 2019 applications are now open!](apply/){: style="color:red"}
-
-[//]: ## [Interested in DRP @ UMN? Please fill out this interest form!](https://goo.gl/forms/99fIvZx5kP9iydHb2){: style="color:red"}
+[//]: ## [Fall 2019 applications are now open!](apply/){: style="color:red"}
+## [Interested in DRP @ UMN? Please fill out this interest form!](https://goo.gl/forms/99fIvZx5kP9iydHb2){: style="color:red"}
 
 
 ### Summary of Requirements

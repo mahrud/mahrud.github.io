@@ -4,12 +4,28 @@ title: Application
 toc: "toc"
 ---
 
-## Fall 2019 Deadline: Saturday, September 21st
+[//]: ## Fall 2019 Deadline: Sunday, September 22nd
 {: style="color:red"}
-## [Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.](talks){: style="color:red"}
+[//]: ## [Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.](talks){: style="color:red"}
 
-[//]: ## [Interested in DRP @ UMN? Please fill out this interest form!](https://goo.gl/forms/99fIvZx5kP9iydHb2){: style="color:red"}
+Fall 2019 applications are closed. Stay tuned for Spring 2020 applications in early February.
 
+<br />
+
+To be notified about future deadlines and events, including **end of semester talks**,
+please join our mailing list:
+
+<br />
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5Q9PGWfigPS5RXKao4KSGQSTRzH7De8CCsc-SdMBVm-OU_Q/viewform?embedded=true" width="100%" height="860" frameborder="0" marginheight="0" marginwidth="0">
+  <div style="padding: 0.1in 0; width: 100%; text-align: center;">
+    <li class="flipper">
+      <a href="https://goo.gl/forms/99fIvZx5kP9iydHb2" class="flipper">Join the DRP!</a>
+    </li>
+  </div>
+</iframe>
+
+<!--
 <div style="padding: 0.1in 0; width: 100%; text-align: center;">
   <li class="flipper">
     <a href="https://goo.gl/forms/WEHZ4Rfm2cExIQMq2" class="flipper">I'm an undergrad.</a>
@@ -19,9 +35,9 @@ toc: "toc"
     <a href="https://goo.gl/forms/JgLZDi5fV2QOhQZg2" class="flipper">I'm a grad student.</a>
   </li>
 </div>
+-->
 
 ## Need ideas for a DRP reading?
-{: style="color:red"}
 
 - [Checkout the list of books used in previous readings.](../books)
 - [Checkout the DRP Bookshelf at the math library!](../bookshelf)

@@ -24,7 +24,7 @@ Feel free to reach out to me.
 
 [//]: === UMN
 
-- Fall &nbsp; 2019: [TBD](f19-mathXXXX)
+- Fall &nbsp; 2019: [MATH 2243 -- Linear Algebra & Differential Equations](f19-math2243)
 - Spring      2019: [MATH 2243 -- Linear Algebra & Differential Equations](s19-math2243)
 - Fall &nbsp; 2018: [MATH 1271 -- Calculus 1](f18-math1271)
 
@@ -40,6 +40,7 @@ Feel free to reach out to me.
 - Kathryn Mann: ["How to get an "A" in my class"]
 - Benjamin Braun: [Mathematical Maturity]
 - Kathryn Mulholland: [Engaging Students]
+- Brian Katz: [Inclusive Practices]
 
 
 [pedagogical strategies]: https://blogs.ams.org/matheducation/2018/09/15/comparing-educational-philosophies/
@@ -47,3 +48,4 @@ Feel free to reach out to me.
 ["How to get an "A" in my class"]: https://math.berkeley.edu/~kpmann/113getanA.pdf
 [Mathematical Maturity]: https://blogs.ams.org/matheducation/2019/07/16/precise-definitions-of-mathematical-maturity-2/
 [Engaging Students]: http://sites.nd.edu/kaneb/2019/09/09/engaging-students-using-the-first-5-minutes-of-class/
+[Inclusive Practices]: https://blogs.ams.org/inclusionexclusion/2019/08/30/inclusive-practices-syllabus-and-day-one/

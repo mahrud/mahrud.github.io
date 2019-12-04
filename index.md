@@ -13,8 +13,8 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
 
  <div class="col">
   - PhD Student
-  - 557 Vincent Hall <br />
-    206 Church St SE <br />
+  - 557 [Vincent Hall](https://campusmaps.umn.edu/vincent-hall) <br />
+    [206 Church St SE](https://goo.gl/maps/CisvELEGxtSXptyp7) <br />
     Minneapolis, MN 55455
   - mahrud [at] math [dot] umn [dot] edu
   - Pronouns: He/Him
@@ -29,6 +29,7 @@ My interests lie in the neighborhood of algebraic geometry, commutative algebra,
 - $D$-Modules and Hodge Ideals
 - Toric Vector Bundles and Virtual Resolutions
 
+[//]: - Linkage and residual intersections
 [//]: - Matrix Multiplication
 
 *[algebraic geometry]: of the concrete kind!

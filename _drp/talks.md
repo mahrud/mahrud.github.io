@@ -4,10 +4,16 @@ title: Talks
 toc: "toc"
 ---
 
-[//]: ### Spring 2019 Talks will be on Thursday, April 25th in Vincent 570, and Friday, April 26th in Vincent 311, from 2:30pm to 4pm
-
  The goal here is to communicate a flavor of your reading project to others participants as well as those interested in doing
  a DRP in the future. This is a great practice for speaking to a mathematical audience in a very low-stakes and friendly environment.
+
+## [Click here for Fall 2019 talk schedule for Thursday and Friday](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=1177362489){: style="color:red"}
+
+- **Thursday, December 5th**:
+  - Session 1:        12:20pm -- 1:10pm in **Vincent 570**
+  - Session 2: &nbsp;  2:30pm -- 3:35pm in **Keller Hall 3-230**
+- **Friday December 6th**:
+  - Session 3: &nbsp;  3:30pm -- 4:30pm in **Vincent 211**
 
 <br />
 
