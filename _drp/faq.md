@@ -4,41 +4,37 @@ title: FAQ
 toc: "toc"
 ---
 
-Have a question? Email mahrud@\[you know the rest\].
+Have a question? Contact mahrud@, karnx018@, or farre423@\[you know the rest\].
 
 ### For Mentors
 {:#mentor}
-- **What are the qualifications necessary to advise a DRP project?**
- The only real requirements are that you’re a graduate student and that you are willing to put the
- effort into making any DRP project you are assigned a success.
-
-- **Are there any resources for working with a mentee?**
- Glad you asked! Check out the [DRP Network's resources here](https://www.drp-network.org/working-with-a-mentee.html).
-
 - **Why should I mentor a DRP project?**
  All of us had immense help to get where we are today. This may have been through professors, friends, or graduate
- students, but undeniably it was there. This is a chance to repay that debt, to be that person that helps the next
- generation of mathematics students get to wherever it is they want to go.
+ students, but undeniably it was there. This is a chance to pay it forward to the next generation of mathematics students.
+
+- **Okay, but do I have the qualifications to advise a DRP project?**
+ The only real requirements are that you’re a graduate student, you have a topic that you're interested in reading about,
+ and that you are willing to put the effort into making your DRP project a success.
 
 - **How are pairings between mentors and mentees made?**
  Mentors and mentees will be paired primarily based on their desired project topics. Mentees and mentors can then
  decide after their initial meeting(s) whether their interests and working preferences mesh well.
 
+- **Are there any resources for working with a mentee?**
+ Glad you asked! Contact us!
+ Also, check out the [DRP Network's resources here](https://www.drp-network.org/working-with-a-mentee.html).
+
 - **Will I be compensated monetarily or academically for being a DRP mentor?**
- Not at the moment.
+ Not at the moment. If you would like to get credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
 - **How can I help?**
  Glad you asked! Please get in touch with Libby Farrell, Trevor Karn, or Mahrud Sayrafi.
-
-[//]: Matt Brisbin, or Maria Sanchez Muniz.
 
 
 ### For Mentees
 {:#mentee}
 - **Can I get credit for the DRP?**
- Not yet, but check out MATH 4991/2/3 in the meanwhile.
- If you are looking for the department's directed study course, see
- [here](https://cla.umn.edu/student-services-advising/cla-student-services-staff-advisors/directed-study-and-other-individualized-options).
+ No. If you would like to get credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
 - **Can I apply if I don't have an idea for a project?**
  Don’t worry! You don’t need to know precisely what you want to do for a project in order to apply.
@@ -100,3 +96,5 @@ Have a question? Email mahrud@\[you know the rest\].
 - **Who decides who is admitted into the DRP?**
  There will be a DRP committee responsible for administrative decisions such as admissions and pairing
  of mentors and mentees. This DRP committee will consist entirely of volunteer graduate students.
+
+[directed study options]: https://cla.umn.edu/student-services-advising/cla-student-services-staff-advisors/directed-study-and-other-individualized-options

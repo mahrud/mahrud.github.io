@@ -4,11 +4,13 @@ title: Application
 toc: "toc"
 ---
 
-[//]: ## Fall 2019 Deadline: Sunday, September 22nd
+{% comment %}
+## Fall 2019 Deadline: Sunday, September 22nd
 {: style="color:red"}
-[//]: ## [Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.](talks){: style="color:red"}
+## [Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.](talks){: style="color:red"}
+{% endcomment %}
 
-Fall 2019 applications are closed. Stay tuned for Spring 2020 applications in early February.
+Spring 2020 applications will open on **January 20th** and will be due **January 31st**
 
 <br />
 

@@ -22,6 +22,8 @@ encoding: utf-8
 collections:
   teaching:
     output: true
+  drafts:
+    output: true
   arts:
     output: true
   drp:

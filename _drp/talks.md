@@ -7,6 +7,7 @@ toc: "toc"
  The goal here is to communicate a flavor of your reading project to others participants as well as those interested in doing
  a DRP in the future. This is a great practice for speaking to a mathematical audience in a very low-stakes and friendly environment.
 
+{% comment %}
 ## [Click here for Fall 2019 talk schedule for Thursday and Friday](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=1177362489){: style="color:red"}
 
 - **Thursday, December 5th**:
@@ -14,6 +15,7 @@ toc: "toc"
   - Session 2: &nbsp;  2:30pm -- 3:35pm in **Keller Hall 3-230**
 - **Friday December 6th**:
   - Session 3: &nbsp;  3:30pm -- 4:30pm in **Vincent 211**
+{% endcomment %}
 
 <br />
 
@@ -43,7 +45,26 @@ toc: "toc"
 ## Write accurately for the deaf, speak clearly for the blind!
 Some of your audience will be bad at listening to you and some will be bad at following your boardwork. You need to accomodate both!
 
-# [Presentation Schedule](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing)
+# [Past Presentations](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing)
+
+### Fall 2019
+
+- On the beach of Algebraic Geometry
+- Atmospheric Carbon Dioxide
+- The Root Datum of $\mathrm{SL}_2$ and $\mathrm{PGL}_2$
+- The Mathematical Fun of Hats
+- Galois Theory
+- On the solutions of linear ODEs
+- Representation theory
+- Exploring the Discrete Logarithm Problem
+- Seifert-Van Kampen
+- How to put on a Sweater
+- All Clothes Are Sweaters
+- Localization of Commutative Rings
+- Linear Algebra to Functional Analysis
+- Tranfinite Induction
+- Dynamical system
+- Stable and Unstable Manifolds
 
 ### Spring 2019
 

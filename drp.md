@@ -11,14 +11,16 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
+{% comment %}
+## [Spring 2020 applications are now open!](apply){: style="color:red"}
+## Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.
+## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
+
 # [DRP Talks are this Thursday and Friday!](talks){: style="color:red"}
 We would like to invite you to attend the Fall 2019 DRP Presentations, when each
 undergraduate will give a 10-minute talk on their reading.
 ### [See the schedule here](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=1177362489){: style="color:red"}
-
-[//]: ## [Fall 2019 applications are now open!](apply){: style="color:red"}
-[//]: ## Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.
-[//]: ## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
+{% endcomment %}
 
 ### DRP is about community!
 
