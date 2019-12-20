@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: drp
 title: Archive of Past Readings
 toc: "toc"
 ---
@@ -14,6 +14,8 @@ help us expand it.
 - Visual Group Theory, Carter
 - The Symmetric Group, Sagan
 - Abstract Algebra, Dummit and Foote
+- Linear Algebraic Groups and Finite Groups of Lie Type, Malle and Testerman
+- Algebra, Lang
 
 ### Number Theory:
 - $p$-adic Numbers, Gouvea
@@ -24,20 +26,29 @@ help us expand it.
 ### Analysis:
 - Introductory Functional Analysis with Applications, Kreyszig
 - Nonlinear Dynamics and Chaos, Strogatz
+- A First Course In Chaotic Dynamical Systems, Devaney
 
 ### Applied Math:
 - Partial Differential Equations, Evans
 - Deep Learning, Goodfellow
 - Markov Chains, Norris
+- Pattern Formation: An Introduction to Methods, Rebecca Hoyle
 
 ### Topology and Geometry:
 - Algebraic Topology, Hatcher
 - Introduction to Smooth Manifolds, Lee
 - Foundations of Differential Manifolds and Lie Groups, Warner
+- Differential Forms and Applications, do Carmo
+- Foundations of Algebraic Geometry, Vakil
 
 ### Graph Theory:
 - Introduction to Graph Theory, Trudeau
 - Algebraic Graph Theory, Biggs
+- A Textbook of Graph Theory, Balakrishnan and Ranganathan
+
+### Category Theory
+- Category Theory, Awodey
+- Category Theory in Context, Riehl
 
 ### Representation Theory:
 - Complex Representations of GL$[2,\mathbb{k}]$ for Finite Fields $\mathbb{k}$, Piatetski-Shapiro
@@ -61,6 +72,5 @@ Some pairs have also opted to use online notes or various references.
 - Computability: An Introduction to Recursive Function Theory, Cutland
 
 ### Category Theory
-- Category Theory in Context, Riehl
 - Category Theory for the Sciences, Spivak
 - Category Theory for the Working Mathematician, Mac Lane

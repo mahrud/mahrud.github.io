@@ -1,22 +1,44 @@
-{% assign nodes="apply       expectations bookshelf talks faq#mentor faq#mentee" | split: ' ' %}
-{% assign title="Application Expectations Bookshelf Talks Mentors    Mentees" | split: ' ' %}
-    <nav id="sidebar">
-      <div class="menu-category">DRP</div>
-      <a class="menu-item{% if page.url == '/drp/' %} active{% endif %}" href="{{ site.baseurl }}/drp/">About</a>
-      {%- for i in (0..3) -%}
-      <a class="menu-item
-        {%- if page.url contains nodes[i] %} active{% endif %}" href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
-      {%- endfor %}
+{% assign nodes="apply       expectations bookshelf talks faq archive" | split: ' ' %}
+{% assign title="Application Expectations Bookshelf Talks FAQ Archive" | split: ' ' %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand{% if page.url == '/drp/' %} active{% endif %}" href="{{ site.baseurl }}/drp/">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
 
-      <div class="menu-category">FAQ</div>
-      {%- for i in (4..5) -%}
-      <a class="menu-item
-        {%- if page.url contains nodes[i] %} active{% endif %}" href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
-      {%- endfor %}
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  {%- for i in (0..3) -%}
+	  <li class="nav-item">
+	    <a class="nav-link{% if page.url contains nodes[i] %} active{% endif %}"
+	       href="{{ site.baseurl }}/drp/{{nodes[i]}}">{{title[i]}}</a>
+	  </li>
+	  {%- endfor %}
 
-      <div class="menu-category">Resources</div>
-      <a class="menu-item
-        {%- if page.url contains 'books' %} active{% endif %}" href="{{ site.baseurl }}/drp/books">Past Readings</a>
-      <a class="menu-item" href="https://www.drp-network.org/local-drps">Other DRPs</a>
-      <a class="menu-item" href="http://wimmn.math.umn.edu/resources">Other Programs</a>
+	  <li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+	       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Resources
+	    </a>
+
+	    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	      {%- for i in (4..5) -%}
+	      <a class="dropdown-item {%- if page.url contains nodes[i] %} active{% endif %}"
+		 href="{{ site.baseurl }}/drp/{{nodes[i]}}">
+		{{title[i]}}
+	      </a>
+	      {%- endfor %}
+
+	      <div class="dropdown-divider"></div>
+
+	      <a   class="dropdown-item" href="https://www.drp-network.org/local-drps">
+		Sister DRPs
+	      </a>
+	      <a   class="dropdown-item" href="http://wimmn.math.umn.edu/resources">
+		Other UMN Programs
+	      </a>
+	    </div>
+	  </li>
+	</ul>
+      </div>
     </nav>

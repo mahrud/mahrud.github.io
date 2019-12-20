@@ -44,6 +44,6 @@ exclude:
   - proof.gemspec
   - Makefile
   - TODO
-  - _archive
-  - _drp/archive
-  - _teaching/archive
+  - _archive/
+  - _drp/archive/
+  - _teaching/archive/

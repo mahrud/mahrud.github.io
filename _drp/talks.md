@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: drp
 title: Talks
 toc: "toc"
 ---

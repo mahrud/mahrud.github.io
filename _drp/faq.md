@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: drp
 title: FAQ
 toc: "toc"
 ---

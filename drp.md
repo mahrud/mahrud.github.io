@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: drp
 title: DRP
-tagline: the Directed Reading Program
+tagline: What is the DRP?
 category: activities
 order: 1
 toc: "_drp/toc"

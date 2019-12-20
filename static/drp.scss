@@ -2,26 +2,26 @@
 sitemap: false
 ---
 
-$masthead-font: Palatino, serif;
-$main-font: Palatino, serif;
-$heading-font: Palatino, serif;
+$masthead-font: "Spectral SC";
+$heading-font: "Spectral";
+$main-font: "Libre Baskerville";
+$regular-font-size: 20px;
 
 $link-color: #022b6d;
 $link-hover-color: #527bbd;
 
 body {
-    max-width: 90%;
-    margin: auto auto 50px 0;
-    font-family: Palatino, serif;
+    font-family: $main-font;
 }
 
 .wrapper {
-    display: flex;
-    width: 95%;
-    max-width: 1000px;
-    align-items: stretch;
-    align-content: stretch;
-    padding-bottom: 8px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+      max-width: 730px;
+  }
 }
 
 p {
@@ -66,30 +66,25 @@ a.flipper:hover {
     color: white;
 }
 
-h1 { font-size: 2em; border-bottom: none; }
-h2 { font-size: 1em; }
+.masthead h2 { font-size: 1em; }
 
 .masthead {
-    padding-bottom: 0.2em;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
     border-bottom: none;
-    font-size: 34px;
+    font-size: 32px;
     font-variant: small-caps;
 }
-
-#content {
-    padding-left:2em;
+@media (max-width: 425px) {
+  .masthead {
+      font-size: 1em;
+  }
 }
 
-a.menu-item:link,
-a.menu-item:visited,
-a.menu-item:hover {
-    color: $link-hover-color;
-    text-decoration: none;
+.navbar {
+  margin-bottom: -10px;
 }
-a.menu-item.active:link,
-a.menu-item.active:visited {
-    color: $link-color;
-    text-decoration: none;
-    border-bottom: 1px gray solid;
+
+.nav-link {
+    display: block;
+    border-bottom: 1px #f6f6f6 solid;
 }

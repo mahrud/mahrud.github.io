@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: drp
 title: Application
 toc: "toc"
 ---
@@ -41,7 +41,7 @@ please join our mailing list:
 
 ## Need ideas for a DRP reading?
 
-- [Checkout the list of books used in previous readings.](../books)
+- [Checkout the list of books used in previous readings.](../archive)
 - [Checkout the DRP Bookshelf at the math library!](../bookshelf)
 - [Subscribe to be notified about the DRP Mixers and info sessions.](https://forms.gle/KhqKzYHKPxqW7Gqb7)
 
