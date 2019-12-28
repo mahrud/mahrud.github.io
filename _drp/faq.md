@@ -1,7 +1,6 @@
 ---
 layout: drp
 title: FAQ
-toc: "toc"
 ---
 
 Have a question? Contact mahrud@, karnx018@, or farre423@\[you know the rest\].

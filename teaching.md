@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Teaching
-permalink: /teaching/
 tagline: Teaching Philosophy
-order: 1
+order: 2
 ---
 
 My teaching credo is much in its infancy. I am still in the process of experimenting with
@@ -11,10 +10,15 @@ different [pedagogical strategies]. Here are some questions that I tend to ask w
 about teaching or plan lectures:
 
 - Do I expect my students to **enjoy** mathematics like they would enjoy art?
+
 - Are my students comfortable with sharing their perspectives and feedback with me?
+
 - How do I encourage my students to work together and learn to communicating math?
+
 - How do I help my students get comfortable feeling **stuck** on problems?
+
 - Does this strategy help increase the attention span of my students?
+
 - Do I expect to learn anything new from my students? Am I open to it?
 
 I'm always open to discuss teaching philosophies.
@@ -22,13 +26,16 @@ Feel free to reach out to me.
 
 ## Teaching Experience
 
-[//]: === UMN
+- Spring      2020: I'm not teaching this semester. Contact me for office hours.
+- Fall &nbsp; 2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](f19-math2243)
+- Spring      2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](s19-math2243)
+- Fall &nbsp; 2018: TA for [MATH 1271 -- Calculus 1](f18-math1271)
 
-- Fall &nbsp; 2019: [MATH 2243 -- Linear Algebra & Differential Equations](f19-math2243)
-- Spring      2019: [MATH 2243 -- Linear Algebra & Differential Equations](s19-math2243)
-- Fall &nbsp; 2018: [MATH 1271 -- Calculus 1](f18-math1271)
+Previously, I graded for the following courses at UC Berkeley.
 
-[//]: === Berkeley
+- Spring      2015: Math 113 -- Abstract Algebra
+- Fall &nbsp; 2014: Math 116 -- Introduction to Mathematical Cryptography
+
 
 {% comment %}
 {% include agreement.md %}

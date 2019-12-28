@@ -1,7 +1,6 @@
 ---
 layout: drp
 title: Talks
-toc: "toc"
 ---
 
  The goal here is to communicate a flavor of your reading project to others participants as well as those interested in doing

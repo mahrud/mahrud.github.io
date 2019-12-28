@@ -1,18 +1,23 @@
 ---
 layout: drp
 title: Application
-toc: "toc"
 ---
 
 {% comment %}
-## Fall 2019 Deadline: Sunday, September 22nd
+## Spring 2020 Deadline: Friday, January 31st.
 {: style="color:red"}
-## [Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.](talks){: style="color:red"}
-{% endcomment %}
-
+## Stop by the DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
+<div style="padding: 0.1in 0; width: 100%; text-align: center;">
+  <li class="flipper">
+    <a href="https://goo.gl/forms/WEHZ4Rfm2cExIQMq2" class="flipper">I'm an undergrad.</a>
+  </li>
+  <li class="flipper">
+    <a href="https://goo.gl/forms/JgLZDi5fV2QOhQZg2" class="flipper">I'm a grad student.</a>
+  </li>
+</div>
 Spring 2020 applications will open on **January 20th** and will be due **January 31st**
-
 <br />
+{% endcomment %}
 
 To be notified about future deadlines and events, including **end of semester talks**,
 please join our mailing list:
@@ -26,18 +31,6 @@ please join our mailing list:
     </li>
   </div>
 </iframe>
-
-<!--
-<div style="padding: 0.1in 0; width: 100%; text-align: center;">
-  <li class="flipper">
-    <a href="https://goo.gl/forms/WEHZ4Rfm2cExIQMq2" class="flipper">I'm an undergrad.</a>
-  </li>
-
-  <li class="flipper">
-    <a href="https://goo.gl/forms/JgLZDi5fV2QOhQZg2" class="flipper">I'm a grad student.</a>
-  </li>
-</div>
--->
 
 ## Need ideas for a DRP reading?
 

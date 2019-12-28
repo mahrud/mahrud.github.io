@@ -3,10 +3,6 @@ layout: default
 title: Printing in Vincent
 ---
 
-{::options parse_block_html="true" /}
-
-# Printing in Vincent
-
 <p>Laptops connected directly to our wired network in Vincent Hall can print directly to our print server,
   but users with UMN Internet IDs can use authenticated printers on UMN wireless or Vincent Hall notebook
   networks. When on UMN wireless, users will need to connect to the

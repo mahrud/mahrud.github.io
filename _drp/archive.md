@@ -1,7 +1,6 @@
 ---
 layout: drp
 title: Archive of Past Readings
-toc: "toc"
 ---
 
 This is a list of some books used by DRP participants in previous semesters.

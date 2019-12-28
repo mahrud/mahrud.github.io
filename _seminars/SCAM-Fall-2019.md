@@ -1,3 +1,9 @@
+---
+title: Student Commutative Algebra Meeting
+semester: Fall
+year: 2019
+---
+
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -8,7 +14,7 @@
   </style>
 </head>
 <body style="margin: 50px auto 50px auto; text-align:center; background-color:rgb(216,230,255)">
-  <h1 style="margin-bottom:  0px"> Student Commutative Algebra Seminar   </h1>
+  <h1 style="margin-bottom:  0px"> Student Commutative Algebra Meeting   </h1>
   <h2 style="margin-top:     0px"> Fall 2019 </h2>
   <h3 style="margin-bottom: 10px"> Thursdays 12:20 -- 1:10 @ Tate B55 </h3>
   <p  style="font-size: 10px">(Feel free to bring your lunch!)</p>

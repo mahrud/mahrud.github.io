@@ -34,57 +34,51 @@ body {
     margin: 20px auto;
 }
 
+@media (max-width: 767px) {
+  .wrapper {
+    display: block;
+    margin: 5px 5px;
+  }
+}
+
 #content {
     padding: 0 1em;
 }
 
-#sidebar {
-    border: none;
-    border-collapse: separate;
-}
-
-@media print {
-  #sidebar {
-    display: none;
-  }
-}
-
-#sidebar {
-    background: #f6f6f6;
+.navbar {
     border: 1px solid #dddddd;
     padding: 0.75em;
     white-space: nowrap;
-    text-align: left;
-    vertical-align: top;
 }
 
-.menu-category {
+.navbar-collapse {
+    align-items: baseline;
+}
+
+.navbar-toggler {
+    align-self: flex-end;
+}
+
+.nav-category {
+    width: 100%;
     font-weight: bold;
     margin-top: 1em;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px gray solid;
 }
 
-.menu-item {
-    display: block;
-    background: #f4f4f4;
+.nav-link {
+    width: 95%;
+    padding: 0px;
     vertical-align: top;
     margin-left: 0.5em;
     border-bottom: 1px #f6f6f6 solid;
 }
 
-a.menu-item:link,
-a.menu-item:visited,
-a.menu-item:hover {
-    color: $link-hover-color;
-    text-decoration: none;
-}
-a.menu-item.active:link,
-a.menu-item.active:visited {
-    color: $link-color;
+.nav-link.active {
     border-bottom: 1px gray solid;
 }
 
-a, a > tt {
+a {
     color: $link-color;
     text-decoration: none;
 }
@@ -141,7 +135,7 @@ h3 {
     border-bottom: 3px double gray;
 }
 
-h1.masthead-title {
+.masthead-title {
     margin-top: 0.6em;
     margin-bottom: 0.0em;
     padding-bottom: 0.1em;
@@ -149,7 +143,17 @@ h1.masthead-title {
     border-bottom: none;
     font-family: $masthead-font;
     font-size: 1.6em;
-//    font-variant: small-caps;
+}
+@media (max-width: 767px) {
+  .masthead-title {
+      font-size: 3vw;
+      text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 800px) {
+  .masthead-title {
+      font-size: 3vw;
+  }
 }
 
 p {
@@ -187,4 +191,8 @@ blockquote {
 img + em {
     display: block;
 //    text-align: center;
+}
+
+abbr[title] {
+    text-decoration-skip-ink: auto;
 }

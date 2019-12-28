@@ -66,22 +66,17 @@ a.flipper:hover {
     color: white;
 }
 
-.masthead h2 { font-size: 1em; }
-
-.masthead {
+body > .masthead {
+    font-size: 32px;
     margin-bottom: 0em;
     border-bottom: none;
-    font-size: 32px;
     font-variant: small-caps;
 }
-@media (max-width: 425px) {
-  .masthead {
-      font-size: 1em;
+@media (max-width: 768px) {
+  body > .masthead {
+      font-size: 4vw;
+      text-align: center;
   }
-}
-
-.navbar {
-  margin-bottom: -10px;
 }
 
 .nav-link {

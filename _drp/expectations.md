@@ -1,7 +1,6 @@
 ---
 layout: drp
 title: Expectations for Participants
-toc: "toc"
 ---
 
 ### For Mentors

@@ -1,7 +1,6 @@
 ---
 layout: drp
 title: Testimonials
-toc: "toc"
 ---
 
 ### From Graduate Students

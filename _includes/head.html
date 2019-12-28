@@ -2,17 +2,17 @@
     <!-- Basic meta elements -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="content-type"    content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Canonical link to help search engines -->
     <link rel="canonical"     href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/static/seepferdchen.ico" />
     <link rel="alternate"     type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml" />
-    <link rel="stylesheet"    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
-    <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Spectral:700|Spectral+SC:700&display=swap" />
+    <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Spectral:700|Spectral+SC:700&amp;display=swap" />
+    <link rel="stylesheet"    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <link rel="stylesheet"    href="{{ site.baseurl }}/static/style.css" />
-    {%- if page.url contains "drp" %}
+    {%- if page.layout == "drp" %}
     <link rel="stylesheet"    href="{{ site.baseurl }}/static/drp.css" />
     {%- endif %}
 

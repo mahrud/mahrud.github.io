@@ -1,7 +1,6 @@
 ---
 layout: drp
 title: Bookshelf
-toc: "toc"
 ---
 
 Thanks to a generous seed grant from the [DRP Network](https://www.drp-network.org),

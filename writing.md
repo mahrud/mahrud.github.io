@@ -5,23 +5,61 @@ tagline: Notes, Manuscripts, Et Cetera
 order: 3
 ---
 
-I will at some point figure out how to efficiently link these notes.
-In the meanwhile, feel free to ask me for the following.
+I will at some point figure out how to automatically upload and link these notes.
+In the meanwhile, feel free to ask me for any of following.
 
 ## Notes
-- CMND Thematic Program in Commutative Algebra and Algebraic Geometry
-- UCSD Structure of Length 3 Resolutions Workshop
+- Structure of Length 3 Resolutions Workshop, UCSD
+- Thematic Program in Commutative Algebra and Algebraic Geometry, CMND
+- $D$-Modules and Hodge Theory Workshop, University of Illinois, Chicago
+- Core Computational Methods in Nonlinear Algebra Workshop, ICERM
+- Topics in Commutative Algebra Summer School, University of Utah
 
 ## Expositions
 - [Insert oral paper!]
 
+<!--
+- The Horrocks--Mumford Bundle
+- Full Strong Exceptional Collections
+- [Tate Resolutions for Products of Projective Spaces](https://arxiv.org/abs/1411.5724)
+-->
+
+## Blog Posts
+- [Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
+- [From Russia, With Love](https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
+
+<!--
+- [Introducing DNS Resolver for Tor](https://blog.cloudflare.com/welcome-hidden-resolver/)
+- [Introducing the Cloudflare Onion Service](https://blog.cloudflare.com/cloudflare-onion-service/)
+-->
+
 [//]: ## Reviews
 
 ## Et cetera
-- Stay tuned!
+- Math 191: Experimental Mathematics
+  - Acyclic Assembly Lemma
+  - Simplicial Complexes and Stanley-Reisner Ideals
+- Math 143: Algebraic Geometry
+  - A Short Tour of Semidefinite Optimization and Sums of Squares
+- Physics 191: Quantum Information and Computation
+  - Topological Quantum Computing: A Mathematical Primer on Braid Theory
+- Astro 121: Radio Astronomy
+  - A Field Guide
+  - Astronomy with the 21cm Line
+  - A Tale of Two Antennas: Measuring Declination of M17
+  - Mapping the North Polar Spur
+- Phil 146: Philosophy of Mathematics
+  - An Equivalent of the Axiom of Choice in Vector Space Theory
+- CS 276: Cryptography
+  - Multilinear Maps: A Prelude to the Graded Encoding Schemes
+- Legal Studies 132: Immigration and Citizenship
+  - An Immigration Court Observation Report
+- Summer Research:
+  - Quantum Complexity Theory
+  - Device-Independent Tripartite QKD from Three-Player Quantum Games
+  - Applications of Secure Multiparty Computation in Secret Sharing
 
 <!--
 - [The Maximal Rank Conjecture](https://arxiv.org/abs/1711.04906)
 - [Smooth Hilbert Schemes](http://www.ima.umn.edu/materials/2018-2019/SW7.22-26.19/28124/smith.pdf)
-- [Tate Resolutions for Products of Projective Spaces](https://arxiv.org/abs/1411.5724)
 -->

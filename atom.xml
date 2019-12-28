@@ -11,13 +11,13 @@ layout: null
   <id>{{ site.url }}</id>
   <rights>CC BY-SA</rights>
 
-  {% for post in site.posts %}
+  {% for entry in site.journal %}{% if entry.status == "published" %}
   <entry>
-    <title>{{ post.title }}</title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <title>{{ entry.title }}</title>
+    <link href="{{ site.url }}{{ entry.url }}"/>
+    <updated>{{ entry.date | date_to_xmlschema }}</updated>
+    <id>{{ site.url }}{{ site.baseurl }}{{ entry.id }}</id>
+    <content type="html">{{ entry.content | xml_escape }}</content>
   </entry>
-  {% endfor %}
+  {% endif %}{% endfor %}
 </feed>

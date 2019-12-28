@@ -20,13 +20,19 @@ encoding: utf-8
 
 # Collections for entries
 collections:
+  experiments:
+    output: true
   teaching:
+    output: true
+  seminars:
+    output: true
+  journal:
     output: true
   drafts:
     output: true
-  arts:
-    output: true
   drp:
+    output: true
+  etc:
     output: true
 
 # Markdown specs

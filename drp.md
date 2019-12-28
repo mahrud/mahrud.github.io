@@ -4,7 +4,6 @@ title: DRP
 tagline: What is the DRP?
 category: activities
 order: 1
-toc: "_drp/toc"
 ---
 
 The Directed Reading Program is a graduate student-run program that provides
@@ -12,8 +11,8 @@ undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
 {% comment %}
-## [Spring 2020 applications are now open!](apply){: style="color:red"}
-## Stop by the DRP info session on Friday, Sept. 20th, 11:15-12:15pm in Vincent 570.
+## [Spring 2020 applications are now open! Deadline: Friday, January 31st.](apply){: style="color:red"}
+## Learn more at DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
 ## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
 
 # [DRP Talks are this Thursday and Friday!](talks){: style="color:red"}
@@ -50,9 +49,7 @@ The original DRP started by graduate students at the University of Chicago over
 a decade ago, and has had immense success. It has since spread to many other
 math departments who are members of the [DRP Network](https://www.drp-network.org/about.html).
 
-[//]: ## [Fall 2019 applications are now open!](apply/){: style="color:red"}
-## [Interested in DRP @ UMN? Please fill out this interest form!](https://goo.gl/forms/99fIvZx5kP9iydHb2){: style="color:red"}
-
+## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
 
 ### Summary of Requirements
 - At least one hour per week spent in a mentor/mentee meeting.
@@ -65,8 +62,3 @@ math departments who are members of the [DRP Network](https://www.drp-network.or
 - Gives motivated undergraduate students with any level of background a way to get more involved in math.
 - Teaches the participants how to present mathematical ideas to an audience of their peers.
 - Gives graduate students the opportunity to practice our mentorship skills.
-
-
-[//]: TODO
-[//]: http://www-users.math.umn.edu/~chand409/UMRS.html
-[//]: https://www.math.northwestern.edu/documents/SUMMARY-of-meeting.pdf

@@ -3,16 +3,14 @@ layout: default
 title: Geometric Arts Experiments
 ---
 
-{::options parse_block_html="true" /}
-
-# Geometric Art Experiments
+<h1 id="geometric-art-experiments">Geometric Art Experiments</h1>
 
 <p>
   This is inspired by a <a href="https://twitter.com/SamuelGWalters/status/1082538261686284289">tweet by Sam Walters</a>
   on a continuous family of complex multiplications extending the real numbers.
 </p>
 <p>
-  Here's what is happening below:
+  Here’s what is happening below:
 </p>
 <ul>
   <li><p>iterate \(z_1\) through a number of points on a circle;</p></li>
@@ -25,7 +23,7 @@ title: Geometric Arts Experiments
 <p>
   Feel free to <a href="https://editor.p5js.org/mahrud/sketches/BJ_n6QzMN">change it yourself</a> and let me know!
 </p>
-<iframe id="p5jsFrame" src="{{ site.baseurl }}/arts/CM.html" style="border: none; height: 430px; width: 620px"></iframe>
+<iframe id="p5jsFrame" src="/~mahrud/experiments/CM.html" style="border: none; height: 430px; width: 620px"></iframe>
 <p>
-  In a previous iteration of this, at some point I made a <a href="{{ site.baseurl }}/bloopers">small but glorious mistake that I think is really pretty</a>
+  In a previous iteration of this, at some point I made a <a href="../bloopers/">small but glorious mistake that I think is really pretty</a>
 </p>
