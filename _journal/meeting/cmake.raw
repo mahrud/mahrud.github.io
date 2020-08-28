@@ -1,0 +1,231 @@
+---
+layout: slide
+title: CMake is NOT Make
+---
+
+# CMake is NOT Make
+or how to forget about the build system
+
+<small>M2 Internals Meeting,<br />May 8th, 2020</small>
+
+
+<!-- slide -->
+
+### What is CMake?
+
+<!-- pause -->
+
+Make is a build system.
+- configure <!-- .element: class="fragment" -->
+- make <!-- .element: class="fragment" -->
+
+<!-- pause -->
+
+CMake is a *meta*-build system.
+- Does your job for you <!-- .element: class="fragment" -->
+- Generate build files for Ninja <!-- .element: class="fragment" -->
+- Integrate with IDEs like Xcode, VSCode, etc. <!-- .element: class="fragment" -->
+- Cross-platform <!-- .element: class="fragment" -->
+- Faster <!-- .element: class="fragment" -->
+
+<!-- slide -->
+
+![](https://media.giphy.com/media/12dsAPOI1YykFO/giphy.gif)
+
+<!-- slide -->
+
+### Download CMake
+- `brew install cmake`
+- `apt`, `dnf`, `pacman`, ...
+- https://cmake.org/download/
+
+<!-- pause -->
+
+In a terminal, confirm that version is at least 3.15:
+```bash
+$ cmake --version
+cmake version 3.17.1
+
+```
+
+<!-- slide -->
+
+### Download Ninja
+
+![](https://media.giphy.com/media/8bYrnHt3Ht7rV1nNCU/giphy.gif)
+
+- On Debian/Ubuntu, install:
+  - `ninja-build`.
+- On Mac OS X, using Homebrew, install:
+  - `ninja`.
+
+<!-- slide -->
+
+### Install library build tools
+- On Debian/Ubuntu, install:
+  - `autoconf build-essential bison libtool pkg-config yasm`.
+- On Mac OS X, using Homebrew, install:
+  - `autoconf automake bison libtool pkg-config yasm`.
+
+<!-- slide -->
+
+### Install required Macaulay2 libraries
+- On Debian/Ubuntu, install:
+  - `libopenblas-dev libeigen3-dev libxml2-dev libreadline-dev libomp-dev libtbb-dev libgdbm-dev libboost-stacktrace-dev libatomic-ops-dev`.
+- On Mac OS X, using Homebrew, install:
+  - `eigen libxml2 readline libomp tbb gdbm boost libatomic_ops`.
+
+<!-- slide -->
+
+#### Add and fetch new *remote*
+```
+$ git remote add mahrud https://github.com/mahrud/M2.git
+$ git fetch mahrud
+```
+#### Checkout the branch
+```
+$ git checkout feature/cmake
+```
+
+<!-- slide -->
+
+2. Setup the build environment:
+```bash
+$ cd M2/M2/BUILD/build
+$ cmake -GNinja -S../.. -B. \
+       -DCMAKE_INSTALL_PREFIX=/usr \
+       -DCMAKE_BUILD_TYPE=Release
+```
+
+- build system generator <!-- .element: class="fragment" --> `-GNinja`
+- source directory <!-- .element: class="fragment" --> `-S../..`
+- build directory <!-- .element: class="fragment" --> `-B.`
+
+<!-- pause -->
+
+`-DNAME=VALUE` sets variable `NAME` to `VALUE`.
+- install prefix <!-- .element: class="fragment" --> `-DCMAKE_INSTALL_PREFIX=/usr`
+
+<!-- pause -->
+
+- `CMAKE_BUILD_TYPE` determines various compiler flags to be used.
+- `Debug`
+- `Release`
+- `RelMinSize`
+- `RelWithDebInfo` (default)
+
+<!-- slide -->
+
+### Build the libraries
+```
+make build-libraries
+```
+```
+ninja build-libraries
+```
+
+Important:  <!-- .element: class="fragment" -->
+ his target **must** be built independently, before proceeding.
+
+<!-- pause -->
+
+You can force building certain libraries:
+```
+cmake -DBUILD_LIBRARIES="BDWGC;MPIR" .
+```
+Or to build everything:
+```
+cmake -DBUILD_LIBRARIES=ALL .
+```
+
+<!-- slide -->
+
+### Build Macaulay2 binary and core
+```
+ninja M2-binary M2-core
+```
+The `M2-binary` is a prerequisite of `M2-core`, which is currently the default target, so just `ninja` also suffices.
+
+<!-- slide -->
+
+### Build the external programs
+```
+ninja build-programs
+```
+
+Similar to the libraries, `cmake -DBUILD_PROGRAMS=...` can be used to enforce building specific programs.
+
+<!-- slide -->
+
+### Install packages and generate documentation
+```
+ninja install-packages
+```
+
+<!-- slide -->
+
+### Testing Macaulay2
+There are unit-tests available within the `Macaulay2/e/unit-tests` and `Macaulay2/tests` directories which can be tested using the CTest utility.
+
+<!-- pause -->
+
+Here are various ways of using `ctest`:
+- `ctest --build-and-test`
+- `ctest -N`
+- `ctest -R unit-tests`
+- `ctest -R normal -j6`
+- `ctest --rerun-failed -V`
+- `ctest -R check-LocalRings -j4`
+- `ctest -R check-LocalRings-2 -V`
+
+Note: if the last option does not work, try running `ninja info-packages` and `cmake .` to populate the tests.
+
+<!-- slide -->
+
+### Installing Macaulay2
+```
+ninja install
+```
+```
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local .
+```
+```
+DESTDIR=/home/mahrud/staging ninja install
+```
+
+<!-- slide -->
+
+### Packaging Macaulay2
+```
+cpack -G DEB	# requires dpkg
+cpack -G RPM	# requires rpmbuild
+```
+
+<!-- slide -->
+
+### Targets for Installing Macaulay2 Packages
+The following targets involve the Macaulay2 packages located in the `Macaulay2/packages` subdirectory in the source:
+- `list-packages`
+- `install-packages`
+- `check-packages`
+- `uninstall-packages`
+
+<!-- pause -->
+
+For specific packages, the following targets are also available:
+- `install-[PACKAGE]`
+- `check-[PACKAGE]`
+- `all-[PACKAGE]`
+- `uninstall-[PACKAGE]`
+
+<!-- slide -->
+
+A quick build involves the following steps:
+```
+git clone https://github.com/mahrud/M2.git -b feature/cmake
+cmake -GNinja -S M2/M2 -B M2/M2/BUILD/build -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr
+cmake --build M2/M2/BUILD/build --target build-libraries build-programs
+cmake --build M2/M2/BUILD/build --target install-packages
+cmake --build M2/M2/BUILD/build --target M2-emacs
+cmake --install M2/M2/BUILD/build
+```

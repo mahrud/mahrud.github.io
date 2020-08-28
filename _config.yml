@@ -4,7 +4,7 @@ tagline:             Mahrud Sayrafi @ School of Mathematics, UMN
 description:         >- # this means to ignore newlines until "url:"
   I am a second year graduate student at the University of Minnesota
   studying commutative algebra and algebraic geometry.
-url:                 http://math.umn.edu
+url:                 https://math.umn.edu
 baseurl:             '/~mahrud' # the subpath of your site, e.g. /blog
 gtag:                UA-131373039-1 # Google Analytics Tag
 
@@ -42,6 +42,8 @@ kramdown:
   footnote_backlink: "&#x21a9;&#xfe0e;"
   enable_coderay: false
   math_engine: katex
+  syntax_highlighter_opts:
+    disable : true
 
 # Exclusions from the final site
 exclude:
@@ -53,3 +55,4 @@ exclude:
   - _archive/
   - _drp/archive/
   - _teaching/archive/
+  - _static/reveal.js/

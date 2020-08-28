@@ -3,7 +3,7 @@ layout: drp
 title: Talks
 ---
 
- The goal here is to communicate a flavor of your reading project to others participants as well as those interested in doing
+ The goal here is to communicate a flavor of your reading project to other participants as well as those interested in doing
  a DRP in the future. This is a great practice for speaking to a mathematical audience in a very low-stakes and friendly environment.
 
 {% comment %}

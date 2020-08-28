@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+{% include head.html %}
+  <body class="wrapper">
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="^\n<!-- slide -->\n$" data-separator-vertical="^\n<!-- pause -->\n$">
+          <script type="text/template">
+<!-- ########################################################################################### -->
+{{ content }}
+<!-- ########################################################################################### -->
+          </script>
+        </section>
+      </div>
+    </div>
+
+    <script src="{{ site.baseurl }}/static/reveal.js/js/reveal.js"></script>
+
+    <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+	controls: true,
+	progress: true,
+	history: true,
+	center: true,
+	hash: true,
+	dependencies: [
+	    { src: '{{ site.baseurl }}/static/reveal.js/plugin/markdown/marked.js' },
+	    { src: '{{ site.baseurl }}/static/reveal.js/plugin/markdown/markdown.js' },
+	    { src: '{{ site.baseurl }}/static/reveal.js/plugin/highlight/highlight.js' },
+	    { src: '{{ site.baseurl }}/static/reveal.js/plugin/notes/notes.js', async: true }
+	]
+    });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>

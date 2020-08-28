@@ -29,6 +29,7 @@ Here is my [CV](mahrud.pdf).
 ### Research
 My interests lie in the neighborhood of algebraic geometry, commutative algebra, and intersection theory.
 Here are some things I've recently read about:
+- Fourier--Mukai Transforms and Exceptional Collections
 - Horrocks Splitting Criterion and Tate Resolutions
 - Toric Vector Bundles and Virtual Resolutions
 - $D$-Modules and Hodge Ideals
@@ -47,8 +48,9 @@ In previous lives I've studied quantum information, cryptography, and [radio ast
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
 
 ### [Student Commutative Algebra Meeting](seminars/SCAM)
-- Fall &nbsp; 2019: [Boij-Söderberg theory](https://arxiv.org/abs/1106.0381)
+- Fall &nbsp; 2020: TBD
 - Spring      2020: Introductory topics and $D$-Modules
+- Fall &nbsp; 2019: [Boij-Söderberg theory](https://arxiv.org/abs/1106.0381)
 
 ### [Directed Reading Program](drp)
 The Directed Reading Program is a graduate student-run program that provides undergraduates with the

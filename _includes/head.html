@@ -15,6 +15,14 @@
     {%- if page.layout == "drp" %}
     <link rel="stylesheet"    href="{{ site.baseurl }}/static/drp.css" />
     {%- endif %}
+    {%- if page.layout == "slide" %}
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/css/reveal.css"/>
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/css/theme/white.css" id="theme"/>
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/lib/css/monokai.css"/>
+    <style>.reveal h1 { text-transform: none; font-size: 2em; }</style>
+    <style>.reveal h3 { text-transform: none; }</style>
+    <style>.reveal h4 { text-transform: none; }</style>
+    {%- endif %}
 
     <title>{% case page.title -%}
       {%- when "Home" -%}
