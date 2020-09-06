@@ -27,7 +27,9 @@ status: draft
   - [memory leaks](https://v8.dev/docs/memory-leaks)
   - [Julia GC](https://docs.julialang.org/en/v1/devdocs/object/)
 - M2 REPL from Julia?
+  - [10000 foot view of Julia loading](https://docs.julialang.org/en/v1/devdocs/eval/#Julia-Execution)
   - [Cxx REPL package](https://github.com/JuliaInterop/Cxx.jl)
+  - OMG: julia --lisp
 - FFI
   - [Haskell's FFI](https://wiki.haskell.org/Foreign_Function_Interface)
 - STL

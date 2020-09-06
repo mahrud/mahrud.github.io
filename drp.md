@@ -10,10 +10,18 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
+## [Fall 2020 applications are now open! Deadline: Friday, September 18th.](apply){: style="color:red"}
+
+- This semester the program requirements are altered in two ways:
+  - The meetings will be held remotely, for instance via Zoom;
+  - As an alternative to the end of semester presentations, students can introduce their
+  topic through a sharable digital project, such as a YouTube video, blog post, poetry, artwork,
+  animation, essay, puzzle, or anything else that shares the math they learned during their DRP.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
 {% comment %}
-## [Spring 2020 applications are now open! Deadline: Friday, January 31st.](apply){: style="color:red"}
 ## Learn more at DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
-## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
+## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
 
 # [DRP Talks are this Thursday and Friday!](talks){: style="color:red"}
 We would like to invite you to attend the Fall 2019 DRP Presentations, when each
@@ -49,7 +57,7 @@ The original DRP started by graduate students at the University of Chicago over
 a decade ago, and has had immense success. It has since spread to many other
 math departments who are members of the [DRP Network](https://www.drp-network.org/about.html).
 
-## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
+## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
 
 ### Summary of Requirements
 - At least one hour per week spent in a mentor/mentee meeting.

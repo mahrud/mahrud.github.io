@@ -3,10 +3,16 @@ layout: drp
 title: Application
 ---
 
-{% comment %}
-## Spring 2020 Deadline: Friday, January 31st.
+## Fall 2020 Deadline: Friday, September 18th.
 {: style="color:red"}
-## Stop by the DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
+
+- This semester the program requirements are altered in two ways:
+  - The meetings will be held remotely, for instance via Zoom;
+  - As an alternative to the end of semester presentations, students can introduce their
+  topic through a sharable digital project, such as a YouTube video, blog post, poetry, artwork,
+  animation, essay, puzzle, or anything else that shares the math they learned during their DRP.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
 <div style="padding: 0.1in 0; width: 100%; text-align: center;">
   <li class="flipper">
     <a href="https://goo.gl/forms/WEHZ4Rfm2cExIQMq2" class="flipper">I'm an undergrad.</a>
@@ -15,9 +21,11 @@ title: Application
     <a href="https://goo.gl/forms/JgLZDi5fV2QOhQZg2" class="flipper">I'm a grad student.</a>
   </li>
 </div>
+
+{% comment %}
+## Stop by the DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
 Spring 2020 applications will open on **January 20th** and will be due **January 31st**
 <br />
-{% endcomment %}
 
 To be notified about future deadlines and events, including **end of semester talks**,
 please join our mailing list:
@@ -31,6 +39,7 @@ please join our mailing list:
     </li>
   </div>
 </iframe>
+{% endcomment %}
 
 ## Need ideas for a DRP reading?
 
