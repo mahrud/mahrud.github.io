@@ -2,82 +2,70 @@
 layout: seminar
 title: Student Commutative Algebra Meeting
 semester: Spring
-year: 2020
+year: 2021
 talks:
-- date: 1/30/2020
-  speaker: N/A
-  title: Planning Meeting
+- date: 2/8/2021
+  speaker: Michael Brown (Auburn)
+  title: The BGG correspondence for toric varieties (pre-talk)
   abstract: >-
-    This is the plan: you should give a talk!
-- date: 2/6/2020
+    This is an introductory talk covering background on Eisenbud-Fløystad-Schreyer's paper
+    on BGG and Tate resolutions for the Commutative Algebra Seminar tomorrow.
+- date: 2/15/2021
+  speaker: Mahrud Sayrafi
+  title: The Beilinson Spectral Sequence
+  abstract: >-
+    This talk is an introductory talk about a spectral sequence that seemed to popped up
+    in every paper I've read in the past couple of years. I'll start with talking about
+    the very concrete (and in fact computational!) connection of these papers with the
+    derived category of the projective space. Then, I'll construct the Beilinson spectral
+    sequence, which itself is an example of the Grothendieck spectral sequence for
+    composition of two functors (I will introduce this even if you haven't watched
+    Gennady's videos for February 12th yet!) I'll end with showing what the convergence
+    of this spectral sequence means about the projective space.
+- date: 2/22/2021
+  speaker: Robert M. Walker (Wisconsin)
+  title: Uniform Asymptotic Growth of Symbolic Powers of Ideals (pre-talk)
+  abstract: >-
+    This is an introductory talk covering background for the Commutative Algebra Seminar tomorrow.
+- date: 3/1/2021
+  speaker: Katherine Maxwell
+  title: TBD
+  abstract: >-
+    TBD
+- date: 3/15/2021
+  speaker: Galen Dorpalen-Barry (UMN)
+  title: TBD
+  abstract: >-
+    TBD
+- date: 3/29/2021
   speaker: McCleary Philbin
-  title: Graded Koszul and local cohomology
-  abstract: >-
-    This talk is an introduction to recent work of Ma, Singh, and
-    Walther on Koszul and local cohomology, and a question of Dutta.
-- date: 2/13/2020
-  speaker: Mahrud Sayrafi
-  title: Vector bundles on the projective space
-  abstract: >-
-    This talk is about line bundles and vector bundles in commutative algebra.
-    We will construct the Hurrocks-Mumford vector bundle in Macaulay2 and prove that it is indecomposable.
-- date: 2/20/2020
-  speaker: N/A
-  title: No Talk
-  abstract: >-
-    N/A
-- date: 2/27/2020
-  speaker: Jorin Schug
-  title: DG algebras and Applications
-  abstract: >-
-    DG algebras have been used to full effect in topology, derived geometry, and no surprise, commutative algebra.
-    As the strange mix of chain complexes and algebraic structure, dg algebras naturally arise whenever mathematicians
-    study cohomology theories with cup product or applications of Koszul complexes.  In this talk, I will discuss some
-    of the basic tools and constructions of dg algebras, keeping in mind applications to derived geometry and the study
-    of semidualizing modules.  This talk will lead into another talk next week with more on these applications.
-- date: 3/5/2020
-  speaker: Jorin Schug
-  title: DG algebras and Applications
-  abstract: >-
-    This walk will be a continuation of last week's talk on dg algebras.  I will focus on dg resolutions  and dg module
-    structures on complexes of ring modules.  Then I will use these tools to give an outline of the proof that a local
-    ring has finitely many semi-dualizing modules that was mentioned in the last talk.
-# Spring break
-- date: 4/2/2020
-  speaker: Mahrud Sayrafi
-  title: Exceptional Collections for Projective Spaces
-  abstract: >-
-    We know and love minimal free resolutions. Some even pretend to like free resolutions over exterior algebras
-    (e.g. Tate resolutions). A question you might ask is what makes resolutions made of such objects special?
-    In this "talk" I will define exceptional collections and adjectives such as "full" and "strong," and how both
-    \{\mathcal O, \cdots, \mathcal O(n)\} and \{\mathcal O, \Omega(1),\cdots,\Omega^n(n)\}
-    (i.e. objects that make free resolutions over a commutative ring and it's exterior algebra)
-    make a strong full exceptional collection for D^b(\mathbb P^n).
-- date: 4/9/2020
-  speaker: You?
   title: TBD
   abstract: >-
     TBD
-- date: 4/16/2020
+- date: 4/12/2021
+  speaker: Mahrud Sayrafi (UMN)
+  title: TBD
+  abstract: >-
+    TBD
+- date: 4/26/2021
   speaker: TBD
-  title: TBD
-  abstract: >-
-    TBD
-- date: 4/23/2020
-  speaker: TBD
-  title: TBD
-  abstract: >-
-    TBD
-- date: 4/30/2020
-  speaker: Galen Dorpalen-Barry
   title: TBD
   abstract: >-
     TBD
 ---
 
-For Spring 2020 the seminar meets:
-- on **Thursdays 2:30pm -- 3:20pm**
-- ~~in **Vincent 570**~~ via [Zoom] ← click there!
+For Spring 2021 the seminar meets:
+- on **Mondays 3:35pm -- 4:25pm CST**
+- via [Zoom] ← click there! (same room as the adult seminar)
+
+The rough format of the seminar this semester is to meet every two weeks
+for student talks and on the remaining weeks have introductory pre-talks
+for the (adult) [Commutative Algebra Seminar].
+
+{% comment %}
+Look to the left for the archive of talks from previous semesters
+and join the conversation on Discord channel #SCAM to pitch in!
+{% endcomment %}
 
 Talk suggestions for this semester:
 - Combinatorial commutative algebra
@@ -109,13 +97,11 @@ This semester's themes are:
 
 <br />
 
-- **New**: After a pandemic hiatus, Tele-SCAM continues via [Zoom].
-
 - [Join the SCAM mailing list](https://groups.google.com/a/umn.edu/forum/#!forum/student-commalg/join) ← click there!
 
-- Interested in giving a talk? <br />
-Contact Mahrud Sayrafi (mahrud@) or McCleary Philbin (philb036@).
+- Join the Discord channel #SCAM for discussions!
 
-- For the adult Commutative Algebra Seminar [click here](http://www-users.math.umn.edu/~jkyang/seminars/ca_seminar/s2020.shtml).
+- Interested in giving a talk? Contact Mahrud (mahrud@) or McCleary (philb036@)
 
-[Zoom]: https://umn.zoom.us/j/611742993
+[Commutative Algebra Seminar]: http://www-users.math.umn.edu/~jkyang/seminars/ca_seminar/s2021.shtml
+[Zoom]: https://umn.zoom.us/j/96978192398?pwd=ajFBN3BIUFNudHpVdXMrbXF0RUFjQT09
