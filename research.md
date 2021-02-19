@@ -5,23 +5,20 @@ tagline: Research Questions, Et Cetera
 order: 1
 ---
 
-## Questions
+## Questions (outdated!!)
 
 These are some questions I've been thinking about lately.
 If you answer any of them I'll owe you a nice cup of coffee.
 
-- What are *full strong exceptional collections* and where do we find them?
-
-- Castelnuovo-Mumford Regularity of a graded module is defined to be the smallest number when the Hilbert function and
-polynomial match.
-For a module over a multigraded ring, the Hilbert function and Hilbert polynomial are multivariate, and *multigraded*
-Castelnuovo-Mumford regularity is similarly defined to be a set of tuples with size equal to the rank of the Picard group.
-What bounds can one put on the multigraded regularity?
+- What are the obstructions for a derived category to have a *full strong exceptional collections*?
+  What if they are all line bundles?
 
 - When does a $D$-module have length 1[?](https://arxiv.org/pdf/1609.01643.pdf)
 
+{% comment %}
 - Complex Hodge theory is the study of topological invariants using harmonic analysis.
 Assuming $p$-adic Hodge Theory has the same goal, can you coherently introduce harmonic analysis in $p$-adic language?
+{% endcomment %}
 
 ## Publications and [preprints](https://arxiv.org/search/?query=Mahrud&searchtype=author)
 

@@ -26,7 +26,6 @@ Feel free to reach out to me.
 
 ## Teaching Experience
 
-- Spring      2020: I'm not teaching this semester. Contact me for office hours.
 - Fall &nbsp; 2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](f19-math2243)
 - Spring      2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](s19-math2243)
 - Fall &nbsp; 2018: TA for [MATH 1271 -- Calculus 1](f18-math1271)

@@ -1,14 +1,11 @@
 ---
 layout: default
 title: Journal
-tagline: Macaulay2 Journal
+tagline: Macaulay2-Fu Journal
 order: 4
 ---
 
-This semester I am sponsored by the MSRI to work for the [Macaulay2] project.
-There are various objectives for this semester, but I have two overarching goals in mind:
-- Modernize the project in order to encourage contributions;
-- Do some math while at it!
+Here is a non-exhaustive list of Macaulay2-fu accumulated over time.
 
 ## Published
 {% for item in site.journal %}{% if item.status == "published" %}
@@ -18,7 +15,10 @@ There are various objectives for this semester, but I have two overarching goals
 {% for item in site.journal %}{% if item.status == "draft" %}
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }}){% endif %}{% endfor %}
 
-Keep an eye on this space (or this [feed]({{ site.baseurl }}/atom/)) for updates related to:
+In Spring and Fall of 2020 I was sponsored by the MSRI to work for the [Macaulay2] project.
+In that year, my [contributions] spanned over 60 pull requests.
+
+Keep an eye on this space (or this [feed]({{ site.baseurl }}/atom.xml)) for updates related to:
 - improvements to various top level mathematical routines
 - development best practices and style guides
 - documentation improvements
@@ -27,7 +27,8 @@ Keep an eye on this space (or this [feed]({{ site.baseurl }}/atom/)) for updates
 - profiling and benchmarking techniques
 - code coverage and linting tools
 
-You can also follow the M2 [repository](https://github.com/Macaulay2/M2/) and list of [issues](https://github.com/Macaulay2/M2/issues) on GitHub or my fork of the [repository](https://github.com/mahrud/M2/) for updates. If there is anything you would like to see improved, or if you would like to get involved, please get in touch. 
+You can also follow the M2 [repository] and list of [issues] on GitHub.
+If there is anything you would like to see improved, or if you would like to get involved, please get in touch.
 
 {% comment %}
 ## Ideas
@@ -36,3 +37,6 @@ You can also follow the M2 [repository](https://github.com/Macaulay2/M2/) and li
 {% endcomment %}
 
 [Macaulay2]: http://macaulay2.com/
+[repository]: https://github.com/Macaulay2/M2/
+[contributions]: https://github.com/Macaulay2/M2/pulls?q=is%3Apr+is%3Amerged+author%3Amahrud
+[issues]: https://github.com/Macaulay2/M2/issues

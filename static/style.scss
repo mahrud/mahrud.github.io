@@ -89,6 +89,10 @@ a:hover {
     text-decoration: none;
 }
 
+p > a {
+    font-weight: 600;
+}
+
 tt {
     background: #ffffdd;
 }

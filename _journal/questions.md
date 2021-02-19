@@ -5,6 +5,7 @@ status: draft
 ---
 
 ## Tips:
+- examine, erase
 - the core command `X` defined in file `d/Y.d` is called `Y_X` within the engine.
 - debugLevel = 123 prints place on the REPL.
 - pushForward

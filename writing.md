@@ -9,6 +9,7 @@ I will at some point figure out how to automatically upload and link these notes
 In the meanwhile, feel free to ask me for any of following.
 
 ## Notes
+- Combinatorial Algebraic Geometry Semester, ICERM
 - Structure of Length 3 Resolutions Workshop, UCSD
 - Thematic Program in Commutative Algebra and Algebraic Geometry, CMND
 - $D$-Modules and Hodge Theory Workshop, University of Illinois, Chicago
@@ -25,6 +26,7 @@ In the meanwhile, feel free to ask me for any of following.
 -->
 
 ## Blog Posts
+- [In order to prevent an exodus of students, mathematicians must stand together](https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
 - [Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
 - [From Russia, With Love](https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
 
