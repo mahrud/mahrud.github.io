@@ -50,3 +50,19 @@ Moderated by Vic Rainer
 
 Cambridge prof ethics of mathematics
 coronavirus spread differential equations
+
+https://twitter.com/nameeverynumber/status/1353132000601923584
+
+https://twitter.com/MBarany/status/1219103670945665024
+
+https://twitter.com/JadeMasterMath/status/1239776081801961472
+
+Predictive Policing:
+https://twitter.com/doctor_talitha/status/1275225904826982411
+
+Loyalty oaths
+https://twitter.com/MBarany/status/1207015252191252482
+
+
+https://twitter.com/necoleman/status/1089721852556128256
+Might be an interesting exercise to read this side-by-side with *Proof and Progress.* My initial reaction seems related to objection #6 in the article: insofar as mathematics is "what mathematicians do," it's a social and cultural, hence political, activity.

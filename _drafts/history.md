@@ -13,3 +13,5 @@ in a historical context.</p>
 
 <p>I first saw algebra and geometry blend together during a department picnic,
 when my parents and I decorated a kite with cubic curves that rendered the logo for the World Mathematical Year 2000.</p>
+
+http://www.ams.org/publicoutreach/feature-column/fc-2020-11
