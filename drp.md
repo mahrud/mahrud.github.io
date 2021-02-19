@@ -10,7 +10,7 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
-## [Fall 2020 applications are now open! Deadline: Friday, September 18th.](apply){: style="color:red"}
+## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
 
 - This semester the program requirements are altered in two ways:
   - The meetings will be held remotely, for instance via Zoom;
@@ -20,8 +20,14 @@ students in an independent *reading* project.
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
 {% comment %}
-## Learn more at DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
-## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
+## Learn more at DRP Mixer on Tuesday, February 2nd at 12:20pm CST
+{: style="color:red"}
+
+Zoom room: [956 8835 4988](https://umn.zoom.us/j/95688354988?pwd=OFVNenRTcFNVcTZNUE43QTExeHREZz09) ← click there!
+
+Passcode: vinh310
+
+## [Spring 2021 applications are now open! Deadline: Sunday, February 7th](apply){: style="color:red"}
 
 # [DRP Talks are this Thursday and Friday!](talks){: style="color:red"}
 We would like to invite you to attend the Fall 2019 DRP Presentations, when each
@@ -45,19 +51,21 @@ During the semester, the student will work through a mathematical text and meet
 weekly to discuss it with their mentor. The semester culminates in brief
 presentations from the undergraduates on their readings.
 
-### DRP is not a course, nor is it private tutoring!
+### DRP is not an accredited course, nor is it private tutoring!
 
 An important distinction about the DRP program is that the reading topics are
 meant to benefit both the undergraduate and the graduate student. As a graduate
-student, You can read a book you have been meaning to read or study a new topic.
+student, you can read a book you have been meaning to read or study a new topic.
 
 <br />
 
-The original DRP started by graduate students at the University of Chicago over
+The original DRP was started by graduate students at the University of Chicago over
 a decade ago, and has had immense success. It has since spread to many other
 math departments who are members of the [DRP Network](https://www.drp-network.org/about.html).
 
+{% comment %}
 ## [Need Book Ideas? Browse the DRP Bookshelf at the Math Library today!](bookshelf){: style="color:red"}
+{% endcomment %}
 
 ### Summary of Requirements
 - At least one hour per week spent in a mentor/mentee meeting.

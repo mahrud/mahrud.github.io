@@ -3,7 +3,8 @@ layout: drp
 title: Application
 ---
 
-## Fall 2020 Deadline: Friday, September 18th.
+{% comment %}
+## Spring 2021 Deadline: Sunday, February 7th.
 {: style="color:red"}
 
 - This semester the program requirements are altered in two ways:
@@ -22,10 +23,18 @@ title: Application
   </li>
 </div>
 
-{% comment %}
-## Stop by the DRP Mixer on Monday, January 27th, 4-5pm in Vincent 120.
-Spring 2020 applications will open on **January 20th** and will be due **January 31st**
+Note: DRP is not a university-run program, and therefore does not offer credits.
+If you would like to receive credits, look into MATH 4991/2/3 or the CLA [directed study options].
+
+## Stop by the DRP Mixer on Tuesday, February 2nd at 12:20pm CST
+{: style="color:red"}
+
+Zoom room: [956 8835 4988](https://umn.zoom.us/j/95688354988?pwd=OFVNenRTcFNVcTZNUE43QTExeHREZz09) ← click there!
+
+Passcode: vinh310
+
 <br />
+{% endcomment %}
 
 To be notified about future deadlines and events, including **end of semester talks**,
 please join our mailing list:
@@ -39,7 +48,6 @@ please join our mailing list:
     </li>
   </div>
 </iframe>
-{% endcomment %}
 
 ## Need ideas for a DRP reading?
 
@@ -74,3 +82,5 @@ please join our mailing list:
  considered on an individual basis. As such, special cases that don’t meet all of the above criteria but have
  sufficient merit are certainly good candidates for admission.
 -->
+
+[directed study options]: https://cla.umn.edu/student-services-advising/cla-student-services-staff-advisors/directed-study-and-other-individualized-options
