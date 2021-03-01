@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: page
 title: Seminars
+tagline: Student Seminars and Organizing
+category: activities
+order: 2
 ---
 
 {% assign seminars_list = site.seminars | sort: 'year' | sort: 'semester' | reverse %}
@@ -10,6 +13,7 @@ title: Seminars
 * [{{ seminar.semester }} {{ seminar.year }}]({{ site.baseurl }}{{ seminar.url }})
 {% endif %}{% endfor %}
 
+There are also other interesting seminars at UMN:
 
 ### Other Student Seminars
 * [Student Topology and Algebraic Geometry Seminar](https://sites.google.com/view/stags-umn/home)

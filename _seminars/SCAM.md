@@ -29,9 +29,13 @@ talks:
     This is an introductory talk covering background for the Commutative Algebra Seminar tomorrow.
 - date: 3/1/2021
   speaker: Katherine Maxwell
-  title: TBD
+  title: Cohomology of the Lie algebra of vector fields on a curve
   abstract: >-
-    TBD
+    In 1968, Gel'fand and Fuchs began the study of the cohomology of vector fields on manifolds
+    with papers on the case of a circle and n-torus. A key simplification in such calculations is considering
+    only the continuous cochains, which results in finite dimensional cohomology. I will discuss why calculating
+    Gel'fand-Fuks cohomology is difficult, and show how dg-algebras and spectral sequences are
+    useful in the case of holomorphic vector fields on compact curves (Feigin 1991).
 - date: 3/15/2021
   speaker: Galen Dorpalen-Barry (UMN)
   title: TBD
