@@ -1,0 +1,6 @@
+      <div class="nav-category">Courses</div>
+      {%- assign courses = site.teaching | reverse -%}
+      {%- for course in courses %}
+      <a class="nav-link
+        {%- if page.url == course.url %} active{% endif %}" href="{{ site.baseurl }}{{ course.url }}">{{ course.title }}</a>
+      {%- endfor %}

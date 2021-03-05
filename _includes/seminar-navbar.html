@@ -1,28 +1,6 @@
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse flex-column" id="navbarSupportedContent">
-
-      {%- comment -%}
-      <a class="nav-link {%- if page.url == '/seminars/' %} active{% endif %}" href="{{ site.baseurl }}/seminars/">Seminars</a>
-      {%- endcomment -%}
-
-      {%- comment -%}
-        The code below dynamically generates a list of pages with `layout: seminar` in the front-matter.
-      {%- endcomment -%}
-
-      {%- if page.url != '/seminars/' -%}
-      Archive
-        {%- assign seminars_list = site.seminars | sort: 'semester' -%}
-        {%- for seminar in seminars_list -%}
-          {%- if seminar.title == page.title and (seminar.semester != page.semester or seminar.year != page.year ) -%}
+      <div class="nav-category">Seminars</div>
+      {%- assign seminars = site.seminars | sort: 'semester' | reverse -%}
+      {%- for seminar in seminars %}
       <a class="nav-link
         {%- if page.url == seminar.url %} active{% endif %}" href="{{ site.baseurl }}{{ seminar.url }}">{{ seminar.semester }} {{ seminar.year }}</a>
-          {%- endif -%}
-        {%- endfor %}
-      {%- endif -%}
-
-      </div>
-    </nav>
+      {%- endfor %}

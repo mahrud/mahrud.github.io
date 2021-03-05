@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: seminar
 title: Seminars
 tagline: Student Seminars and Organizing
 category: activities

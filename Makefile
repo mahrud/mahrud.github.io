@@ -7,7 +7,7 @@ serve:
 	bundle exec jekyll serve -s . -d _site/
 
 clean:
-	rm -rf ./_site/*
+	cd _site && git checkout -- .
 
 build: build-vincent
 
@@ -30,3 +30,6 @@ install:
 	gem install bundler
 	bundle config set path 'vendor/bundle'
 	bundle install
+
+install-remote:
+	git clone mahrud@remote.math.umn.edu:www/.git _site
