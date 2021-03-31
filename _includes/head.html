@@ -16,12 +16,16 @@
     <link rel="stylesheet"    href="{{ site.baseurl }}/static/drp.css" />
     {%- endif %}
     {%- if page.layout == "slide" %}
-    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/css/reveal.css"/>
-    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/css/theme/white.css" id="theme"/>
-    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/lib/css/monokai.css"/>
-    <style>.reveal h1 { text-transform: none; font-size: 2em; }</style>
-    <style>.reveal h3 { text-transform: none; }</style>
-    <style>.reveal h4 { text-transform: none; }</style>
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/dist/reset.css" />
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/dist/theme/white.css" id="theme" />
+    <link rel="stylesheet"    href="{{ site.baseurl }}/static/reveal.js/plugin/highlight/monokai.css" id="highlight-theme" />
+    <style>
+      .reveal h1 { text-transform: none; font-size: 2em; }
+      .reveal h3 { text-transform: none; }
+      .reveal h4 { text-transform: none; }
+      .reveal .slides > section > p { text-align:left; }
+    </style>
     {%- endif %}
 
     <title>{% case page.title -%}
