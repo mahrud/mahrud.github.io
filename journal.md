@@ -5,9 +5,8 @@ tagline: Macaulay2-Fu Journal
 order: 4
 ---
 
-Here is a non-exhaustive list of Macaulay2-fu accumulated over time.
+Here is a non-exhaustive list of random bits of Macaulay2-fu I've written over time.
 
-## Published
 {% for item in site.journal %}{% if item.status == "published" %}
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }}){% endif %}{% endfor %}
 
@@ -40,3 +39,4 @@ If there is anything you would like to see improved, or if you would like to get
 [repository]: https://github.com/Macaulay2/M2/
 [contributions]: https://github.com/Macaulay2/M2/pulls?q=is%3Apr+is%3Amerged+author%3Amahrud
 [issues]: https://github.com/Macaulay2/M2/issues
+[LearnM2]: https://mahrud.github.io/LearnM2

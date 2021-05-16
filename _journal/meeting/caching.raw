@@ -1,0 +1,1097 @@
+---
+layout: slide
+title: Caching in Macaulay2
+status: published
+---
+{% raw %}
+
+<!-- .slide: style="text-align: center" -->
+# Caching in Macaulay2
+
+M2 Internals Meeting <br />
+April 1st, 2021
+
+
+<!-- slide -->
+
+# <span style='font-family: Times,serif'>Part I: the problem</span>
+
+<!-- slide -->
+
+### Where does caching occur?
+- in the interpreter <!-- .element: class="fragment" -->
+- at the top-level <!-- .element: class="fragment" -->
+- for the documentation <!-- .element: class="fragment" -->
+  - via gdbm for documentation (see [#1643](https://github.com/Macaulay2/M2/issues/1643))
+  - via `CannedExample` (see [#1924](https://github.com/Macaulay2/M2/issues/1924))
+  - via distributed example outputs
+- (any in the engine?) <!-- .element: class="fragment" -->
+
+
+<!-- slide -->
+
+### Caching in the interpreter
+
+Mostly used for non-mathematical operations. Example:
+```
+i1 : elapsedTime for c from 97 to 122 do regex("(x+x+x+x+x+x+)+" | ascii c, "")
+ -- 0.00281125 seconds elapsed
+
+i2 : elapsedTime for c from 97 to 122 do regex("(x+x+x+x+x+x+)+" | ascii c, "")
+ -- 0.00052382 seconds elapsed
+```
+
+<!-- pause -->
+
+Implemented in C++ using std::map which uses red-black trees.
+```language-cpp
+// Macaulay2/d/boost-regex.cpp:10
+/* returns a compiled state machine for regex */
+boost::regex regex_compile(const M2_string pattern, const int flags)
+{
+  typedef std::pair<int /* pattern_hash */, int /* flags */> ExpressionKey;
+  static std::map<ExpressionKey, boost::regex> cache;
+
+  /* attempt to recover a compiled expression from a map */
+  auto key = ExpressionKey {strings_hash(pattern), flags};
+  auto hit = cache.find(key);
+  if (hit != cache.end()) return hit->second;
+  ...
+  /* cache the compiled state machine */
+  auto res = cache.emplace(key, expression);
+  ...
+```
+
+<!-- pause -->
+
+Then there are some strange ones:
+```
+-- Macaulay2/d/stdio.d:914
+someblanks := new array(string) len 20 at n do provide new string len n do provide ' ';
+export blanks(n:int):string := if n < length(someblanks) then someblanks.n else new string len n do provide ' ';
+```
+- Added c. 2003 in [9fc304c](https://github.com/Macaulay2/M2/blob/9fc304c/M2/Macaulay2/d/stdio.d#L686-L687).
+
+
+<!-- slide -->
+
+### Caching at the top-level
+
+Various functions are cached on an ad-hoc basis:
+- `computeAndCache`
+- `memoize`
+- `forceGB`
+- `installHilbertFunction`
+- `cacheValue`
+- `stashValue`
+- `storefuns`
+
+<!-- slide -->
+
+### `computeAndCache`
+
+```m2
+computeAndCache := (M,options,Name,goodEnough,computeIt) -> (
+     if not M#?Name or not goodEnough(M#Name#0,options) 
+     then (
+          ret := computeIt(M,options);
+          M#Name = {options,ret};
+          ret)
+     else M#Name#1
+     )
+```
+- Added c. 1997 in [647f753](https://github.com/Macaulay2/M2/blob/647f753/M2/Macaulay2/m2/methods.m2#L714-L721).
+- Doesn't seem to have been used, ever.
+
+<!-- pause -->
+
+Example:
+```
+i2 : M = new MutableHashTable from { x => 2 };
+
+i3 : f = (M, y) -> computeAndCache(M, y, symbol S, (y0, y1) -> y0 > y1, (M, y1) -> max(M#x, y1));
+
+i4 : f(M, 3), f(M, 5), f(M, 4)
+
+o4 = (3, 5, 5)
+```
+
+
+<!-- slide -->
+
+### `memoize`
+
+```
+-- Macaulay2/m2/remember.m2:7
+memoize Function := f -> (
+     values := new MutableHashTable;
+     x -> (
+          -- This code is common to any function that has been memoized.
+          if not values#?x then values#x = f(x) else values#x
+          )
+     )
+```
+- Added c. 1997 in [647f753](https://github.com/Macaulay2/M2/blob/647f753/M2/Macaulay2/m2/remember.m2#L5-L21).
+- Used ~10 times in Core, ~100 times in packages.
+
+<!-- pause -->
+
+Example:
+```
+i1 : f = memoize(x -> (print("computing with x = " | x); x^2));
+
+i2 : f(2), f(3), f(2)
+computing with x = 2
+computing with x = 3
+
+o2 = (4, 9, 4)
+```
+
+<!-- pause -->
+
+We can also stash precomputed results, but only when defining the function:
+```
+i1 : precomputed = {1 => 10, 2 => 100, 3 => 1000};
+
+i2 : f = memoize(x -> (print("computing with x = " | x); 10 ^ x), precomputed);
+
+i3 : f(1), f(2), f(3), f(4)
+computing with x = 4
+
+o3 = (10, 100, 1000, 10000)
+```
+
+<!-- pause -->
+
+This is useful when you want a function to return the same exact result:
+```
+i1 : degreesRing 5
+
+o1 = ZZ[T ..T ]
+         0   4
+
+o1 : PolynomialRing
+
+i2 : A = degreesRing 5
+
+o2 = A
+
+o2 : PolynomialRing
+
+i3 : degreesRing 5
+
+o3 = A
+
+o3 : PolynomialRing
+```
+
+<!-- slide -->
+
+### `forceGB`
+
+```
+forceGB Matrix := GroebnerBasis => opts -> m -> (
+...
+    g := new GroebnerBasis;
+    g.ring = ring m;
+    g.matrix = Bag {m};
+    g.target = target m;
+    g.returnCode = 0;
+    g.RawComputation = rawGBForce(raw minmat, raw m, raw chmat, raw syzmat);
+    m.cache#type = g)
+
+```
+- Added c. 1997 in [647f753](https://github.com/Macaulay2/M2/blob/647f753/M2/Macaulay2/m2/gb.m2#L428-L456).
+- Useful for:
+  - implementing top-level Grobner basis algorithms; e.g. `FGLM`.
+  - when a combinatorial description of a GB exists; e.g. Schubert varieties.
+
+
+<!-- slide -->
+
+### `installHilbertFunction`
+
+```
+installHilbertFunction = method()
+installHilbertFunction(Module, RingElement) := (M, hf) -> (
+    -- we need to place hf into the degree ring of M.
+    hf = substitute(hf, degreesRing M);
+    M.cache.poincare = hf;
+    )
+```
+- Added c. 2002 in [46564ea](https://github.com/Macaulay2/M2/blob/46564ea/M2/Macaulay2/m2/overviewC.m2#L1247-L1255)
+- Useful for speeding up Grobner basis computations with `gb(Hilbert => ...)`
+  when the Hilbert function is known geometrically or combinatorially.
+
+
+<!-- slide -->
+
+### `cacheValue`
+
+For caching in hash tables:
+```
+cacheValue = key -> f -> new CacheFunction from (x -> (
+          c := try x.cache else x.cache = new CacheTable;
+          if c#?key then (
+               val := c#key;
+               if class val === CacheFunction then (
+                    remove(c,key);
+                    c#key = val x)
+               else val
+               )
+          else c#key = f x))
+```
+- Added c. 2006 in [763625c](https://github.com/Macaulay2/M2/blob/763625c/M2/Macaulay2/m2/methods.m2#L393-L397)
+- Used ~34 times in Core, ~100 times in packages
+
+<!-- pause -->
+
+Example:
+```
+i1 : M = new HashTable from { symbol x => 2, cache => new CacheTable };
+
+i2 : f = (cacheValue symbol y) (x -> (print("computing with M.x = " | M.x); M.x^2));
+
+i3 : f(M), f(M)
+computing with M.x = 2
+
+o3 = (4, 4)
+
+i4 : peek M.cache
+
+o4 = CacheTable{y => 4}
+```
+
+
+<!-- slide -->
+
+### `stashValue`
+
+For caching in mutable hash tables:
+```
+stashValue = key -> f -> new CacheFunction from (x -> (
+          if x#?key then (
+               val := x#key;
+               if class val === CacheFunction then (
+                    remove(x,key);
+                    x#key = val x)
+               else val
+               )
+          else x#key = f x))
+```
+- Used once for `(char, QuotientRing)` in Core
+- And once for `(tangentBundle, FlagBundle)` in `Schubert2`
+
+<!-- pause -->
+
+Example:
+```
+i1 : M = new MutableHashTable from { symbol x => 2 };
+
+i2 : f = (stashValue symbol y) (x -> (print("computing with M.x = " | M.x); M.x^2));
+
+i3 : f(M), f(M)
+computing with M.x = 2
+
+o3 = (4, 4)
+
+i4 : peek M
+
+o4 = MutableHashTable{y => 4}
+                      x => 2
+```
+
+
+<!-- slide -->
+
+### `storefuns`
+
+```
+-- Macaulay2/m2/methods.m2:683
+storefuns = new MutableHashTable
+...
+Function Thing = (f,x,e) -> (
+     if not storefuns#?f then error("no method for storing values of function ", toString f);
+     storefuns#f (x,e))
+```
+- Added c. 2008 in [c74571d](https://github.com/Macaulay2/M2/commit/c74571d/M2/Macaulay2/m2/methods.m2#L533-L542).
+- See discussion in [#1980](https://github.com/Macaulay2/M2/issues/1980).
+
+<!-- pause -->
+
+This type of caching seems to be only used for `(res, Module)`:
+```
+-- Macaulay2/m2/res.m2:274
+protect ManualResolution				    -- not to be exported
+storefuns#resolution = (M,C) -> M.cache.ManualResolution = C
+
+resolution Module := ChainComplex => o -> (M) -> (
+     if M.cache.?ManualResolution then return M.cache.ManualResolution;
+     C := runHooks((resolution, Module), (o, M));
+     ...)
+```
+
+<!-- pause -->
+
+Pros: manual caching if you know the answer.
+```
+i1 : R = kk[x, y];
+
+i2 : M = module ideal vars R;
+
+i3 : res M = chainComplex {matrix{{y}, {-x}}};
+
+i4 : res M
+
+      2      1
+o4 = R  <-- R
+             
+     0      1
+
+o4 : ChainComplex
+```
+
+<!-- pause -->
+
+Cons: your answer might be wrong.
+```
+i5 : gbTrace = 1;
+
+i6 : res M = 5;
+
+i7 : res M
+ -- returning manually provided resolution
+
+o7 = 5
+```
+
+
+<!-- slide -->
+
+### Caching partial computations at the top-level
+
+This is done mostly through Computation objects
+
+Examples: `gb`, `res`, `pushForward`
+<!-- .element: class="fragment" -->
+
+One odd exception: `hilbertSeries` added c. 2008 in [dd39252](https://github.com/Macaulay2/M2/blob/dd39252/M2/Macaulay2/m2/modules2.m2).
+<!-- .element: class="fragment" -->
+
+<!-- slide -->
+
+### `GroebnerBasis`
+
+1. Create objects to hold the computation result & the context of that computation
+
+```
+GroebnerBasis = new Type of MutableHashTable
+GroebnerBasis.synonym = "Gröbner basis"
+
+GroebnerBasisOptions = new Type of OptionTable
+GroebnerBasisOptions.synonym = "Gröbner basis options"
+
+...
+
+gbTypeCode := opts -> new GroebnerBasisOptions from {
+    SyzygyRows      => if opts.Syzygies or opts.ChangeMatrix then opts.SyzygyRows else 0,
+    Syzygies        => opts.Syzygies,
+    HardDegreeLimit => opts.HardDegreeLimit }
+gbOnly       := gbTypeCode hashTable { SyzygyRows => 0,        Syzygies => false, ChangeMatrix => false }
+gbWithChg    := gbTypeCode hashTable { SyzygyRows => infinity, Syzygies => false, ChangeMatrix => true  }
+gbWithSyzygy := gbTypeCode hashTable { SyzygyRows => infinity, Syzygies => true,  ChangeMatrix => false }
+```
+- Added c. 1995 and updated c. 2004 in [5c84738](https://github.com/Macaulay2/M2/blob/5c84738/M2/Macaulay2/m2/gb.m2).
+
+<!-- pause -->
+
+2. Write a function for determining which cached computations can be used as partial results
+
+```
+gbGetPartialComputation := (m, type) -> (
+    verboseLog := if debugLevel == 77 then printerr else identity;
+    verboseLog("gb type requested: ", net type);
+    if m.cache#?type then (
+        verboseLog("gb type found, with hash ", toString hash m.cache#type);
+        m.cache#type)
+    else if type === gbOnly and computationIsComplete(m, gbWithChg) then (
+        verboseLog("gb type found, but fetching ", net gbWithChg);
+        getComputation(m,gbWithChg))
+    else if ( type === gbOnly or type === gbWithChg ) and computationIsComplete(m, gbWithSyzygy) then (
+        verboseLog("gb type found, but fetching ", net gbWithSyzygy);
+        getComputation(m, gbWithSyzygy))
+    else (
+        verboseLog("gb type not found");
+        null))
+```
+
+<!-- pause -->
+
+3. Check cache, check whether it is finished, and if not set and start a computation
+
+```
+gb Matrix := GroebnerBasis => opts -> m -> (
+    type := gbTypeCode opts;
+    G := gbGetPartialComputation(m, type);
+    G  = if G =!= null then G else new GroebnerBasis from (m, type, opts);
+    if isComputationDone rawStatus1 raw G then return G;
+    ...
+    G#"rawGBSetStop log"    = FunctionApplication { rawGBSetStop, ( G.RawComputation, ... )};
+    G#"stopping options"    = getSomeOptions(opts, stoppingOptionDefaults);
+    G#"computation options" = getSomeOptions(opts, computationOptionDefaults);
+    value G#"rawGBSetStop log";
+    rawStartComputation G.RawComputation;
+    m.cache#type = G)
+```
+
+
+<!-- slide -->
+
+### `PushforwardComputation`
+
+A simpler pattern here:
+
+```
+PushforwardComputation = new SelfInitializingType of BasicList
+PushforwardComputation.synonym = "push-forward computation"
+```
+
+```
+pushNonLinear := opts -> (f,M) -> (    -- this returns the presentation matrix of the pushforward module
+    -- written by Mike and David
+    comp := PushforwardComputation{M,NonLinear};
+    if not f.cache#?comp then (
+        ...
+        m1 := presentation (cokernel xvars m  **  cokernel gens J);
+        ...
+        cleanupcode := g -> mapback selectInSubring(if numgens target f > 0 then 1 else 0, gens g);
+        f.cache#comp = (m1, cleanupcode));
+    if # f.cache#comp === 1
+    then f.cache#comp#0
+    else (
+        (m1, cleanupcode) = f.cache#comp;
+        g := gb(m1, new OptionTable from { ... });
+        result := cleanupcode g;
+        --if isdone g then f.cache#comp = {result};  -- MES: There is NO way to check this yet!!
+        -- MES: check if the monomial order restricts to S.  If so, then do `` forceGB result ''
+        result))
+```
+- Added c. 1996 in `scriptde/subring.m2`
+
+<!-- slide -->
+
+### `(res, Module)`
+
+```
+i1 : R = kk[x_1..x_n];
+
+i2 : elapsedTime C = res module ideal vars R; -- ~3.6s
+ -- 4.09387 seconds elapsed
+
+i3 : elapsedTime C = res module ideal vars R; -- ~0.001s
+ -- 0.00129249 seconds elapsed
+```
+
+<!-- pause -->
+
+1. Create a `RawComputation` object stored in a `CacheTable`
+
+```
+resolutionInEngine := (opts, M) -> (
+     ...
+     if not M.cache.?resolution 
+     or M.cache.resolution.Resolution.length < lengthlimit
+     or (M.cache.resolution.Resolution.Strategy === 4 and strategy =!= 4)
+     or (M.cache.resolution.Resolution.Strategy =!= 4 and strategy === 4)
+     then M.cache.resolution = (
+          ...
+          W := new Resolution;
+          W.ring = R;
+          W.length = lengthlimit;
+          W.DegreeLimit = degreelimit;
+          W.Strategy = strategy;
+          log := FunctionApplication { rawResolution, ( raw presentation m, ... )};
+          W#"RawComputation log" = Bag {log};
+          W.RawComputation = value log;
+          W.returnCode = rawStatus1 W.RawComputation;
+          new ChainComplex from W);
+```
+
+<!-- pause -->
+
+```
+i1 : R = kk[x_1..x_n];
+
+i2 : elapsedTime C = res(module ideal vars R, StopBeforeComputation => true)
+
+      5
+o2 = R  <-- 0
+             
+     0      1
+
+o2 : ChainComplex
+```
+
+<!-- pause -->
+
+2. Check whether a partial computation exists
+
+```
+     C = M.cache.resolution;
+     if C.?Resolution then (
+          W = C.Resolution;
+          if not W.?returnCode 
+          or not isComputationDone W.returnCode
+          or W.length < lengthlimit
+          or W.DegreeLimit < degreelimit
+          then ( ... ));
+     C)
+```
+
+<!-- pause -->
+
+```
+i3 : isComputationDone C.Resolution
+
+o3 = false
+
+i4 : status C.Resolution.RawComputation -- "not started"
+
+o4 = 4
+```
+
+<!-- pause -->
+
+3. Start the computation
+
+```
+   log = FunctionApplication { rawGBSetStop, ( W.RawComputation, ... )};
+   W#"rawGBSetStop log" = Bag {log};
+   value log;
+   rawStartComputation W.RawComputation;
+   W.returnCode = rawStatus1 W.RawComputation;
+   W.length = lengthlimit;
+   W.DegreeLimit = degreelimit;
+```
+
+<!-- pause -->
+
+```
+i6 : gbTrace = 15;
+
+i5 : elapsedTime rawStartComputation C.Resolution.RawComputation
+
+o5 = level/degree = 2/2
+     --- The total number of pairs in each level/slanted degree -----
+     total       5     10     10      5      1  [31]
+         1:      5     10     10      5      1 
+     --- The number of pairs left to compute ------------------------
+     total       0      0      0      0      0      0      0      0  [0]
+         1:      -      -      -      -      -      -      -      - 
+...
+
+o5 : RawComputation
+```
+
+<!-- pause -->
+
+```
+i7 : elapsedTime rawStartComputation C.Resolution.RawComputation
+computation of GB completed
+
+o7 = level/degree = 2/2
+     --- The total number of pairs in each level/slanted degree -----
+     total       5     10     10      5      1  [31]
+         1:      5     10     10      5      1 
+     --- The number of pairs left to compute ------------------------
+     total       0      0      0      0      0      0      0      0  [0]
+         1:      -      -      -      -      -      -      -      - 
+...
+
+o7 : RawComputation
+```
+
+```
+i8 : elapsedTime C = res module ideal vars R;
+computation of GB completed
+   --  -- 0.00201259 seconds elapsed
+```
+<!-- .element: class="fragment" -->
+
+
+<!-- slide -->
+
+# So what is the problem?
+
+- [#424](https://github.com/Macaulay2/M2/issues/424): caching of nonminimal resolutions (May 2016)
+- [#501](https://github.com/Macaulay2/M2/issues/501): caching unfinished resolutions (July 2016)
+- [#668](https://github.com/Macaulay2/M2/issues/668): Inconsistent behavior of LengthLimit option in resolution (July 2017)
+- [#1241](https://github.com/Macaulay2/M2/issues/1241): Cache problem with "resolution" (June 2020)
+- ...
+
+
+<!-- slide -->
+
+# <span style='font-family: Times,serif'>Part II: the solution</span>
+
+- [#1918](https://github.com/Macaulay2/M2/pull/1918)
+- [#1929](https://github.com/Macaulay2/M2/pull/1929)
+
+<!-- slide -->
+
+### Slogan:
+
+```
+  Context{ ... } => Computation{ Result => 42, ... }
+```
+<!-- .element: style="width: 55%; margin-left: 200px" -->
+
+  A `Computation` object is a **container** for the partial results of a computation.
+<!-- .element: class="fragment" -->
+
+  A `Context` object is a **key** to distinguish computations.
+<!-- .element: class="fragment" -->
+
+  A computation cached in object `X` is stored in the cache table `X.cache` <br />
+  and contains the partial result under the key `Result`.
+<!-- .element: class="fragment" -->
+
+<!-- pause -->
+
+  A `Computation` object is a **container** for the partial results of a computation.
+
+```
+-- context for computation objects
+Context = new SelfInitializingType of BasicList
+Context.synonym = "computation context"
+
+new Context from HashTable := (C, T) -> new C from {}
+```
+
+  A `Context` object is a **key** to distinguish computations.
+
+```
+-- container for computation results
+Computation = new Type of MutableHashTable
+Computation.synonym = "computation"
+
+new Computation from HashTable := (C, T) -> new C from { Result => null }
+```
+
+<!-- pause -->
+
+Example: `Quotient`
+```
+QuotientContext = new SelfInitializingType of Context
+QuotientContext.synonym = "quotient context"
+
+QuotientComputation = new Type of Computation
+QuotientComputation.synonym = "quotient computation"
+
+new QuotientContext from Sequence := (C, S) -> ( (A, B) := S; QuotientContext{ mingens B } )
+new QuotientComputation from Sequence := (C, S) -> new QuotientComputation from { Result => null }
+```
+
+<!-- pause -->
+
+Example: `Saturation`
+```
+SaturateContext = new SelfInitializingType of QuotientContext
+SaturateContext.synonym = "saturate context"
+
+SaturateComputation = new Type of QuotientComputation
+SaturateComputation.synonym = "saturate computation"
+
+new SaturateContext from Sequence := (C, S) -> ( (A, B) := S; SaturateContext{ mingens B } )
+new SaturateComputation from Sequence := (C, S) -> new SaturateComputation from { Result => null }
+```
+
+<!-- pause -->
+
+Example: `MinimalPrimes`, `AssociatedPrimes`, and `PrimaryDecomposition`
+```
+AssociatedPrimesContext = new SelfInitializingType of Context
+AssociatedPrimesContext.synonym = "associated primes context"
+
+AssociatedPrimesComputation = new Type of Computation
+AssociatedPrimesComputation.synonym = "associated primes computation"
+
+new AssociatedPrimesContext from Ideal  :=
+new AssociatedPrimesContext from Module := (C, M) -> AssociatedPrimesContext{}
+
+new AssociatedPrimesComputation from Ideal  := (C, I) -> new C from comodule I
+new AssociatedPrimesComputation from Module := (C, M) -> new AssociatedPrimesComputation from {
+    Result => new MutableList from {},
+    CodimensionLimit => -1 }
+```
+
+<!-- slide -->
+
+### Case study: `(pushForward, RingMap, Module)`
+
+```
+PushforwardContext = new SelfInitializingType of Context
+PushforwardContext.synonym = "pushforward context"
+
+new PushforwardContext from RingMap := (C, f) -> PushforwardContext{ f }
+
+PushforwardComputation = new Type of Computation
+PushforwardComputation.synonym = "pushforward computation"
+
+new PushforwardComputation from Sequence := (C, S) -> new PushforwardComputation from {
+    MonomialOrder         => Eliminate, -- default is an elimination order
+    UseHilbertFunction    => true,      -- if possible
+    StopBeforeComputation => false,
+    DegreeLimit           => {},
+    PairLimit             => infinity,
+    Result                => null}
+```
+
+<!-- pause -->
+
+### Combining partial computation caching with hooks
+```
+pushForward(RingMap, Module) := Module => opts -> (f, M) -> (
+    strategy := opts.Strategy;
+
+    -- this logic runs the strategies in order, or the specified strategy
+    computation := (opts, container) -> (
+        runHooks((pushForward, RingMap, Module), (opts, f, M), Strategy => strategy));
+```
+
+```
+    -- this is the logic for caching partial basis computations. M.cache contains an option:
+    --   PushforwardContext{} => PushforwardComputation{ Result, ... }
+    container := fetchComputation(PushforwardComputation, M, (f, M), new PushforwardContext from f);
+```
+<!-- .element: class="fragment" -->
+
+```
+    -- the actual computation of the basis occurs here
+    C := (cacheComputation(opts, container)) computation;
+```
+<!-- .element: class="fragment" -->
+
+```
+    -- if a result is found, return it, otherwise raise an error
+    if C =!= null then C else if strategy === null
+    then error("no applicable strategy for computing pushforward")
+    -- used to be: error "'basis' can't handle this type of ring";
+    else error("assumptions for pushForward strategy ", toString strategy, " are not met"))
+```
+<!-- .element: class="fragment" -->
+
+<!-- pause -->
+
+### `fetchComputation` and `cacheComputation`
+
+Returns the computation container, otherwise creates the entry:
+```
+--   Context => Computation
+fetchComputation = method(Options => true)
+fetchComputation(Type, HashTable, Sequence,  Context) :=
+fetchComputation(Type, HashTable, HashTable, Context) := Computation => true >> opts ->
+    (C, T, X, context) -> ( if T.cache#?context then T.cache#context else T.cache#context = new C from X )
+```
+
+Perform the computation, or return the cached result:
+```
+cacheComputation = method(TypicalValue => CacheFunction, Options => true)
+cacheComputation Computation := CacheFunction => true >> opts -> container -> new CacheFunction from (
+    algorithm -> (
+        if isComputationDone(opts, container) then ( cacheHit container;
+            adjustComputation(opts, container))
+        else updateComputation(opts, container, algorithm(opts, container))))
+```
+
+<!-- pause -->
+
+### `isComputationDone` and `updateComputation`
+
+Returns true if the cached result is sufficient:
+```
+isComputationDone PushforwardComputation := Boolean => options pushForward >> opts -> container -> (
+    -- MES: There is NO way to check this yet!!
+    instance(container.Result, Module)
+    and ( opts.StopBeforeComputation == container.StopBeforeComputation or not container.StopBeforeComputation )
+    and opts.DegreeLimit <= container.DegreeLimit
+    and opts.PairLimit   <= container.PairLimit)
+```
+
+Replace the cached partial result with the new result:
+```
+updateComputation(PushforwardComputation, Module) := Module => options pushForward >> opts -> (container, result) -> (
+    container.StopBeforeComputation =
+         opts.StopBeforeComputation;
+    container.DegreeLimit = opts.DegreeLimit;
+    container.PairLimit   = opts.PairLimit;
+    container.Result      = result)
+```
+
+<!-- slide -->
+
+### Partial computation caching in action
+
+```
+i1 : P3 = ZZ/32003[a..i];
+
+i2 : P2 = ZZ/32003[a,b,c,d,e,f];
+
+i3 : M = comodule monomialCurveIdeal(P3, {1,3,8,9,12,13,17,21});
+
+i4 : m = random(P3^1, P3^{-1,-1,-1,-1,-1,-1});
+```
+
+```
+i5 : G = map(P3, P2, m);
+
+o5 : RingMap P3 <--- P2
+
+i6 : elapsedTime pushForward(G, M);
+ -- 0.923605 seconds elapsed
+```
+<!-- .element: class="fragment" -->
+
+```
+i7 : G' = map(P3, P2, m);
+
+o7 : RingMap P3 <--- P2
+
+i8 : elapsedTime pushForward(G', M);
+ -- 0.000317223 seconds elapsed
+```
+<!-- .element: class="fragment" -->
+
+<!-- pause -->
+
+```
+i9 : debug Core
+
+i10 : cacheHit Computation := x -> printerr("Cache hit on a ", synonym class x, "! 🎉");
+
+i11 : elapsedTime pushForward(G', M);
+ -- Cache hit on a pushforward computation! 🎉
+ -- 0.000856743 seconds elapsed
+```
+
+<!-- slide -->
+
+Example: `CodimensionLimit` option for `minimalPrimes`
+```
+  R1 = QQ[d,f,j,k,m,r,t,A,D,G,I,K];
+  I1 = ideal(I*K-K^2, r*G-G^2, A*D-D^2, j^2-j*t, d*f-f^2, d*f*j*k-m*r, A*D-G*I*K);
+  time assert(18 == # minprimes(I1, CodimensionLimit => 6)) -- this should take some time
+  time assert(22 == # minprimes I1) -- this takes more time, reasonably
+  time assert(22 == # minprimes I1) -- fast, sweet!
+  time assert(22 == # minprimes(I1, Strategy => "Legacy")) -- fast
+  time assert(22 == # minprimes(I1, CodimensionLimit => 7, Verbosity => 2)) -- fast
+  time assert(18 == # minprimes(I1, CodimensionLimit => 6, Verbosity => 2)) -- fast
+```
+
+<!-- slide -->
+
+# A pattern emerges:
+
+```
+basisHelper = (opts, lo, hi, M) -> (
+    ...
+
+    -- this logic runs the strategies in order, or the specified strategy
+    computation := (opts, container) -> (
+	runHooks((basis, List, List, Module), (opts, lo, hi, M), Strategy => strategy));
+
+    -- this is the logic for caching partial basis computations. M.cache contains an option:
+    --   BasisContext{} => BasisComputation{ Result, ... }
+    container := fetchComputation(BasisComputation, M, (lo, hi, M), new BasisContext from (R, opts.Variables));
+
+    -- the actual computation of the basis occurs here
+    B := (cacheComputation(opts, container)) computation;
+
+    if B =!= null then liftBasis(M, phi, B, opts.Degree) else if strategy === null
+    then error("no applicable strategy for computing bases over ", toString R)
+    -- used to be: error "'basis' can't handle this type of ring";
+    else error("assumptions for basis strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+minprimesHelper = (I, key, opts) -> (
+    ...
+
+    -- this logic determines what strategies will be used
+    computation := (opts, container) -> runHooks(key, (opts, I), Strategy => opts.Strategy);
+
+    -- this is the logic for caching partial minimal primes computations. I.cache contains an option:
+    --   MinimalPrimesContext{} => MinimalPrimesComputation{ CodimensionLimit, Result }
+    container := fetchComputation(MinimalPrimesComputation, I, new MinimalPrimesContext from I);
+
+    -- the actual computation of minimal primes occurs here
+    L := (cacheComputation(opts, container)) computation;
+
+    if L =!= null then doLimit \\ doTrim \ L else if strategy === null
+    then error("no applicable strategy for ", toString key)
+    else error("assumptions for minimalPrimes strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+assassinsHelper = (A, key, opts) -> (
+    ...
+
+    -- this logic determines what strategies will be used
+    computation := (opts, container) -> runHooks(key,
+	(opts ++ { cache => container }, A), Strategy => opts.Strategy);
+
+    -- this is the logic for caching partial associated primes computations. A.cache contains an option:
+    --   AssociatedPrimesContext{} => AssociatedPrimesComputation{ CodimensionLimit, Result }
+    container := fetchComputation(AssociatedPrimesComputation, A, new AssociatedPrimesContext from A);
+
+    -- the actual computation of associated primes occurs here
+    -- TODO: is it a good idea for computation to return a MutableList?
+    L := toList (cacheComputation(opts, container)) computation;
+
+    if L =!= null then doLimit \\ doTrim \ L else if strategy === null
+    then error("no applicable method for ", toString key)
+    else error("assumptions for associatedPrimes strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+primarydecompHelper = (A, key, opts) -> (
+    strategy := opts.Strategy;
+    doTrim := if opts.MinimalGenerators then trim else identity;
+
+    -- this logic determines what strategies will be used
+    computation := (opts, container) -> runHooks(key,
+	(opts ++ { cache => container }, A), Strategy => opts.Strategy);
+
+    -- this is the logic for caching partial primary decomposition computations. A.cache contains an option:
+    --   PrimaryDecompositionContext{} => PrimaryDecompositionComputation{ CodimensionLimit, Result }
+    container := fetchComputation(PrimaryDecompositionComputation, A, new PrimaryDecompositionContext from A);
+
+    -- the actual computation of primary decomposition occurs here
+    L := (cacheComputation(opts, container)) computation;
+    -- TODO: make the (primaryDecomposition, Ideal) code to also return a hash table
+    if instance(L, MutableHashTable) then L = apply(associatedPrimes A, P -> L#P);
+
+    if L =!= null then doTrim \ L else if strategy === null
+    then error("no applicable strategy for ", toString key)
+    else error("assumptions for primaryDecomposition strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+quotientHelper = (A, B, key, opts) -> (
+    ...
+
+    -- this logic runs the strategies in order, or the specified strategy
+    computation := (opts, container) -> (
+	...
+	runHooks(key, (opts, A, B), Strategy => strategy));
+
+    -- this is the logic for caching partial quotient computations. A.cache contains an option:
+    --   QuotientContext{ mingens B } => QuotientComputation{ Result }
+    container := fetchComputation(QuotientComputation, A, new QuotientContext from (A, B));
+
+    -- the actual computation of quotient occurs here
+    C := (cacheComputation(opts, container)) computation;
+
+    if C =!= null then doTrim C else if strategy === null
+    then error("no applicable strategy for ", toString key)
+    else error("assumptions for quotient strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+saturateHelper = (A, B, key, opts) -> (
+    ...
+
+    -- this logic runs the strategies in order, or the specified strategy
+    computation := (opts, container) -> (
+	...
+	runHooks(key, (opts, A, B), Strategy => strategy));
+
+    -- this is the logic for caching partial saturation computations. A.cache contains an option:
+    --   SaturateContext{ mingens B } => SaturateComputation{ Result }
+    container := fetchComputation(SaturateComputation, A, new SaturateContext from (A, B'));
+
+    -- the actual computation of saturation occurs here
+    C := (cacheComputation(opts, container)) computation;
+
+    if C =!= null then doTrim C else if strategy === null
+    then error("no applicable strategy for ", toString key)
+    else error("assumptions for saturation strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+resolution Module := ChainComplex => opts -> M -> (
+    ...
+
+    -- this logic runs the strategies in order, or the specified strategy
+    computation := (opts, container) -> (
+	if isField R then return map(minimalPresentation M, R^0, 0);
+	runHooks((resolution, Module), (opts, M), Strategy => strategy));
+
+    -- this is the logic for caching partial resolution computations. M.cache contains an option:
+    --   ResolutionContext{} => ResolutionComputation{ Result, LengthLimit, ... }
+    container := fetchComputation(ResolutionComputation, M, new HashTable from opts, new ResolutionContext from M);
+
+    -- the actual computation of the resolution occurs here
+    C := (cacheComputation(opts, container)) computation;
+
+    if C =!= null then C else if strategy === null
+    then error("no applicable strategy for resolving over ", toString R)
+    else error("assumptions for resolution strategy ", toString strategy, " are not met"))
+```
+
+<!-- pause -->
+
+```
+multigradedRegularityHelper = (X, S, M, opts) -> (
+    ...
+
+    -- this ring will have the appropriate Tate data
+    --   MultigradedRegularityOptions{} => MultigradedRegularityComputation{ LowerLimit, UpperLimit, Result }
+    container := new MultigradedRegularityComputation from M;
+
+    -- the strategies are stored as hooks under this key
+    key := (multigradedRegularity, NormalToricVariety, Module);
+
+    -- this function attempts the strategies in reverse order, or only the specified strategy
+    computation := (opts, container) -> runHooks(key, (X, M, opts ++ {cache => container}), Strategy => strategy);
+
+    -- the actual computation of the strategies occurs here
+    C := (cacheComputation(opts, container)) computation;
+    if C =!= null then C else if strategy === null
+    then error("no applicable strategy for ", toString key)
+    else error("assumptions for computing multigraded regularity with strategy ", toString strategy, " are not met"))
+```
+
+<!-- slide -->
+
+### Slogan:
+
+```
+  Context{ ... } => Computation{ Result => 42, ... }
+```
+<!-- .element: style="width: 55%; margin-left: 200px" -->
+
+- This level of breaking things apart is necessary to support defining arbitrary
+[cache replacement policies](https://en.wikipedia.org/wiki/Cache_replacement_policies)
+for any top-level function.
+
+- To bring everything together, defining specializations of `Computation` and `Context`
+objects that work with the **same** methods helps create a memorable pattern.
+
+<!-- slide -->
+
+# Suggestions and requests are welcome!
+
+{% endraw %}

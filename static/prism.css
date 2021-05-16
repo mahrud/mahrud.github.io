@@ -12,12 +12,13 @@ pre[class*="language-"] {
 	background: none;
 	text-shadow: 0 1px white;
 	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 0.75rem;
+	font-size: 0.9rem;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
 	word-break: normal;
 	word-wrap: normal;
+	white-space: pre-wrap;
 	line-height: 1.5;
 
 	-moz-tab-size: 4;
@@ -63,6 +64,7 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
+	font-size: 75%;
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;

@@ -8,7 +8,7 @@ status: draft
 - examine, erase
 - the core command `X` defined in file `d/Y.d` is called `Y_X` within the engine.
 - debugLevel = 123 prints place on the REPL.
-- pushForward
+- pushForward (https://arxiv.org/abs/1703.03357)
 - m // n : factor matrices
 - peek and showStructure
 - apropos

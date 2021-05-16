@@ -1,8 +1,10 @@
 ---
 layout: slide
 title: CMake is NOT Make
+status: published
 ---
 
+<!-- .slide: style="text-align: center" -->
 # CMake is NOT Make
 or how to forget about the build system
 
