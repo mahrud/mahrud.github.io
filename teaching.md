@@ -6,20 +6,20 @@ order: 2
 ---
 
 My teaching credo is much in its infancy. I am still in the process of experimenting with
-different [pedagogical strategies]. Here are some questions that I tend to ask when I think
-about teaching or plan lectures:
+different [pedagogical strategies]. Here are some questions that I tend to ask myself when
+I think about teaching or plan lectures:
 
-- Do I expect my students to **enjoy** mathematics like they would enjoy art?
+- Do I expect my students to **enjoy** new math like they would enjoy art?
 
-- Are my students comfortable with sharing their perspectives and feedback with me?
+- Are my students comfortable sharing their perspective and feedback with me?
 
-- How do I encourage my students to work together and learn to communicating math?
+- How do I encourage my students to work together and learn to communicate math?
 
-- How do I help my students get comfortable feeling **stuck** on problems?
+- How do I help my students be comfortable feeling **stuck** on problems?
 
 - Does this strategy help increase the attention span of my students?
 
-- Do I expect to learn anything new from my students? Am I open to it?
+- What can **I** learn from my students? Am I open to it?
 
 I'm always open to discuss teaching philosophies.
 Feel free to reach out to me.

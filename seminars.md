@@ -21,6 +21,7 @@ There are also other interesting seminars at UMN:
 
 
 ### Department Seminars
-* [(Adult) Commutative Algebra Seminar](http://www-users.math.umn.edu/~jkyang/organization.shtml)
+- [(Adult) Commutative Algebra Seminar](https://sites.google.com/view/ayah-almousa/conferences-seminars/organizing/umn-ca-seminar)
+* [(Adult) Commutative Algebra Seminar (old)](http://www-users.math.umn.edu/~jkyang/organization.shtml)
 * [MATH-SEMINAR Listserv](https://lists.umn.edu/cgi-bin/wa?A0=MATH-SEMINAR) (UMN login required)
 * [Calendar of Seminars](https://math.umn.edu/news-events/seminars)

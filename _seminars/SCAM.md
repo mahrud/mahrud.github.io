@@ -1,61 +1,14 @@
 ---
 layout: seminar
 title: Student Commutative Algebra Meeting
-semester: Spring
+semester: Fall
 year: 2021
 talks:
-- date: 2/8/2021
-  speaker: Michael Brown (Auburn)
-  title: The BGG correspondence for toric varieties (pre-talk)
+- date: Soon!
+  speaker: You?
+  title: TBA
   abstract: >-
-    This is an introductory talk covering background on Eisenbud-Fløystad-Schreyer's paper
-    on BGG and Tate resolutions for the Commutative Algebra Seminar tomorrow.
-- date: 2/15/2021
-  speaker: Mahrud Sayrafi
-  title: The Beilinson Spectral Sequence
-  abstract: >-
-    This talk is an introductory talk about a spectral sequence that seemed to popped up
-    in every paper I've read in the past couple of years. I'll start with talking about
-    the very concrete (and in fact computational!) connection of these papers with the
-    derived category of the projective space. Then, I'll construct the Beilinson spectral
-    sequence, which itself is an example of the Grothendieck spectral sequence for
-    composition of two functors (I will introduce this even if you haven't watched
-    Gennady's videos for February 12th yet!) I'll end with showing what the convergence
-    of this spectral sequence means about the projective space.
-- date: 2/22/2021
-  speaker: Robert M. Walker (Wisconsin)
-  title: Uniform Asymptotic Growth of Symbolic Powers of Ideals (pre-talk)
-  abstract: >-
-    This is an introductory talk covering background for the Commutative Algebra Seminar tomorrow.
-- date: 3/1/2021
-  speaker: Katherine Maxwell
-  title: Cohomology of the Lie algebra of vector fields on a curve
-  abstract: >-
-    In 1968, Gel'fand and Fuchs began the study of the cohomology of vector fields on manifolds
-    with papers on the case of a circle and n-torus. A key simplification in such calculations is considering
-    only the continuous cochains, which results in finite dimensional cohomology. I will discuss why calculating
-    Gel'fand-Fuks cohomology is difficult, and show how dg-algebras and spectral sequences are
-    useful in the case of holomorphic vector fields on compact curves (Feigin 1991).
-- date: 3/15/2021
-  speaker: Galen Dorpalen-Barry (UMN)
-  title: TBD
-  abstract: >-
-    TBD
-- date: 3/29/2021
-  speaker: McCleary Philbin
-  title: TBD
-  abstract: >-
-    TBD
-- date: 4/12/2021
-  speaker: Mahrud Sayrafi (UMN)
-  title: TBD
-  abstract: >-
-    TBD
-- date: 4/26/2021
-  speaker: TBD
-  title: TBD
-  abstract: >-
-    TBD
+    No abstract yet
 ---
 
 For Spring 2021 the seminar meets:
@@ -65,11 +18,6 @@ For Spring 2021 the seminar meets:
 The rough format of the seminar this semester is to meet every two weeks
 for student talks and on the remaining weeks have introductory pre-talks
 for the (adult) [Commutative Algebra Seminar].
-
-{% comment %}
-Look to the left for the archive of talks from previous semesters
-and join the conversation on Discord channel #SCAM to pitch in!
-{% endcomment %}
 
 Talk suggestions for this semester:
 - Combinatorial commutative algebra
@@ -82,12 +30,6 @@ Talk suggestions for this semester:
 - Quillen--Suslin theorem
 - Matrix factorization
 - Toric varieties
-
-{% comment %}
-This semester's themes are:
-- $D$-Modules
-- Introductory
-{% endcomment %}
 
 <style>
   td, th { padding: 10px; }
@@ -107,5 +49,5 @@ This semester's themes are:
 
 - Interested in giving a talk? Contact Mahrud (mahrud@) or McCleary (philb036@)
 
-[Commutative Algebra Seminar]: http://www-users.math.umn.edu/~jkyang/seminars/ca_seminar/s2021.shtml
-[Zoom]: https://umn.zoom.us/j/96978192398?pwd=ajFBN3BIUFNudHpVdXMrbXF0RUFjQT09
+[Commutative Algebra Seminar]: https://sites.google.com/view/ayah-almousa/conferences-seminars/organizing/umn-ca-seminar
+[Zoom]: https://umn.zoom.us/j/TBD

@@ -17,7 +17,7 @@ In the meanwhile, feel free to ask me for any of following.
 - Topics in Commutative Algebra Summer School, University of Utah
 
 ## Expositions
-- [Insert oral paper!]
+- ["Splitting of Vector Bundles via Fourier--Mukai Theory"](exposition.pdf)
 
 <!--
 - The Horrocks--Mumford Bundle

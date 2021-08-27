@@ -1,5 +1,5 @@
       <div class="nav-category">Seminars</div>
-      {%- assign seminars = site.seminars | sort: 'semester' | reverse -%}
+      {%- assign seminars = site.seminars | sort: 'year' | reverse -%}
       {%- for seminar in seminars %}
       <a class="nav-link
         {%- if page.url == seminar.url %} active{% endif %}" href="{{ site.baseurl }}{{ seminar.url }}">{{ seminar.semester }} {{ seminar.year }}</a>
