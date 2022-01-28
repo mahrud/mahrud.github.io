@@ -1,35 +1,23 @@
 ---
 layout: seminar
 title: Student Commutative Algebra Meeting
-semester: Fall
-year: 2021
+semester: Spring
+year: 2022
 talks:
-- date: Soon!
+- date: 2/4/2022
   speaker: You?
   title: TBA
   abstract: >-
     No abstract yet
 ---
 
-For Spring 2021 the seminar meets:
-- on **Mondays 3:35pm -- 4:25pm CST**
-- via [Zoom] ← click there! (same room as the adult seminar)
+For Spring 2022 the seminar meets:
+- on TBD
+- in TBD
 
-The rough format of the seminar this semester is to meet every two weeks
-for student talks and on the remaining weeks have introductory pre-talks
-for the (adult) [Commutative Algebra Seminar].
-
-Talk suggestions for this semester:
-- Combinatorial commutative algebra
-- $D$-modules and local cohomology
-- Differentially graded algebras
-- Elimination theory and Implicitization
-- Gröbner bases and Buchberger's algorithm
-- Properties of Cohen--Macaulay rings
-- Hilbert scheme of elliptic curves
-- Quillen--Suslin theorem
-- Matrix factorization
-- Toric varieties
+The rough format of the seminar this semester is to meet two hours before
+the (adult) [Commutative Algebra Seminar] for either student talks or
+discussing what we are currently working on.
 
 <style>
   td, th { padding: 10px; }
@@ -47,7 +35,17 @@ Talk suggestions for this semester:
 
 - Join the Discord channel #SCAM for discussions!
 
-- Interested in giving a talk? Contact Mahrud (mahrud@) or McCleary (philb036@)
+- Interested in giving a talk? Here are some talk suggestions
+  - Combinatorial commutative algebra
+  - $D$-modules and local cohomology
+  - Differentially graded algebras
+  - Elimination theory and Implicitization
+  - Gröbner bases and Buchberger's algorithm
+  - Properties of Cohen--Macaulay rings
+  - Hilbert scheme of elliptic curves
+  - Quillen--Suslin theorem
+  - Matrix factorization
+  - Toric varieties
+  - Macaulay2-fu!
 
-[Commutative Algebra Seminar]: https://sites.google.com/view/ayah-almousa/conferences-seminars/organizing/umn-ca-seminar
-[Zoom]: https://umn.zoom.us/j/TBD
+[Commutative Algebra Seminar]: https://sites.google.com/view/umncaagseminar/umn-caag-seminar
