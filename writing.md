@@ -9,15 +9,18 @@ I will at some point figure out how to automatically upload and link these notes
 In the meanwhile, feel free to ask me for any of following.
 
 ## Notes
+- Combinatorial Algebraic Geometry, LMS-Bath Symposium
 - Combinatorial Algebraic Geometry Semester, ICERM
 - Structure of Length 3 Resolutions Workshop, UCSD
 - Thematic Program in Commutative Algebra and Algebraic Geometry, CMND
 - $D$-Modules and Hodge Theory Workshop, University of Illinois, Chicago
 - Core Computational Methods in Nonlinear Algebra Workshop, ICERM
 - Topics in Commutative Algebra Summer School, University of Utah
+{: style="font-size: smaller"}
 
 ## Expositions
 - ["Splitting of Vector Bundles via Fourier--Mukai Theory"](exposition.pdf)
+{: style="font-size: smaller"}
 
 <!--
 - The Horrocks--Mumford Bundle
@@ -29,6 +32,7 @@ In the meanwhile, feel free to ask me for any of following.
 - [In order to prevent an exodus of students, mathematicians must stand together](https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
 - [Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
 - [From Russia, With Love](https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
+{: style="font-size: smaller"}
 
 <!--
 - [Introducing DNS Resolver for Tor](https://blog.cloudflare.com/welcome-hidden-resolver/)
@@ -60,6 +64,7 @@ In the meanwhile, feel free to ask me for any of following.
   - Quantum Complexity Theory
   - Device-Independent Tripartite QKD from Three-Player Quantum Games
   - Applications of Secure Multiparty Computation in Secret Sharing
+{: style="font-size: smaller"}
 
 <!--
 - [The Maximal Rank Conjecture](https://arxiv.org/abs/1711.04906)

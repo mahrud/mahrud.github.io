@@ -26,7 +26,8 @@ See my oral exam [presentation](beamer.pdf) for some topics and questions that I
 
 - **Characterizing Multigraded Regularity on Products of Projective Spaces** \\
 With [Juliette Bruce], [Lauren Cranton Heller] \\
-In preparation.
+[arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG] \\
+20 October 2021
 
 - **The Virtual Resolutions Package for Macaulay2** \\
 With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper] \\
