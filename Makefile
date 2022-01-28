@@ -1,4 +1,4 @@
-all: push
+all: serve
 
 check: build
 	bundle exec htmlproofer ./_site/ --only-4xx --check-html --disable-external --empty-alt-ignore # --check-favicon
