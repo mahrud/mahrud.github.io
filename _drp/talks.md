@@ -3,13 +3,6 @@ layout: drp
 title: Talks
 ---
 
-- This semester the program requirements are altered in two ways:
-  - The meetings will be held remotely, for instance via Zoom;
-  - As an alternative to the end of semester presentations, students can introduce their
-  topic through a sharable digital project, such as a YouTube video, blog post, poetry, artwork,
-  animation, essay, puzzle, or anything else that shares the math they learned during their DRP.
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
-
  The goal here is to communicate a flavor of your reading project to other participants as well as those interested in doing
  a DRP in the future. This is a great practice for speaking to a mathematical audience in a very low-stakes and friendly environment.
 

@@ -3,16 +3,11 @@ layout: drp
 title: Application
 ---
 
-{% comment %}
-## Spring 2021 Deadline: Sunday, February 7th.
-{: style="color:red"}
-
-- This semester the program requirements are altered in two ways:
-  - The meetings will be held remotely, for instance via Zoom;
-  - As an alternative to the end of semester presentations, students can introduce their
-  topic through a sharable digital project, such as a YouTube video, blog post, poetry, artwork,
-  animation, essay, puzzle, or anything else that shares the math they learned during their DRP.
+Like last semester, DRP meetings can be either virtual or in-person, but we encourage safe, in-person meetings among vaccinated participants! If you have specific concerns, please mention it in the application.
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
+## Spring 2022 Deadline: Sunday, February 6th.
+{: style="color:red"}
 
 <div style="padding: 0.1in 0; width: 100%; text-align: center;">
   <li class="flipper">
@@ -26,6 +21,8 @@ title: Application
 Note: DRP is not a university-run program, and therefore does not offer credits.
 If you would like to receive credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
+{% comment %}
+
 ## Stop by the DRP Mixer on Tuesday, February 2nd at 12:20pm CST
 {: style="color:red"}
 
@@ -33,13 +30,10 @@ Zoom room: [956 8835 4988](https://umn.zoom.us/j/95688354988?pwd=OFVNenRTcFNVcTZ
 
 Passcode: vinh310
 
-<br />
-{% endcomment %}
 
-To be notified about future deadlines and events, including **end of semester talks**,
-please join our mailing list:
-
-<br />
+Applications for Fall 2021 are closed. To be notified about future deadlines and events,
+including **end of semester talks**, please sign up below.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5Q9PGWfigPS5RXKao4KSGQSTRzH7De8CCsc-SdMBVm-OU_Q/viewform?embedded=true" width="100%" height="860" frameborder="0" marginheight="0" marginwidth="0">
   <div style="padding: 0.1in 0; width: 100%; text-align: center;">
@@ -48,6 +42,8 @@ please join our mailing list:
     </li>
   </div>
 </iframe>
+
+{% endcomment %}
 
 ## Need ideas for a DRP reading?
 

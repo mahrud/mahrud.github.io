@@ -3,7 +3,7 @@ layout: drp
 title: FAQ
 ---
 
-Have a question? Contact mahrud@, karnx018@, or farre423@\[you know the rest\].
+Have a question? Contact mahrud@umn.edu.
 
 ### For Mentors
 {:#mentor}
@@ -27,7 +27,7 @@ Have a question? Contact mahrud@, karnx018@, or farre423@\[you know the rest\].
  Not at the moment. If you would like to get credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
 - **How can I help?**
- Glad you asked! Please get in touch with Libby Farrell, Trevor Karn, or Mahrud Sayrafi.
+ Glad you asked! Please get in touch with Mahrud Sayrafi.
 
 
 ### For Mentees
