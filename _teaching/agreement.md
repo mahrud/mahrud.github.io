@@ -18,6 +18,8 @@
 - What math subjects do you like learning about and why do you like them?
 - What math subjects do you dislike and why?”
 
+{% comment %}
 ## Last Word:
  "I don't appreciate people with something useful to say keeping it to themselves.
  So next time, speak up!" -- President [Conrad Dalton](http://madam-secretary.wikia.com/wiki/Conrad_Dalton)
+{% endcomment %}
