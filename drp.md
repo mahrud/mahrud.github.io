@@ -10,9 +10,9 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
-{% comment %}
-
 ## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
+
+{% comment %}
 
 ## Learn more at DRP Mixer on Tuesday, February 2nd at 12:20pm CST
 {: style="color:red"}
@@ -26,9 +26,9 @@ We would like to invite you to attend the Fall 2021 DRP Presentations, when each
 undergraduate will give a 10-minute talk on their reading.
 ### [See the schedule here](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=314920038){: style="color:red"}
 
-{% endcomment %}
-
 ## [Spring 2022 applications are now open! Deadline: Sunday, February 6th](apply){: style="color:red"}
+
+{% endcomment %}
 
 ### DRP is about community!
 

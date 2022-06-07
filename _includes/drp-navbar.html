@@ -2,8 +2,8 @@
       <h1 class="masthead-title">the Directed Reading Program</h1>
     </div>
 
-{% assign nodes="apply       expectations bookshelf talks faq archive" | split: ' ' %}
-{% assign title="Application Expectations Bookshelf Talks FAQ Archive" | split: ' ' %}
+{% assign nodes="apply       | bookshelf | talks | expectations | faq | archive" | split: ' | ' %}
+{% assign title="Application | Bookshelf | Talks | Expectations | FAQ | Past Readings" | split: '|' %}
 
     <nav class="navbar navbar-drp navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand{% if page.url == '/drp/' %} active{% endif %}" href="{{ site.baseurl }}/drp/">Home</a>

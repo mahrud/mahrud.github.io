@@ -1,49 +1,63 @@
 ---
 layout: drp
-title: Talks
+title: DRP Presentation Days
 ---
 
- The goal here is to communicate a flavor of your reading project to other participants as well as those interested in doing
- a DRP in the future. This is a great practice for speaking to a mathematical audience in a very low-stakes and friendly environment.
+Below you will find information about the DRP Presentation Days, how to schedule your talk, and resources like tips for giving a good math talk.
 
-{% comment %}
-## [Click here for Fall 2019 talk schedule for Thursday and Friday](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=1177362489){: style="color:red"}
+### DRP Talks are about communicating math to your peers!
 
-- **Thursday, December 5th**:
-  - Session 1:        12:20pm -- 1:10pm in **Vincent 570**
-  - Session 2: &nbsp;  2:30pm -- 3:35pm in **Keller Hall 3-230**
-- **Friday December 6th**:
-  - Session 3: &nbsp;  3:30pm -- 4:30pm in **Vincent 211**
-{% endcomment %}
+The goal here is to communicate a flavor of your reading project in a 10-minute talk (either on chalkboard or slides) to other participants or those interested in doing a DRP in the future. This is great practice for communicating mathematics in a very low-stakes and friendly environment.
+
+### DRP Talks are not meant to be lectures!
+
+The talks can be as informal (e.g. working out a few examples drawn on the board) or as formal (e.g. state a theorem and demonstrate an example of it) as you'd like, as long as the audience leaves with some idea of the kind of mathematics that you read about throughout the semester.
+
+## [Mentees: click here to schedule your DRP Talk by April 20th!](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit){: style="color:red"}
+
+The Spring 2022 DRP Presentation Days are as follows.
 
 <br />
 
- We ask that students stay for the entire session, as it's a great opportunity to support your peers and
- learn some interesting mathematics. However, we understand if you have course conflicts.
+- **Wednesday, April 27th**:
+  - Session 1: &nbsp;  5:00pm -- 6:20pm in **Vincent 570**
+- **Thursday, April 28th**:
+  - Session 2:        12:20pm -- 1:10pm in **Vincent 570**
+  - Session 3: &nbsp;  3:30pm -- 4:25pm in **Vincent 570**
 
-### Plan early!
- Each mentee will have about **10 minutes** to talk about something related to their reading project.
- We encourage mentees to give board talks, but you should discuss whether a slide talk is more appropriate for your talk with your mentor.
-- Try to **motivate** why studying that object or theorem is interesting to beginners.
-- Remember, your audience did not do the same reading! Assume they have minimal background.
-- Avoid giving a proof, unless your only goal is to prove a theorem that everyone is familiar with.
-- Don't get bogged down in the nitty-gritty details of a theorem or definition.
-- Most importantly, **DO NOT IMPROVISE**!
+We ask that students stay for the entire session, as it's a great opportunity to support your peers and learn some interesting mathematics. However, we understand if you have course conflicts.
 
-### Practice!
- Practice is the most important thing you can do to ensure that your talk is successful.
- Make sure that you fully understand the whole content of your talk. Think about your handwriting and board organization when you practice.
- Since the DRP talks are so short, you can and should practice the talk at least twice, and at least once with your mentor.
+<br />
 
-### Examples, examples, examples!
- Examples are a great way to communicate mathematics:
-- You can begin with a small example to motivate your talk.
-- You can draw a picture of an example to help your audience visualize.
-- You can give a concrete example to define an object or give an application of a theorem.
+If you are unable to present at any of the sessions above, please send us an email. There are other opportunities, like at the Math Club or URMS, where you can talk about your DRP reading.
 
-## Write accurately for the deaf, speak clearly for the blind!
-Some of your audience will be bad at listening to you and some will be bad at following your boardwork. You need to accomodate both!
+# Tips for a good math talk:
 
+### Plan your talk early!
+
+- **Don't assume background:** remember that your audience did not do the same reading! 
+- **Motivate the subject:** why is studying that object or theorem interesting?
+- **Simplify the details:** don't get bogged in the most general, nitty-gritty form of a theorem.
+- **Skip the proofs:** unless your only goal is to demonstrate a beautiful proof.
+- And most importantly: **do NOT improvise**!
+
+### Examples, Examples, Examples!
+
+Examples are a great way to communicate mathematics. For instance, you can:
+- Begin with a small example to motivate your talk.
+- Draw a picture of an example to help your audience visualize an object.
+- Use a concrete example as the definition of an object or the application of a theorem.
+- End the talk with a real world example or an instance of an unsolved problem!
+
+### Practice with your mentor!
+
+Practice is the most important thing you can do to ensure that your talk is successful. Make sure that you fully understand the whole content of your talk. Think about your handwriting and board organization when you practice. Since the DRP talks are so short, you can and should practice the talk at least twice, and at least once with your mentor.
+
+### Write accurately for the deaf, speak clearly for the blind!
+
+Some in the audience will be bad at listening to you, some will be bad at following your boardwork. Try your best to accomodate both groups and everyone will enjoy your talk.
+
+{% comment %}
 # [Past Presentations](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing)
 
 ### Fall 2019
@@ -99,11 +113,10 @@ Some of your audience will be bad at listening to you and some will be bad at fo
 - Illuminating group theory
 - An Elegant Proof of the Abelianess of Groups of Order p^2 Using Representations
 - The RSA Cipher
+{% endcomment %}
 
 # Other Resources
 
-Some of the tips above are inspired by tips on the
-[DRP Network](https://www.drp-network.org/resources-for-mentees.html).
 Here are more tips from Stanford's
 [DRP presentation guidelines](http://mathdrp.stanford.edu/mathdrp-presentation-guidelines-rev20170524.pdf).
 
