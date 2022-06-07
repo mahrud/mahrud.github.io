@@ -1,0 +1,75 @@
+---
+layout: workshop
+title: Participants
+---
+
+- Adam LaClair
+- Adrian Cook
+- Adrien Segovia
+- Aleksandra Sobieska
+- Alex Black
+- Sasha Pevzner
+- Anastasia Nathanson
+- Andrew Reimer-Berg
+- Andrew Tawfeek
+- Ashleigh Adams
+- Ben Blum-Smith
+- Boyana Martinova
+- Byeongsu Yu
+- Caitlin Davis
+- Caitlyn Booms
+- Cesar Meza
+- Colin Crowley
+- Connor Simpson
+- Cristina Sabando Álvarez
+- Daniel Soskin
+- David Carey
+- Dillon Hanson
+- Eduardo Torres Davila
+- Elise Catania
+- Emily Gullerud
+- Esther Banaian
+- Ethan Partida
+- Ethan Reed
+- Felix Gelinas
+- Grant Bowling
+- Greg Taylor
+- Harper Niergarth
+- Henry Ehrhard
+- Jodi McWhirter
+- Joseph Pappe
+- Julien Dalpatrat
+- Karthik Ganapathy
+- Katie Waddle
+- Kieran Bhaskara
+- Kimoi Kemboi
+- Kuang-Yu Wu
+- Kyle Salois
+- Lauren Cranton Heller
+- Leo Jiang
+- Lilly Webster
+- Mahrud Sayrafi
+- Mary Claire Simone
+- Maya Banks
+- Michael Perlman
+- Michelle Jiang
+- Mike Loper
+- Moriah Elkin
+- Owen Goff
+- Sarah Poiani
+- Semin Yoo
+- Sergio Da Silva
+- Shiliang Gao
+- Son Nguyen Van Thanh
+- Soohyun Park
+- Sunita Chepuri
+- Sylvester Zhang
+- Tara Gomes
+- Tracy Chin
+- Trevor Karn
+- Will Dana
+- William T. Dugan
+- Yeqin Liu
+- Yifeng Huang
+- Yupeng Li
+- Zenan Fu

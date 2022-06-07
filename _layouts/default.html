@@ -4,6 +4,8 @@
   <body class="wrapper">
 
 {% case page.layout %}
+  {% when 'workshop' %}
+    {%- include workshop-navbar.html -%}
   {% when 'drp' %}
     {%- include drp-navbar.html -%}
   {% else %}

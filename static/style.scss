@@ -6,7 +6,7 @@ $masthead-font: "Spectral SC";
 $heading-font: "Spectral";
 $navbar-font: "monospace";
 $main-font: "Libre Baskerville";
-$regular-font-size: 20px;
+$regular-font-size: 0.9em;
 
 $heading-color: #013220;
 $text-color: #454545;
@@ -24,6 +24,7 @@ body {
     background: white;
     font-family: $main-font;
     text-align: justify;
+    font-size: $regular-font-size;
 }
 
 .wrapper {
@@ -148,7 +149,7 @@ h3 {
     padding-top: 0;
     border-bottom: none;
     font-family: $masthead-font;
-    font-size: 1.53em;
+    font-size: 1.5em;
 }
 @media (max-width: 767px) {
   .masthead-title {
@@ -167,7 +168,7 @@ p {
     font-size: 0.9em;
     margin-top: 0.0em;
     margin-bottom: 0.8em;
-    padding: 0;
+    padding: 0 0 0 5px;
     line-height: 1.5;
 }
 

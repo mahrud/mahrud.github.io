@@ -1,0 +1,47 @@
+    <div class="masthead">
+      <h1 class="masthead-title">GradMoCCA ☕ a Graduate Meeting on <br /> Combinatorial Commutative Algebra</h1>
+    </div>
+
+{% assign nodes="registration schedule abstracts local participants" | split: ' ' %}
+{% assign title="Registration Schedule Abstracts Local Participants" | split: ' ' %}
+
+    <nav class="navbar navbar-workshop navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand{% if page.url == '/GradMoCCA/' %} active{% endif %}" href="{{ site.baseurl }}/GradMoCCA/">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  {%- for i in (1..4) -%}
+	  <li class="nav-item">
+	    <a class="nav-link{% if page.url contains nodes[i] %} active{% endif %}"
+	       href="{{ site.baseurl }}/GradMoCCA/{{nodes[i]}}/">{{title[i]}}</a>
+	  </li>
+	  {%- endfor %}
+<!--
+	  <li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+	       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Resources
+	    </a>
+
+	    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	      {%- for i in (4..4) -%}
+	      <a class="dropdown-item {%- if page.url contains nodes[i] %} active{% endif %}"
+		 href="{{ site.baseurl }}/GradMoCCA/{{nodes[i]}}/">
+		{{title[i]}}
+	      </a>
+	      {%- endfor %}
+
+	      <div class="dropdown-divider"></div>
+
+	      <a   class="dropdown-item" href="https://ethanpartida.github.io/umrs.html">
+		URMS
+	      </a>
+	    </div>
+	  </li>
+-->
+	</ul>
+      </div>
+    </nav>
