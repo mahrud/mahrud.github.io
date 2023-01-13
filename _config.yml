@@ -36,6 +36,8 @@ collections:
     output: true
   GradMoCCA:
     output: true
+  M2Week:
+    output: true
 
 # Markdown specs
 markdown: kramdown
