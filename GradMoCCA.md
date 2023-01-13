@@ -1,5 +1,6 @@
 ---
 layout: workshop
+event: GradMoCCA
 title: GradMoCCA ☕
 tagline: Overview
 order: 1
@@ -51,7 +52,7 @@ GradMoCCA ☕ is scheduled the weekend before the conference on [Open Problems i
 
 ![](https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo_thumb.jpg){: style="margin-left: 20px; float: right"}
 
-GradMoCCA ☕ is organized by [Christine Berkesch], [Caitlyn Booms], [Mahrud Sayrafi], and [Connor Simpson], and is made possible thanks to funding from the National Science Foundation (DMS-2206872).
+GradMoCCA ☕ is organized by [Christine Berkesch], [Caitlyn Booms], [Mahrud Sayrafi], and [Connor Simpson], and is made possible thanks to funding from the National Science Foundation ([DMS-2206872](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2206872)).
 
 We are also grateful to the School of Mathematics at the University of Minnesota, Twin Cities, as well as the [Institute for Mathematics and its Applications](https://ima.umn.edu) for invaluable help in organizing the meeting.
 

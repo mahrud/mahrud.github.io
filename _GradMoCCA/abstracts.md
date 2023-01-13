@@ -1,5 +1,6 @@
 ---
 layout: workshop
+event: GradMoCCA
 title: Abstracts
 ---
 

@@ -5,7 +5,7 @@
 
 {% case page.layout %}
   {% when 'workshop' %}
-    {%- include workshop-navbar.html -%}
+    {%- include {{ page.event }}-navbar.html -%}
   {% when 'drp' %}
     {%- include drp-navbar.html -%}
   {% else %}
