@@ -8,7 +8,7 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
 
 <div style="display: flex; flex-wrap: wrap">
  <div style="margin-left: 10px">
-  ![](static/mahrud.jpg "Snoqualmie river, Washington. Photo by Sophia Elia"){:width="120px"}
+  ![](static/mahrud-2021.jpg "Photo by Caitlin Knight"){:width="120px"}
  </div>
 
  <div>
@@ -16,30 +16,31 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
   - 557 [Vincent Hall](https://campusmaps.umn.edu/vincent-hall) <br />
     [206 Church St SE](https://goo.gl/maps/CisvELEGxtSXptyp7) <br />
     Minneapolis, MN 55455
-  - mahrud [at] math.umn.edu
+  - mahrud [at] umn.edu
   - Pronouns: He/Him
-  {: style="font-size: smaller"}
+  {: style="font-size: small"}
  </div>
 </div>
 
 ### About me
-I am a four$+\epsilon$-th-year Ph.D. student working with [Christine Berkesch]. \\
+I am a fifth-year graduate student working with [Christine Berkesch]. \\
 My résumé is [here](mahrud.pdf), and here are some recent updates:
 
-- *Fall 2022*: AMS sectional meetings in El Paso, Texas and Salt Lake City, Utah.
-- *Aug. 2022*: [MAGGC](https://sites.google.com/uic.edu/maggc-2022/home) in Chicago, Illinois.
-- *July 2022*: [Minischool](https://sites.google.com/view/derivedfrg/events/michigan-2022) in Ann Arbor, Michigan.
-- *June 2022*: [PASCA](https://jack-jeffries.github.io/PASCA.html) in Guanajuato, Mexico.
-- *Oct. 2021*: [_Characterizing Multigraded Regularity on Products of Projective Spaces_](https://arxiv.org/abs/2110.10705).
-{: style="font-size: 0.85em"}
+- *Jun. 2023*: [M2Week 🧑‍💻](M2Week)
+- *Apr. 2023*: [CA+](https://www-users.cse.umn.edu/~cberkesc/CA/CA2023.html) in Minneapolis.
+- *Apr. 2023*: [Syzygies and Regularity](https://wlzhang.people.uic.edu/SyzygiesRegularity/): graduate workshop in Chicago.
+- *Mar. 2023*: AMS sectional meeting in Atlanta, Georgia.
+- *Aug. 2022*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
+- *Aug. 2022*{: style="color: red"}: [_A short resolution of the diagonal for sm. proj. toric varieties of Picard rank 2_](https://arxiv.org/abs/2208.00562).
 
 ### Research
 My interests lie in the neighborhood of algebraic geometry, commutative algebra, and intersection theory.
-Roughly speaking, I'm interested in using derived tools to translate the book _Geometry of Syzygies_ to the toric setting. Here are some things I've recently read about:
+Roughly speaking, I'm interested in using derived tools to translate the book [_Geometry of Syzygies_] to the toric setting. Here are some things I've recently read about:
 
-- Castelnuovo--Mumford Regularity and Truncations of modules on Toric Varieties
+- Secondary Fan of Toric Varieties and Truncations of modules over the Cox ring
 - Beilinson monads and the (toric) Bernstein--Gelfand--Gelfand correspondence
 - Fourier--Mukai Transforms and Exceptional Collections
+- Weak factorization of toric varieties and positivity
 - Horrocks Splitting Criterion and Tate Resolutions
 - Derived Category of Simplicial Toric Varieties
 - Toric Vector Bundles and Virtual Resolutions
@@ -64,7 +65,10 @@ I passed my oral exam on June 16th, 2021. Here are my [exam materials](oral).
 
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
 
-### [GradMoCCA ☕](GradMoCCA)
+### June 2023: [M2Week 🧑‍💻](M2Week)
+With Ayah, Tim, and Mike, we are organizing a Macaulay2 workshop and graduate mini-school.
+
+### May 2022: [GradMoCCA ☕](GradMoCCA)
 With Caitlyn and Connor, we organized a graduate student conference here in Minneapolis.
 
 ### [Directed Reading Program](drp)
@@ -72,6 +76,7 @@ The Directed Reading Program is a graduate student-run program that provides und
 opportunity to work closely with mathematics graduate students in an independent reading project.
 
 ### [Student Commutative Algebra Meeting](seminars/SCAM)
+- Fall &nbsp; 2022: (informal) Research Meetings
 - Spring      2022: Research Meetings
 - Fall &nbsp; 2021: Research Meetings
 - Spring      2021: Student talks and pre-talks for the adult seminar
@@ -80,10 +85,10 @@ opportunity to work closely with mathematics graduate students in an independent
 - Fall &nbsp; 2019: [Boij-Söderberg theory](https://arxiv.org/abs/1106.0381)
 {: style="font-family: monospace"}
 
+{% comment %}
 ### [Combinatorial Algebraic Geometry @ ICERM](https://icerm.brown.edu/programs/sp-s21/)
 I participated in the Spring 2021 program at ICERM.
 
-{% comment %}
 ### [AMS Grad Blog](https://blogs.ams.org/mathgradblog/author/msayrafi/)
 I'm a staff writer for the [AMS Grad Blog], which is a blog for and by math graduate students.
 {% endcomment %}
@@ -102,10 +107,20 @@ in algebraic geometry and commutative algebra. Here are some of the packages I'v
 
 Always happy to chat about Macaulay2 and learn how others use it in research.
 
+## Old News
+
+- *Dec. 2022*: Graduate Workshop on Birational Geometry at [SCGP](https://scgp.stonybrook.edu/archives/37720).
+- *Fall 2022*: AMS sectional meetings in El Paso, Texas and Salt Lake City, Utah.
+- *Fall 2022*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/ucr-fall-2022) in UC Riverside.
+- *Aug. 2022*: [MAGGC](https://sites.google.com/uic.edu/maggc-2022/home) in Chicago, Illinois.
+- *July 2022*: [Minischool](https://sites.google.com/view/derivedfrg/events/michigan-2022) in Ann Arbor, Michigan.
+- *June 2022*: [PASCA](https://jack-jeffries.github.io/PASCA.html) in Guanajuato, Mexico.
+- *Oct. 2021*: [_Characterizing Multigraded Regularity on Products of Projective Spaces_](https://arxiv.org/abs/2110.10705).
+
 ## Personal
 
-I'm a fan of fermented foods, volcanoes, sewing, anti-racism, poetry, and bouldering.
-In other lives I would have studied [gerrymandering], quantum information, cryptography, and [radio astronomy].
+I'm a fan of fermented foods, volcanoes, sewing & mending, anti-racism, poetry, and bouldering. \\
+I also like [radio astronomy], gerrymandering, cryptography, and privacy as a human right.
 
 
 [Christine Berkesch]: http://www-users.math.umn.edu/~cberkesc/
@@ -116,3 +131,4 @@ In other lives I would have studied [gerrymandering], quantum information, crypt
 [gerrymandering]: https://www.quantamagazine.org/the-mathematics-behind-gerrymandering-20170404/
 [radio astronomy]: static/astro121_North Polar Spur.gif
 [contributed]: https://github.com/Macaulay2/M2/commits?author=mahrud
+[_Geometry of Syzygies_]: https://www.msri.org/people/staff/de/ready.pdf
