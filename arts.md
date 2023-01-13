@@ -13,19 +13,24 @@ This page is also hard to define, it's okay.
 ## [Raycasting Implicit Algebraic Surfaces](../experiments/surfaces/)
  This amazing experiment is rendered using [CindyJS](https://cindyjs.org) directly in your browser.
 
+> ![](../static/seepferdchen.png){: style="width: 400px; display:block; margin: auto;"}
+*Seepferdchen surface is named after seahorses, presumably because of their necks!*
+{: style="text-align: center"}
+
 
 ## [Animating Mathematics with Manim](../experiments/manim/)
- A primer on using [Manim](https://github.com/3b1b/manim) to make animated mathematical presentations.
+ I've enjoyed using [Manim](https://github.com/3b1b/manim) to make animated mathematical presentations.
 
-> ![](../drafts/ABCD.gif){: style="width: 400px; display:block; margin-left: auto; margin-right: auto;"}
+> ![](../drafts/ABCD.gif){: style="width: 400px; display:block; margin: auto;"}
 *"And since geometry is the right foundation of all painting, I have decided to teach its rudiments and principles to all youngsters eager for art." -- Albrecht Dürer (1471--1528)*
 
 
 ## Geometry Problem from Shush
  Computing area of a regular heptagon and hexagon (on the reverse).
 
-> ![](../static/Sb_13088.jpg){: style="width: 300px; display:block; margin-left: auto; margin-right: auto;"}
+> ![](../static/Sb_13088.jpg){: style="width: 300px; display:block; margin: auto;"}
 *[Details] of mathematical [tablets] from 17th century B.C found in [Shush].*
+{: style="text-align: center"}
 
 
 [Details]: https://books.google.com/books?id=dDWJ_KBHwe4C&pg=PA276
