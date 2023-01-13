@@ -3,13 +3,13 @@ layout: drp
 title: Application
 ---
 
-Like last semester, DRP meetings can be either virtual or in-person, but we encourage safe, in-person meetings among vaccinated participants! If you have specific concerns, please mention it in the application.
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
-
 {% comment %}
 
-## Spring 2022 Deadline: Sunday, February 6th.
+## Fall 2022 Deadline: Tuesday, September 27th.
 {: style="color:red"}
+
+Like last semester, DRP meetings can be either virtual or in-person, but we encourage safe, in-person meetings among vaccinated participants! If you have specific concerns, please mention it in the application.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
 <div style="padding: 0.1in 0; width: 100%; text-align: center;">
   <li class="flipper">
@@ -23,6 +23,7 @@ Like last semester, DRP meetings can be either virtual or in-person, but we enco
 Note: DRP is not a university-run program, and therefore does not offer credits.
 If you would like to receive credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
+
 ## Stop by the DRP Mixer on Tuesday, February 2nd at 12:20pm CST
 {: style="color:red"}
 
@@ -32,7 +33,7 @@ Passcode: vinh310
 
 {% endcomment %}
 
-Applications for Fall 2021 are closed. To be notified about future deadlines and events,
+Applications for Fall 2022 are closed. To be notified about future deadlines and events,
 including **end of semester talks**, please sign up below.
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
@@ -43,6 +44,7 @@ including **end of semester talks**, please sign up below.
     </li>
   </div>
 </iframe>
+
 
 ## Need ideas for a DRP reading?
 

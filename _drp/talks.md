@@ -13,23 +13,28 @@ The goal here is to communicate a flavor of your reading project in a 10-minute 
 
 The talks can be as informal (e.g. working out a few examples drawn on the board) or as formal (e.g. state a theorem and demonstrate an example of it) as you'd like, as long as the audience leaves with some idea of the kind of mathematics that you read about throughout the semester.
 
-## [Mentees: click here to schedule your DRP Talk by April 20th!](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit){: style="color:red"}
+## [Mentees: click here to schedule your DRP Talk by November 22nd!](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit){: style="color:red"} 👈
 
-The Spring 2022 DRP Presentation Days are as follows.
+The **Fall 2022 DRP Presentation Days** are as follows.
 
 <br />
 
-- **Wednesday, April 27th**:
+- **Tuesday, November 29th**:
+  - Session 0: &nbsp;  1:25pm -- 2:15pm in **Ford B80** (at [UMRS])
+- **Wednesday, November 30th**:
   - Session 1: &nbsp;  5:00pm -- 6:20pm in **Vincent 570**
-- **Thursday, April 28th**:
-  - Session 2:        12:20pm -- 1:10pm in **Vincent 570**
-  - Session 3: &nbsp;  3:30pm -- 4:25pm in **Vincent 570**
+- **Thursday, December 1st**:
+  - Session 2:        12:20pm -- 1:10pm in **Vincent 570** (at the [Math Club])
+  - Session 3: &nbsp;  3:30pm -- 4:25pm in **Vincent 209**
 
 We ask that students stay for the entire session, as it's a great opportunity to support your peers and learn some interesting mathematics. However, we understand if you have course conflicts.
 
+[UMRS]: https://sites.google.com/view/sonnguyenvt/umrs
+[Math Club]: https://mathclub.math.umn.edu/
+
 <br />
 
-If you are unable to present at any of the sessions above, please send us an email. There are other opportunities, like at the Math Club or URMS, where you can talk about your DRP reading.
+**If you are unable to present at any of the sessions above:** please send us an email. There are other opportunities, like at the Math Club or URMS, where you can talk about your DRP reading.
 
 # Tips for a good math talk:
 
@@ -57,8 +62,9 @@ Practice is the most important thing you can do to ensure that your talk is succ
 
 Some in the audience will be bad at listening to you, some will be bad at following your boardwork. Try your best to accomodate both groups and everyone will enjoy your talk.
 
+# [Past Presentations](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing) 👈
+
 {% comment %}
-# [Past Presentations](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit?usp=sharing)
 
 ### Fall 2019
 

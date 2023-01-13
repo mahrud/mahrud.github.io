@@ -13,6 +13,9 @@ students in an independent *reading* project.
 ## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
 
 {% comment %}
+# [DRP Talks are this week!](talks){: style="color:red"}
+We would like to invite you to attend this semester's DRP Presentations, when each participant will give a 10-minute talk on their reading in a low-stakes environment!
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
 ## Learn more at DRP Mixer on Tuesday, February 2nd at 12:20pm CST
 {: style="color:red"}
@@ -21,12 +24,7 @@ Zoom room: [956 8835 4988](https://umn.zoom.us/j/95688354988?pwd=OFVNenRTcFNVcTZ
 
 Passcode: vinh310
 
-# [DRP Talks are this Wednesday and Thursday!](talks){: style="color:red"}
-We would like to invite you to attend the Fall 2021 DRP Presentations, when each
-undergraduate will give a 10-minute talk on their reading.
-### [See the schedule here](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit#gid=314920038){: style="color:red"}
-
-## [Spring 2022 applications are now open! Deadline: Sunday, February 6th](apply){: style="color:red"}
+## [Fall 2022 applications are now open! Deadline: Tuesday, September 27th](apply){: style="color:red"}
 
 {% endcomment %}
 
