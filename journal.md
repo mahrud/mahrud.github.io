@@ -5,7 +5,7 @@ tagline: Macaulay2-Fu Journal
 order: 4
 ---
 
-Here is a non-exhaustive list of random bits of Macaulay2-fu I've written over time.
+Here is a non-exhaustive list of random bits of Macaulay2-fu I've learned over time, with credits.
 
 {% for item in site.journal %}{% if item.status == "published" %}
 * [{{ item.title }}]({{ site.baseurl }}{{ item.url }}){% endif %}{% endfor %}

@@ -5,14 +5,18 @@ status: draft
 ---
 
 ## Tips:
+- frames
 - examine, erase
 - the core command `X` defined in file `d/Y.d` is called `Y_X` within the engine.
 - debugLevel = 123 prints place on the REPL.
-- pushForward (https://arxiv.org/abs/1703.03357)
+- pushForward
+  - [arXiv:1703.03357](https://arxiv.org/abs/1703.03357)
+  - [Presentation Matrix Algorithm](https://sites.google.com/site/aldicio/publicacoes/presentation-matrix-algorithm)
 - m // n : factor matrices
-- peek and showStructure
+- peek
+- showStructure & showClassStructure
 - apropos
-- hash
+- hash & buckets
 - collectGarbage and GCstats() and export GC_INITIAL_HEAP_SIZE=50G
 - profile, profileSummary
 - nm --demangle M2-binary 
@@ -21,6 +25,7 @@ status: draft
 - M-. (find-tags); M-, ; and (visit-tags-table)
 - rawHelloWorld = value Core#"private dictionary"#"rawHelloWorld" to export from the Core without debug Core.
 - benchmark("M = random(ZZ^4, ZZ^10, Height => 100); image M == target M") (or gens gb M or LLL M or smithNormalForm M)
+- `whois = h -> select(flatten buckets Attributes, (m, a) -> hash m === h)`
 
 ## Questions:
 - in M2lib.c
@@ -41,8 +46,8 @@ status: draft
 - https://github.com/rouge-ruby/rouge
 - https://rouge-ruby.github.io/docs/file.LexerDevelopment.html
 - engine
-  - https://stanford.edu/~mluciano/M2-help/0181.html
-  - https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.12/share/doc/Macaulay2/Macaulay2Doc/html/___Developer_sqs_sp__Corner.html
+  - [old stanford page](https://stanford.edu/~mluciano/M2-help/0181.html)
+  - [Developer's Corner](https://faculty.math.illinois.edu/Macaulay2/doc/Macaulay2-1.12/share/doc/Macaulay2/Macaulay2Doc/html/___Developer_sqs_sp__Corner.html)
 - Packages
   - Dan's [Package Writing Style Guide](https://github.com/Macaulay2/M2/wiki/Package-Writing-Style-Guide).
   - https://github.com/Macaulay2/M2/wiki/GitForWorkshop
