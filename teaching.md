@@ -6,6 +6,7 @@ order: 2
 ---
 
 - Spring      2023: Instructor for [MATH 1272 -- Calculus 2](s23-math1272)
+- Spring      2022: Instructor for [MATH 1272 -- Calculus 2](s22-math1272)
 - Fall &nbsp; 2021: TA for [MATH 2243 -- Linear Algebra & Differential Equations](f21-math2243)
 - Fall &nbsp; 2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](f19-math2243)
 - Spring      2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](s19-math2243)
