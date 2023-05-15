@@ -4,7 +4,9 @@ event: M2Week
 title: Local information
 ---
 
+{% comment %}
 Please email Mahrud Sayrafi (mahrud@umn.edu) with any questions.
+{% endcomment %}
 
 ### Location of the talks
 
