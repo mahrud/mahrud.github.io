@@ -6,6 +6,7 @@ order: 2
 ---
 
 - Spring      2023: Instructor for [MATH 1272 -- Calculus 2](s23-math1272)
+- Fall &nbsp; 2022: Grader for [MATH 8253 -- Algebraic Geometry](https://math.umn.edu/~voronov/8253f22)
 - Spring      2022: Instructor for [MATH 1272 -- Calculus 2](s22-math1272)
 - Fall &nbsp; 2021: TA for [MATH 2243 -- Linear Algebra & Differential Equations](f21-math2243)
 - Fall &nbsp; 2019: TA for [MATH 2243 -- Linear Algebra & Differential Equations](f19-math2243)
@@ -60,4 +61,5 @@ TO READ:
 https://www.uni-muenster.de/Physik.TP/~munsteg/arnold.html
 https://www.reddit.com/r/math/comments/z8b580/how_can_i_explain_to_my_students_and_their/
 https://www.ams.org/journals/notices/202301/noti2593/noti2593.html
+https://www.ams.org/about-us/Towards-a-Fully-Inclusive-Mathematics-Profession.pdf
 {% endcomment %}

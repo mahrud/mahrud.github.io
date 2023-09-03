@@ -22,10 +22,10 @@ If you answer any of them I'll owe you a nice cup of coffee.
 Assuming $p$-adic Hodge Theory has the same goal, can you coherently introduce harmonic analysis in $p$-adic language?
 {% endcomment %}
 
-My current projects all involve commutative algebra over the Cox ring of projective toric varieties.
-See my oral exam [presentation](../oral) for some topics and questions that I am currently working on.
+My current projects all involve commutative algebra over Cox rings of projective varieties. \\
+See my oral exam [presentation](../oral) for some topics and questions that lead me to this point.
 
-## Publications and [preprints](https://arxiv.org/search/?query=Mahrud&searchtype=author)
+## [Publications](https://mathscinet.ams.org/mathscinet/author?authorId=1422471) and [preprints](https://arxiv.org/search/?query=Mahrud&searchtype=author)
 
 - **Bounds on Multigraded Regularity** \\
 With [Juliette Bruce], [Lauren Cranton Heller] \\
@@ -36,8 +36,9 @@ With [Juliette Bruce], [Lauren Cranton Heller] \\
 *Multigraded regularity of powers of two ideals on the Hirzebruch surface.*
 {: style="text-align: center"}
 
-- **A short resolution of the diagonal for smooth projective toric varieties of Picard rank 2** \\
+- **A short resolution of the diagonal for smooth proj. toric varieties of Picard rank 2** \\
 With [Michael K. Brown] \\
+To Appear in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html) \\
 [arXiv:2208.00562](https://arxiv.org/abs/2208.00562) [math.AG] [math.AC] \\
 1 August 2022
 
@@ -51,7 +52,7 @@ With [Juliette Bruce], [Lauren Cranton Heller] \\
 20 October 2021
 
 > ![](../static/2110.10705.png){:width="80%; display:block; margin: auto;"}
-*The twists in Beilinson's spectral sequence corresponding to linearity and quaslinearity.*
+*The terms in Beilinson's spectral sequence corresponding to linearity and quaslinearity.*
 {: style="text-align: center"}
 
 - **The Virtual Resolutions Package for Macaulay2** \\
@@ -59,6 +60,10 @@ With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper] \\
 [Journal of Software for Algebra and Geometry, Volume 10 (2020)](https://doi.org/10.2140/jsag.2020.10.51) \\
 [arXiv:1905.07022](https://arxiv.org/abs/1905.07022) [math.AG] [math.AC] \\
 16 May 2019
+
+> ![](../static/1905.07022.png){:width="70%; display:block; margin: auto;"}
+*A virtual resolution for 3 points in $\PP^1\times\PP^1$ as a subcomplex of the minimal free resolution.*
+{: style="text-align: center"}
 
 - **Computations over Local Rings in Macaulay2** \\
 [arXiv:1710.09830](https://arxiv.org/abs/1710.09830) [math.AC] \\

@@ -30,6 +30,8 @@ In the meanwhile, feel free to ask me for any of following.
 
 ## Blog Posts
 - [In order to prevent an exodus of students, mathematicians must stand together](https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
+  - Related: [open letter by UMN community](UMN_Letter.pdf), and
+  - [response by Minnesota Attorney General Ellison](Ellison.pdf).
 - [Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
 - [From Russia, With Love](https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
 {: style="font-size: smaller"}
