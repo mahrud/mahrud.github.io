@@ -10,6 +10,11 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work closely with mathematics graduate
 students in an independent *reading* project.
 
+<br />
+
+[New: read about the DRP in the School of Mathematics Critical Points newsletter!](https://cse.umn.edu/math/news/directed-reading-program-fosters-connection-and-community-mathematics-students)
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
 ## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
 
 {% comment %}
@@ -17,15 +22,10 @@ students in an independent *reading* project.
 We would like to invite you to attend this semester's DRP Presentations, when each participant will give a 10-minute talk on their reading in a low-stakes environment!
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
-## Learn more at DRP Mixer on Tuesday, February 2nd at 12:20pm CST
+## [Spring 2023 applications are now open! Deadline: Tuesday, February 7th](apply){: style="color:red"}
+
+## Learn more at DRP Mixer on Monday, February 6rd at 12:20pm in Vincent 570
 {: style="color:red"}
-
-Zoom room: [956 8835 4988](https://umn.zoom.us/j/95688354988?pwd=OFVNenRTcFNVcTZNUE43QTExeHREZz09) ← click there!
-
-Passcode: vinh310
-
-## [Fall 2022 applications are now open! Deadline: Tuesday, September 27th](apply){: style="color:red"}
-
 {% endcomment %}
 
 ### DRP is about community!
@@ -53,8 +53,8 @@ student, you can read a book you have been meaning to read or study a new topic.
 <br />
 
 The original DRP was started by graduate students at the University of Chicago over
-a decade ago, and has had immense success. It has since spread to many other
-math departments who are members of the [DRP Network](https://www.drp-network.org/about.html).
+two decades ago, and has had immense success. It has since spread to many other
+math departments who are members of the [DRP Network](https://sites.google.com/view/drp-network/).
 
 <br />
 

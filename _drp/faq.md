@@ -3,7 +3,7 @@ layout: drp
 title: FAQ
 ---
 
-Have a question? Contact mahrud@umn.edu.
+Have a question? Contact Sasha Pevzner, Aaron Li, Lina Liu, Michelle Mastrianni, or Mahrud Sayrafi.
 
 ### For Mentors
 {:#mentor}
@@ -27,7 +27,7 @@ Have a question? Contact mahrud@umn.edu.
  Not at the moment. If you would like to get credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
 - **How can I help?**
- Glad you asked! Please get in touch with Mahrud Sayrafi.
+ Glad you asked! Please get in touch with one of the people listed above.
 
 
 ### For Mentees

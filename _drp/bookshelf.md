@@ -3,7 +3,7 @@ layout: drp
 title: Bookshelf
 ---
 
-Thanks to a generous seed grant from the [DRP Network](https://www.drp-network.org),
+Thanks to a generous seed grant from the [DRP Network](https://sites.google.com/view/drp-network/),
 we have purchased the following 22 books across a variety of topics. The books are
 kept at the [Math Library](https://www.lib.umn.edu/math) and are available for those
 looking for ideas to browse on top of the reference bookshelf. DRP participants can
