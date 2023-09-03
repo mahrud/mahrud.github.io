@@ -1,19 +1,23 @@
 ---
 layout: seminar
 title: Student Commutative Algebra Meeting
-semester: Fall
+semester: Spring
 year: 2022
 talks:
+- date: 2/4/2022
+  speaker: You?
+  title: TBA
+  abstract: >-
+    No abstract yet
 ---
 
-For Fall 2022 we meet every **Friday in Vincent 120 @ 1:20pm**.
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+For Spring 2022 the seminar meets:
+- on TBD
+- in TBD
 
-The format of the meetings this semester is to meet informally to chat,
-or to discuss what we are currently working on. We also sometimes meet
-before the (adult) [Commutative Algebra and Algebraic Geometry Seminar].
-
-{% comment %}
+The rough format of the seminar this semester is to meet two hours before
+the (adult) [Commutative Algebra Seminar] for either student talks or
+discussing what we are currently working on.
 
 <style>
   td, th { padding: 10px; }
@@ -26,8 +30,6 @@ before the (adult) [Commutative Algebra and Algebraic Geometry Seminar].
 {:style="background-color:rgb(255,247,191)"}
 
 <br />
-
-{% endcomment %}
 
 - [Join the SCAM mailing list](https://groups.google.com/a/umn.edu/forum/#!forum/student-commalg/join) ← click there!
 
@@ -46,4 +48,4 @@ before the (adult) [Commutative Algebra and Algebraic Geometry Seminar].
   - Toric varieties
   - Macaulay2-fu!
 
-[Commutative Algebra and Algebraic Geometry Seminar]: https://sites.google.com/view/umncaagseminar/umn-caag-seminar
+[Commutative Algebra Seminar]: https://sites.google.com/view/umncaagseminar/umn-caag-seminar
