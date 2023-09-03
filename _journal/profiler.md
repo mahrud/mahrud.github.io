@@ -1,7 +1,7 @@
 ---
 layout: default
 title: M2 Profiler
-status: published
+status: draft
 ---
 
 Here's a [FlameGraph] visualization for the output of a M2 profiler that I've implemented:
