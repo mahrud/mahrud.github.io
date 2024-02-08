@@ -23,22 +23,17 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
 </div>
 
 ### About me
-I am a sixth-year graduate student working with [Christine Berkesch]. \\
-This year I am on the **job market** and supported by the [Doctoral Dissertation Fellowship] at UMN.
-My CV is [here](mahrud.pdf) and my job statements are available upon request.
+I am a sixth-year graduate student working with [Christine Berkesch]. I am ~~on~~ off the job market! 🥳 \\
+Starting July I will be a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany and in 2025 I will join [McMaster University](https://math.mcmaster.ca/) in Hamilton, Ontario as a Britton postdoctoral fellow.
 
-Recent updates/plans:
+My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 {% comment %}
-- *Fall 2023*{: style="color: red"}: I am currently on the job market.
-- *2023--24*: [Doctoral Dissertation Fellowship](https://cse.umn.edu/math/news/anh-trong-nam-hoang-and-mahrud-sayrafi-awarded-doctoral-dissertation-fellowships) from University of Minnesota
 - *Apr. 2024*: organizing session at AMS meeting in Milwaukee with [Maya] and [Ola].
 {% endcomment %}
-- *Spring 2024*: [Commutative Algebra Workshops @ MSRI](https://www.slmath.org/workshops/1053).
-- *Jan. 2024*: [Joint Math Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2300_presenters.html#SAYRAFI,%20MAHRUD) in San Francisco, CA.
-- *Dec. 2023*: [Iberoamerican Congress on Geometry](https://geometryrc.ufro.cl/icg2023/) at Pucón, Chile 🌋.
-- *Nov. 2023*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/wustl-fall-2023) at Washington University in St. Louis.
-- *Oct. 2023*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2307_progfull.html#2307:SS9A) in Omaha, Nebraska.
-- *Sep. 2023*: [Syzygies and mirror symmetry](https://aimath.org/workshops/upcoming/syzygyms/) at AIM.
+
+- *May  2024*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2299_progfull.html) in San Francisco.
+- *Apr. 2024*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/davis-spring-2024) at UC Davis.
+- *Spring 2024*: [SLMath semester in Commutative Algebra](https://www.slmath.org/workshops/1053) (~2 weeks/month).
 - *Aug. 2022*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
 - *Aug. 2022*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(To appear in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html))_{: style="font-size: small; float: right"}
@@ -119,7 +114,13 @@ Always happy to chat about Macaulay2 and learn how others use it in research.
 ## Old News
 Travel, talks, papers, et cetera:
 
+- *Jan. 2024*: [Joint Math Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2300_presenters.html#SAYRAFI,%20MAHRUD) in San Francisco, CA.
+- *Dec. 2023*: [Iberoamerican Congress on Geometry](https://geometryrc.ufro.cl/icg2023/) at Pucón, Chile 🌋.
+- *Nov. 2023*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/wustl-fall-2023) at Washington University in St. Louis.
+- *Oct. 2023*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2307_progfull.html#2307:SS9A) in Omaha, Nebraska.
+- *Sep. 2023*: [Syzygies and mirror symmetry](https://aimath.org/workshops/upcoming/syzygyms/) at AIM.
 - *Sep. 2023*: [Macaulay2 workshop](https://aimath.org/workshops/upcoming/macaulay2efie/) at AIM.
+- *2023--24*: [Doctoral Dissertation Fellowship](https://cse.umn.edu/math/news/anh-trong-nam-hoang-and-mahrud-sayrafi-awarded-doctoral-dissertation-fellowships) from University of Minnesota
 - *July 2023*: [SIAM AAG23](https://sites.google.com/view/gaelxxx/home) in Eindhoven, NL.
 - *July 2023*: [GAeL XXX](https://sites.google.com/view/gaelxxx/home) in Warwick, UK.
 - *June 2023*: [Derived Categories MRC](https://www.ams.org/programs/research-communities/2023MRC-DerivedCategories).
@@ -129,7 +130,7 @@ Travel, talks, papers, et cetera:
 - *Mar. 2023*: AMS sectional meeting in Atlanta, Georgia.
 - *Dec. 2022*: [Graduate Workshop on Birational Geometry](https://scgp.stonybrook.edu/archives/37720) at SCGP, New York.
 - *Fall 2022*: AMS sectional meetings in El Paso, Texas and Salt Lake City, Utah.
-- *Fall 2022*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/ucr-fall-2022) in Riverside, California.
+- *Fall 2022*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/ucr-fall-2022) at UC Riverside.
 - *July 2022*: [Derived Minischool](https://sites.google.com/view/derivedfrg/events/michigan-2022) in Ann Arbor, Michigan.
 - *June 2022*: [PASCA](https://jack-jeffries.github.io/PASCA22/PASCA.html) summer school in Guanajuato, Mexico.
 - *Oct. 2021*{: style="color: red"}: [_Characterizing Multigraded Regularity on Products of Projective Spaces_](https://arxiv.org/abs/2110.10705).
