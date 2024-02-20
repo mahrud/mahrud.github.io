@@ -1,7 +1,11 @@
 all: serve
 
-check: build
-	bundle exec htmlproofer ./_site/ --only-4xx --check-html --disable-external --empty-alt-ignore # --check-favicon
+check:
+	bundle exec jekyll build -s . -d _site/
+	bundle exec htmlproofer ./_site/ \
+		--ignore-files "/reveal.js/" \
+		--no-enforce-https --no-disable-external \
+		--only-4xx --ignore-empty-alt --ignore-missing-alt # --check-favicon
 
 serve:
 	bundle exec jekyll serve -s . -d _site/
@@ -22,6 +26,7 @@ push: push-vincent
 push-vincent: build-vincent
 	cd _site && git add . && git commit -m "`date`" && git push
 
+# mahrud.keybase.pub
 push-keybase: build-keybase
 	scp -r _site/* /keybase/public/mahrud/
 
@@ -32,4 +37,4 @@ install:
 	bundle install
 
 install-remote:
-	git clone mahrud@remote.math.umn.edu:www/.git _site
+	git clone mahrud@login01.cselabs.umn.edu:www/.git _site
