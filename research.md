@@ -27,9 +27,14 @@ See my oral exam [presentation](../oral) for some topics and questions that lead
 
 ## [Publications](https://mathscinet.ams.org/mathscinet/author?authorId=1422471) and [preprints](https://arxiv.org/search/?query=Mahrud&searchtype=author)
 
+{% comment %}
+- **Splitting of vector bundles on toric varieties** \\
+In preparation.
+{% endcomment %}
+
 - **Bounds on Multigraded Regularity** \\
-With [Juliette Bruce], [Lauren Cranton Heller] \\
-[arXiv:2208.11115](https://arxiv.org/abs/2208.11115) [math.AC] \\
+With [Juliette Bruce], [Lauren Cranton Heller]. \\
+Submitted. [arXiv:2208.11115](https://arxiv.org/abs/2208.11115) [math.AC] \\
 23 August 2022
 
 > ![](../static/2208.11115.png){:width="80%; display:block; margin: auto;"}
@@ -37,8 +42,8 @@ With [Juliette Bruce], [Lauren Cranton Heller] \\
 {: style="text-align: center"}
 
 - **A short resolution of the diagonal for smooth proj. toric varieties of Picard rank 2** \\
-With [Michael K. Brown] \\
-To Appear in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html) \\
+With [Michael K. Brown]. \\
+To appear in [_Algebra & Number Theory_](https://msp.org/ant/about/journal/about.html). \\
 [arXiv:2208.00562](https://arxiv.org/abs/2208.00562) [math.AG] [math.AC] \\
 1 August 2022
 
@@ -47,8 +52,8 @@ To Appear in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.h
 {: style="text-align: center"}
 
 - **Characterizing Multigraded Regularity on Products of Projective Spaces** \\
-With [Juliette Bruce], [Lauren Cranton Heller] \\
-[arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG] \\
+With [Juliette Bruce], [Lauren Cranton Heller]. \\
+Submitted. [arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG] \\
 20 October 2021
 
 > ![](../static/2110.10705.png){:width="80%; display:block; margin: auto;"}
@@ -56,7 +61,7 @@ With [Juliette Bruce], [Lauren Cranton Heller] \\
 {: style="text-align: center"}
 
 - **The Virtual Resolutions Package for Macaulay2** \\
-With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper] \\
+With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper]. \\
 [Journal of Software for Algebra and Geometry, Volume 10 (2020)](https://doi.org/10.2140/jsag.2020.10.51) \\
 [arXiv:1905.07022](https://arxiv.org/abs/1905.07022) [math.AG] [math.AC] \\
 16 May 2019
@@ -70,7 +75,7 @@ With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper] \\
 26 October 2017
 
 - **What is the optimal way to prepare a Bell state using measurement and feedback?** \\
-With Leigh S. Martin, K. Birgitta Whaley \\
+With Leigh S. Martin, K. Birgitta Whaley. \\
 [Quantum Science and Technology, Volume 2, Number 4 (2017)](https://doi.org/10.1088/2058-9565/aa804c) \\
 [arXiv:1704.00332](https://arxiv.org/abs/1704.00332) [quant-ph] \\
 2 April 2017
