@@ -2,7 +2,7 @@
 layout: page
 title: Writing
 tagline: Notes, Manuscripts, Et Cetera
-order: 3
+order: 4
 ---
 
 I will at some point figure out how to automatically upload and link these notes.
@@ -24,13 +24,12 @@ In the meanwhile, feel free to ask me for any of following.
 
 <!--
 - The Horrocks--Mumford Bundle
-- Full Strong Exceptional Collections
 - [Tate Resolutions for Products of Projective Spaces](https://arxiv.org/abs/1411.5724)
 -->
 
 ## Blog Posts
 - [In order to prevent an exodus of students, mathematicians must stand together](https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
-  - Related: [open letter by UMN community](UMN_Letter.pdf), and
+  - Related: [open letter by UMN community](UMN_Letter.pdf) (not written by me), and
   - [response by Minnesota Attorney General Ellison](Ellison.pdf).
 - [Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
 - [From Russia, With Love](https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
@@ -57,7 +56,7 @@ In the meanwhile, feel free to ask me for any of following.
   - A Tale of Two Antennas: Measuring Declination of M17
   - Mapping the North Polar Spur
 - Phil 146: Philosophy of Mathematics
-  - An Equivalent of the Axiom of Choice in Vector Space Theory
+  - An Equivalent of the Axiom of Choice in Linear Algebra
 - CS 276: Cryptography
   - Multilinear Maps: A Prelude to the Graded Encoding Schemes
 - Legal Studies 132: Immigration and Citizenship

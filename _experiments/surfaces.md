@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Algebraic Surfaces
+title: Raycasting Real Algebraic Surfaces
 ---
 
 <h2 id="raycasting-implicit-surfaces"><a href="https://cindyjs.org/examples/cindygl/44_raycasting_symbolic.html">Raycasting Implicit Surfaces</a></h2>

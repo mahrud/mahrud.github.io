@@ -54,8 +54,6 @@ Upon successful completion of the Written Preliminary Examination requirement li
 
 The Ph.D. Preliminary Written Examinations are given twice each year, once before the start of fall semester, and again in the late spring. Each individual examination lasts four hours.
 
-Find out more about upcoming [Written Prelim Exam dates](/preliminary-written-exam/schedule).
-
 
 ## Declare Track
 

@@ -46,11 +46,11 @@ See the [schedule](schedule) for the talk abstracts and more details.
 
 GradMoCCA ☕ is scheduled the weekend before the conference on [Open Problems in Algebraic Combinatorics] (OPAC) at the University of Minnesota.
 
-[Open Problems in Algebraic Combinatorics]: http://www.samuelfhopkins.com/OPAC/opac.html
+[Open Problems in Algebraic Combinatorics]: https://www.samuelfhopkins.com/OPAC/opac.html
 
 ## Other information
 
-![](https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo_thumb.jpg){: style="margin-left: 20px; float: right"}
+![]({{ site.baseurl }}/static/NSF.jpg){: style="margin-left: 20px; float: right"}
 
 GradMoCCA ☕ is organized by [Christine Berkesch], [Caitlyn Booms], [Mahrud Sayrafi], and [Connor Simpson], and is made possible thanks to funding from the National Science Foundation ([DMS-2206872](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2206872)).
 

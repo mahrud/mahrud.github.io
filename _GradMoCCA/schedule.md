@@ -56,7 +56,7 @@ Graduate students who would like to give a 20-minute talk or present a poster at
 - 12:50pm: Lunch <br /> <br />
 - Afternoon: outdoor gatherings around Twin Cities, TBA
 
-### May 16th - 20th: [OPAC](http://samuelfhopkins.com/OPAC/opac.html)
+### May 16th - 20th: [OPAC](https://www.samuelfhopkins.com/OPAC/opac.html)
 
 ---
 

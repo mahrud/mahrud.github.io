@@ -16,7 +16,7 @@ For a good example of what we should document, see the [V8 documentation](https:
 	- vscode
 	- Xcode
   - Docker setup
-    - [Dockerfile](https://github.com/mahrud/M2/tree/docker/M2/BUILD/docker)
+    - [Dockerfile](https://github.com/Macaulay2/M2/tree/development/M2/BUILD/docker)
 
 ### Contributing
   - Github repository
