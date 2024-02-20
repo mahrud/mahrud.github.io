@@ -4,8 +4,7 @@ title: Application
 ---
 
 
-{% comment %}
-## Spring 2023 Deadline: Tuesday, February 7th by midnight.
+## Spring 2024 Deadline: Friday, February 9th.
 {: style="color:red"}
 
 The readings can be either in-person or virtual, but we encourage safe in-person ones! <br /> If you have specific concerns, please mention it in the application.
@@ -23,10 +22,10 @@ The readings can be either in-person or virtual, but we encourage safe in-person
 Note: DRP is not a university-run program, and therefore does not offer credits.
 If you would like to receive credits, look into MATH 4991/2/3 or the CLA [directed study options].
 
+{% comment %}
+
 ## Stop by the DRP Mixer on Monday, February 6th at 12:20pm in Vincent 570
 {: style="color:red"}
-
-{% endcomment %}
 
 Applications for Spring 2023 are closed. To be notified about future deadlines and events,
 including **end of semester talks**, please sign up below.
@@ -40,6 +39,7 @@ including **end of semester talks**, please sign up below.
   </div>
 </iframe>
 
+{% endcomment %}
 
 ## Need ideas for a DRP reading?
 
