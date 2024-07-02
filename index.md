@@ -23,7 +23,8 @@ tagline: Mahrud Sayrafi @ School of Mathematics, UMN
 </div>
 
 ### About me
-I am a sixth-year graduate student working with [Christine Berkesch]. I am ~~on~~ off the job market! 🥳 \\
+I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+
 Starting July I will be a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany and in 2025 I will join [McMaster University](https://math.mcmaster.ca/) in Hamilton, Ontario as a Britton postdoctoral fellow.
 
 My CV is [here](mahrud.pdf), and here are some recent updates/plans:
@@ -31,8 +32,7 @@ My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 - *Apr. 2024*: organizing session at AMS meeting in Milwaukee with [Maya] and [Ola].
 {% endcomment %}
 
-- *May  2024*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2299_progfull.html) in San Francisco.
-- *Apr. 2024*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/davis-spring-2024) at UC Davis.
+- *May 2024*: I defended my dissertation on May 7th. Here are my [exam materials](defense).
 - *Spring 2024*: [SLMath semester in Commutative Algebra](https://www.slmath.org/workshops/1053) (~2 weeks/month).
 - *Aug. 2022*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
 - *Aug. 2022*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
@@ -69,6 +69,9 @@ Things I've recently thought about:
 ## Activities
 
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
+
+### [July 2025: M2 🤝 SIAM AAG](https://tjyahl.github.io/organizing/M2-Madison-2025/)
+With [Thomas B.] and [Thomas Y.], we are planning a Macaulay2 workshop before the 2025 SIAM Applied Algebraic Geometry conference in Madison. Email us if you would like to lead a project!
 
 ### [June 2023: M2Week 🧑‍💻](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
 With [Ayah], [Christine], [Tim], and [Mike], we organized a Macaulay2 workshop and mini-school.
@@ -114,6 +117,7 @@ Always happy to chat about Macaulay2 and learn how others use it in research.
 ## Old News
 Travel, talks, papers, et cetera:
 
+- *May  2024*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2299_progfull.html) in San Francisco.
 - *Jan. 2024*: [Joint Math Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2300_presenters.html#SAYRAFI,%20MAHRUD) in San Francisco, CA.
 - *Dec. 2023*: [Iberoamerican Congress on Geometry](https://geometryrc.ufro.cl/icg2023/) at Pucón, Chile 🌋.
 - *Nov. 2023*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/wustl-fall-2023) at Washington University in St. Louis.
@@ -153,6 +157,8 @@ I also like [radio astronomy], anti-gerrymandering, cryptography, and privacy as
 [Mike]: https://sites.google.com/view/michaelperlman/home
 [Caitlyn]: https://sites.google.com/wisc.edu/cbooms
 [Connor]: https://people.math.wisc.edu/~csimpson6/
+[Thomas B.]: https://tbrazel.github.io/
+[Thomas Y.]: https://tjyahl.github.io/
 [Christine]: https://math.umn.edu/~cberkesc/
 [Christine Berkesch]: https://math.umn.edu/~cberkesc/
 

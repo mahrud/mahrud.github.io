@@ -7,6 +7,9 @@ check:
 		--no-enforce-https --no-disable-external \
 		--only-4xx --ignore-empty-alt --ignore-missing-alt # --check-favicon
 
+view:
+	xdg-open http://127.0.0.1:4000/~mahrud/
+
 serve:
 	bundle exec jekyll serve -s . -d _site/
 
@@ -31,9 +34,8 @@ push-keybase: build-keybase
 	scp -r _site/* /keybase/public/mahrud/
 
 install:
-	gem install jekyll
-	gem install bundler
-	bundle config set path 'vendor/bundle'
+	gem install bundler jekyll
+#	bundle config set path 'vendor/bundle'
 	bundle install
 
 install-remote:

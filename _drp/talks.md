@@ -13,19 +13,15 @@ The goal here is to communicate a flavor of your reading project in a 10-minute 
 
 The talks can be as informal (e.g. working out a few examples drawn on the board) or as formal (e.g. state a theorem and demonstrate an example of it) as you'd like, as long as the audience leaves with some idea of the kind of mathematics that you read about throughout the semester.
 
-## [Mentees: click here to schedule your DRP Talk by April 18th!](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit){: style="color:red"} 👈
+## [Mentees: click here to schedule your DRP Talk by April 15th!](https://docs.google.com/spreadsheets/d/11VXZMbCawQX14zd8089R2NUqv09NZc8VYvMEdZW3MF8/edit){: style="color:red"} 👈
 
-The **Spring 2023 DRP Presentation Days** are as follows.
+The **Spring 2024 DRP Presentation Days** are as follows. See the link above for the full schedule.
 
 <br />
 
-- **Tuesday, April 25th**:
-  - Session 0: &nbsp;  3:35pm -- 4:25pm in **Ford 170** (tentatively at [UMRS])
-- **Wednesday, April 26th**:
-  - Session 1: &nbsp;  5:00pm -- 6:20pm in **Vincent 570**
-- **Thursday, April 27th**:
-  - Session 2:        12:20pm -- 1:10pm in **Vincent 570**
-  - Session 3: &nbsp;  3:30pm -- 4:25pm in **Vincent 570**
+- Tuesday, April 23th
+- Wednesday, April 24th
+- Thursday, April 25th
 
 We ask that students stay for the entire session, as it's a great opportunity to support your peers and learn some interesting mathematics. However, we understand if you have course conflicts.
 

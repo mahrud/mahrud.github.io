@@ -5,19 +5,6 @@ tagline: Notes, Manuscripts, Et Cetera
 order: 4
 ---
 
-I will at some point figure out how to automatically upload and link these notes.
-In the meanwhile, feel free to ask me for any of following.
-
-## Notes
-- Combinatorial Algebraic Geometry, LMS-Bath Symposium
-- Combinatorial Algebraic Geometry Semester, ICERM
-- Structure of Length 3 Resolutions Workshop, UCSD
-- Thematic Program in Commutative Algebra and Algebraic Geometry, CMND
-- $D$-Modules and Hodge Theory Workshop, University of Illinois, Chicago
-- Core Computational Methods in Nonlinear Algebra Workshop, ICERM
-- Topics in Commutative Algebra Summer School, University of Utah
-{: style="font-size: smaller"}
-
 ## Expositions
 - ["Splitting of Vector Bundles via Fourier--Mukai Theory"](exposition.pdf)
 {: style="font-size: smaller"}
