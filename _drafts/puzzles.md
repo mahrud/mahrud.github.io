@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Persian Puzzles
-status: draft
 ---
 
 - Pahlavi script: Shervin Farridnejad <https://x.com/farridnejad>

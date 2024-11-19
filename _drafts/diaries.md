@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The DRP Diaries
-status: draft
 ---
 
 ## Parts:

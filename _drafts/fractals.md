@@ -32,4 +32,4 @@ One lives not just for oneself but for one's community" RBG
 
 "We are one people, one family, the human family, and what affects one of us affects us all." John Lewis
 
-https://twitter.com/NewYorker/status/1215427526463574018
+<https://twitter.com/NewYorker/status/1215427526463574018>
