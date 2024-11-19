@@ -33,6 +33,13 @@ The hat is only weakly aperiodic, meaning that it tiles periodically if you allo
 *Seepferdchen surface is named after seahorses, presumably because of their necks!*
 {: style="text-align: center"}
 
+## [David Lance Goines' final poster for MSRI](https://www.goines.net/Gallery/255_msri_gal.html)
+[Goines](https://www.goines.net) was a Berkeley artist and printmaker. His final print before passing away in 2023 was on a commission by the MSRI, before they changed names. I own one of these final copies, given to me by Goines' friend and coworker [Richard Seibert](https://www.letterspressed.com).
+
+> ![](../static/goines_255_msri.jpg){: style="width: 200px; display:block; margin: auto;"}
+*Note the Gauss Heptadecagon in the background and the Rhombicuboctahedron!*
+{: style="text-align: center"}
+
 ## [Animating Mathematics with Manim](../experiments/manim/)
  Once or twice, I've enjoyed using [Manim](https://github.com/3b1b/manim) to make animated mathematical presentations, for instance in the AMS Grad Student Blog post "[Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)"
 

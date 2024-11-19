@@ -32,6 +32,18 @@ See my oral exam [presentation](../oral) for some topics and questions that lead
 In preparation.
 {% endcomment %}
 
+- **A short resolution of the diagonal for smooth proj. toric varieties of Picard rank 2** \\
+With [Michael K. Brown].
+[_Algebra & Number Theory_](https://msp.org/ant/2024/18-10/p05.xhtml) **18-10** (2024), 1923-1943.
+{% comment %}
+[arXiv:2208.00562](https://arxiv.org/abs/2208.00562) [math.AG] [math.AC] \\
+7 October 2024
+{% endcomment %}
+
+> ![](../static/2208.00562.png){:width="80%; display:block; margin: auto;"}
+*The vanishing requirements which imply a Horrocks-type splitting criterion.*
+{: style="text-align: center"}
+
 - **Bounds on Multigraded Regularity** \\
 With [Juliette Bruce], [Lauren Cranton Heller]. \\
 Submitted. [arXiv:2208.11115](https://arxiv.org/abs/2208.11115) [math.AC] \\
@@ -41,17 +53,7 @@ Submitted. [arXiv:2208.11115](https://arxiv.org/abs/2208.11115) [math.AC] \\
 *Multigraded regularity of powers of two ideals on the Hirzebruch surface.*
 {: style="text-align: center"}
 
-- **A short resolution of the diagonal for smooth proj. toric varieties of Picard rank 2** \\
-With [Michael K. Brown]. \\
-To appear in [_Algebra & Number Theory_](https://msp.org/ant/about/journal/about.html). \\
-[arXiv:2208.00562](https://arxiv.org/abs/2208.00562) [math.AG] [math.AC] \\
-1 August 2022
-
-> ![](../static/2208.00562.png){:width="80%; display:block; margin: auto;"}
-*The vanishing requirements which imply a Horrocks-type splitting criterion.*
-{: style="text-align: center"}
-
-- **Characterizing Multigraded Regularity on Products of Projective Spaces** \\
+- **Characterizing Multigraded Regularity and Virtual Resolutions on Products of Projective Spaces** \\
 With [Juliette Bruce], [Lauren Cranton Heller]. \\
 Submitted. [arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG] \\
 20 October 2021

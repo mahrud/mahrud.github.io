@@ -29,22 +29,25 @@ I am now a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-a
 
 My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 {% comment %}
-- *Oct. 2021*{: style="color: red"}: [_Characterizing Multigraded Regularity on Products of Projective Spaces_](https://arxiv.org/abs/2110.10705).
 {% endcomment %}
-
-- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative).
+- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
+- *Nov. 2024*: [Macaulay2 in the Sciences](https://www.mis.mpg.de/events/series/Macaulay2-in-the-Sciences) in Leipzig.
+- *Oct. 2024*: [Group actions, combinatorial methods, and Fano varieties](https://www.uibk.ac.at/mathematik/personal/braun/conference.html) in Innsbruck.
+- *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
 - *Sep. 2024*: [Syzygies and Hilbert Schemes](https://syzygies.mimuw.edu.pl/) in Kraków, Poland.
+- *Sep. 2024*: [School on Deformation Theory IV](https://www.donatellaiacono.it/sdt/sdt.html) in Rome, Italy.
 - *Jul. 2024*: [Effective Methods in Algebraic Geometry](https://www.mis.mpg.de/events/series/mega-2024) in Leipzig, Germany.
 - *Aug. 2022*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
-_(To appear in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html))_{: style="font-size: small; float: right"}
+_(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
 
 ### [Research](research)
 My research area is multigraded commutative algebra, particularly in the setting of toric geometry. Roughly speaking, I'm interested in using derived categories to translate the book [_Geometry of Syzygies_] to the toric setting and beyond.
 
 Things I've recently thought about:
 
+- Green's $N_p$ conditions for subvarieties of toric varieties
+- Projectivized toric vector bundles and complexity one $T$-varieties
 - GIT fan and truncations of modules over Cox rings
-- Tate resolutions and the (toric) BGG correspondence
 - $F$-thickness of del Pezzo surfaces and other Mori dream spaces
 - Fourier--Mukai transforms and exceptional collections in derived categories
 - Beilinson monads and homological mirror symmetry
@@ -53,6 +56,7 @@ Things I've recently thought about:
 {: style="font-size: 95%"}
 
 {% comment %}
+- Tate resolutions and the (toric) BGG correspondence
 - Weak factorization of toric varieties and positivity
 - Mori Dream Spaces and GKM Varieties
 - Losev--Manin Moduli Spaces
@@ -71,7 +75,10 @@ Things I've recently thought about:
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
 
 ### [July 2025: M2 🤝 SIAM AAG](https://tjyahl.github.io/organizing/M2-Madison-2025/)
-With [Thomas B.] and [Thomas Y.], we are planning a Macaulay2 workshop before the 2025 SIAM Applied Algebraic Geometry conference in Madison. Email us if you would like to lead a project!
+With [Thomas B.] and [Thomas Y.], we are planning a Macaulay2 workshop in Madison.
+
+### [Nov. 2024: M2 in the Sciences 🧑‍🔬](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
+With [Ben], we are organizing a Macaulay2 workshop in Leipzig, Germany.
 
 ### [June 2023: M2Week 🧑‍💻](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
 With [Ayah], [Christine], [Tim], and [Mike], we organized a Macaulay2 workshop and mini-school.
@@ -160,6 +167,7 @@ I also like [radio astronomy], anti-gerrymandering, cryptography, and privacy as
 [Mike]: https://sites.google.com/view/michaelperlman/home
 [Caitlyn]: https://sites.google.com/wisc.edu/cbooms
 [Connor]: https://people.math.wisc.edu/~csimpson6/
+[Ben]: https://sites.google.com/view/benhollering
 [Thomas B.]: https://tbrazel.github.io/
 [Thomas Y.]: https://tjyahl.github.io/
 [Christine]: https://math.umn.edu/~cberkesc/
