@@ -23,14 +23,29 @@ Assuming $p$-adic Hodge Theory has the same goal, can you coherently introduce h
 {% endcomment %}
 
 My current projects all involve commutative algebra over Cox rings of projective varieties. \\
-See my oral exam [presentation](../oral) for some topics and questions that lead me to this point.
+See my [prelim](../oral) and [defense](../defense) presentations for some topics and questions that lead me to this point.
 
-## [Publications](https://mathscinet.ams.org/mathscinet/author?authorId=1422471) and [preprints](https://arxiv.org/search/?query=Mahrud&searchtype=author)
+## [Publications] and [preprints]
 
-{% comment %}
+[Publications]: https://mathscinet.ams.org/mathscinet/author?authorId=1422471
+[preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
+
 - **Splitting of vector bundles on toric varieties** \\
-In preparation.
-{% endcomment %}
+[arXiv:2412.19793](https://arxiv.org/abs/2412.19793) [math.AG] \\
+27 December 2024
+
+> ![](../static/2412.19793.png){:width="80%; display:block; margin: auto;"}
+*The vanishing requirements which imply a Horrocks-type splitting criterion.*
+{: style="text-align: center"}
+
+- **Computing Direct Sum Decompositions** \\
+With [Devlin Mallory]. \\
+Submitted. [arXiv:2412.19799](https://arxiv.org/abs/2412.19799) [math.AC] \\
+27 December 2024
+
+> ![](../static/2412.19799.png){:width="80%; display:block; margin: auto;"}
+*Decomposing a module is equivalent to block diagonalizing its presentation.*
+{: style="text-align: center"}
 
 - **A short resolution of the diagonal for smooth proj. toric varieties of Picard rank 2** \\
 With [Michael K. Brown].
@@ -41,7 +56,7 @@ With [Michael K. Brown].
 {% endcomment %}
 
 > ![](../static/2208.00562.png){:width="80%; display:block; margin: auto;"}
-*The vanishing requirements which imply a Horrocks-type splitting criterion.*
+*The terms of a resolution of the diagonal for Hirzebruch surface of type a.*
 {: style="text-align: center"}
 
 - **Bounds on Multigraded Regularity** \\
@@ -86,8 +101,11 @@ With Leigh S. Martin, K. Birgitta Whaley. \\
 *Interactions of qubits in a remote entanglement generation protocol.*
 {: style="text-align: center"}
 
+Subscribe to my [MathSciNet](https://mathscinet.ams.org/mathscinet/author?authorId=1422471) and [ORCiD](https://orcid.org/0000-0003-3402-3844)!
+
 [Ayah Almousa]: https://sites.google.com/view/ayah-almousa
 [Michael K. Brown]: http://webhome.auburn.edu/~mkb0096/
 [Juliette Bruce]: https://juliettebruce.github.io/
 [Lauren Cranton Heller]: https://math.berkeley.edu/~lch/
 [Michael C. Loper]: https://www.uwrf.edu/FacultyStaff/5803758.cfm
+[Devlin Mallory]: https://devlin-mallory.github.io
