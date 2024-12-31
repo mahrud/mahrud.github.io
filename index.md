@@ -13,19 +13,19 @@ tagline: Mahrud Sayrafi
 
  <div>
   - Postdoc Researcher
-  - [MPI MiS](https://www.mis.mpg.de/) -- F3 13 <br />
-    [Inselstraße 22](https://goo.gl/maps/CisvELEGxtSXptyp7) <br />
-	04103 Leipzig, Germany
-  - mahrud [at] mis.mpg.de
+  - [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) <br />
+    [222 College Street](https://maps.app.goo.gl/qxm7Uks3Chnbnpqf9) <br />
+	Toronto, Ontario M5T 3J1
+  - mahrud [at] fields.utoronto.ca
   - Pronouns: He/Him
   {: style="font-size: small"}
  </div>
 </div>
 
 ### About me
-I am currently a postdoc in [Bernd Sturmfels's](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany and <br/> in 2025 I will join [McMaster University](https://math.mcmaster.ca/) in Hamilton, Ontario as a Britton postdoctoral fellow.
+I am a postdoc fellow at [McMaster University](https://math.mcmaster.ca/), currently on leave at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
 
-I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+Previously, I was a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
@@ -33,14 +33,8 @@ Before that I was an undergraduate at UC Berkeley.
 My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 {% comment %}
 {% endcomment %}
-- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
-- *Nov. 2024*: [Macaulay2 in the Sciences](https://www.mis.mpg.de/events/series/Macaulay2-in-the-Sciences) in Leipzig.
-- *Oct. 2024*: [Group actions, combinatorial methods, and Fano varieties](https://www.uibk.ac.at/mathematik/personal/braun/conference.html) in Innsbruck.
 - *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
-- *Sep. 2024*: [Syzygies and Hilbert Schemes](https://syzygies.mimuw.edu.pl/) in Kraków, Poland.
-- *Sep. 2024*: [School on Deformation Theory IV](https://www.donatellaiacono.it/sdt/sdt.html) in Rome, Italy.
-- *Jul. 2024*: [Effective Methods in Algebraic Geometry](https://www.mis.mpg.de/events/series/mega-2024) in Leipzig, Germany.
-- *Aug. 2022*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
+- *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
 
 ### [Research](research)
@@ -127,6 +121,13 @@ Always happy to chat about Macaulay2 and learn how others use it in research.
 ## Old News
 Travel, talks, papers, et cetera:
 
+{% comment %}
+- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
+{% endcomment %}
+- *Oct. 2024*: [Group actions, combinatorial methods, and Fano varieties](https://www.uibk.ac.at/mathematik/personal/braun/conference.html) in Innsbruck.
+- *Sep. 2024*: [Syzygies and Hilbert Schemes](https://syzygies.mimuw.edu.pl/) in Kraków, Poland.
+- *Sep. 2024*: [School on Deformation Theory IV](https://www.donatellaiacono.it/sdt/sdt.html) in Rome, Italy.
+- *Jul. 2024*: [Effective Methods in Algebraic Geometry](https://www.mis.mpg.de/events/series/mega-2024) in Leipzig, Germany.
 - *May 2024*{: style="color: red"}: I defended my dissertation on May 7th. Here are my [exam materials](defense).
 - *May  2024*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2299_progfull.html) in San Francisco.
 - *Spring 2024*: [SLMath semester in Commutative Algebra](https://www.slmath.org/workshops/1053) (~2 weeks/month).
