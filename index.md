@@ -23,9 +23,12 @@ tagline: Mahrud Sayrafi
 </div>
 
 ### About me
-I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+I am currently a postdoc in [Bernd Sturmfels's](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany and <br/> in 2025 I will join [McMaster University](https://math.mcmaster.ca/) in Hamilton, Ontario as a Britton postdoctoral fellow.
 
-I am now a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany and <br/> in 2025 I will join [McMaster University](https://math.mcmaster.ca/) in Hamilton, Ontario as a Britton postdoctoral fellow.
+I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+{% comment %}
+Before that I was an undergraduate at UC Berkeley.
+{% endcomment %}
 
 My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 {% comment %}
