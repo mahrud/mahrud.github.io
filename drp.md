@@ -10,20 +10,20 @@ The Directed Reading Program is a graduate student-run program that provides
 undergraduates with the opportunity to work with mathematics graduate
 students in independent *reading* projects.
 
+## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
+
+## [Also, attend Fall 2024 DRP Talks on December 5-6th and 9-10th!](talks){: style="color:red"}
+We would like to invite you to attend this semester's DRP Presentations, when each participant will give a 10-minute talk on their reading in a low-stakes environment!
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
 <br />
 
 [New: read about the DRP in the School of Mathematics Critical Points newsletter!](https://cse.umn.edu/math/news/directed-reading-program-fosters-connection-and-community-mathematics-students)
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
 
-## [Interested in DRP @ UMN? Please fill out this interest form!](apply){: style="color:red"}
-
-## [Also, attend Spring 2024 DRP Talks on April 23rd, 24th, 25th!](talks){: style="color:red"}
-We would like to invite you to attend this semester's DRP Presentations, when each participant will give a 10-minute talk on their reading in a low-stakes environment!
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
-
 {% comment %}
 
-## [Spring 2024 applications are now open! Deadline: Friday, February 9th](apply){: style="color:red"}
+## [Fall 2024 applications are now open! Deadline: Monday, September 23rd](apply){: style="color:red"}
 
 ## Learn more at DRP Mixer on Monday, February 6rd at 12:20pm in Vincent 570
 {: style="color:red"}

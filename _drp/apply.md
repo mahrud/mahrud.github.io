@@ -4,7 +4,7 @@ title: Application
 ---
 
 
-## Spring 2024 Deadline: Friday, February 9th.
+## Fall 2024 Deadline: Monday, September 23rd.
 {: style="color:red"}
 
 The readings can be either in-person or virtual, but we encourage safe in-person ones! <br /> If you have specific concerns, please mention it in the application.
