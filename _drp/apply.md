@@ -3,6 +3,11 @@ layout: drp
 title: Application
 ---
 
+[Update: see the new DRP website at z.umn.edu/mathDRP](https://sites.google.com/umn.edu/mathdrp/home)
+(Thanks for the last 6 years! ❤️)
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
+{% comment %}
 
 ## Fall 2024 Deadline: Monday, September 23rd.
 {: style="color:red"}
@@ -21,8 +26,6 @@ The readings can be either in-person or virtual, but we encourage safe in-person
 
 Note: DRP is not a university-run program, and therefore does not offer credits.
 If you would like to receive credits, look into MATH 4991/2/3 or the CLA [directed study options].
-
-{% comment %}
 
 ## Stop by the DRP Mixer on Monday, February 6th at 12:20pm in Vincent 570
 {: style="color:red"}
