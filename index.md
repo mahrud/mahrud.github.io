@@ -32,7 +32,14 @@ Before that I was an undergraduate at UC Berkeley.
 
 My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 {% comment %}
+- *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
+- *Apr. 2025*: [Toric Geometry Workshop](https://www.mfo.de/occasion/2515/www_view) at Oberwolfach.
+- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
 {% endcomment %}
+- *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
+- *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
+- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799).
+- *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
 - *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
 - *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
@@ -122,7 +129,6 @@ Always happy to chat about Macaulay2 and learn how others use it in research.
 Travel, talks, papers, et cetera:
 
 {% comment %}
-- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
 {% endcomment %}
 - *Oct. 2024*: [Group actions, combinatorial methods, and Fano varieties](https://www.uibk.ac.at/mathematik/personal/braun/conference.html) in Innsbruck.
 - *Sep. 2024*: [Syzygies and Hilbert Schemes](https://syzygies.mimuw.edu.pl/) in Kraków, Poland.
