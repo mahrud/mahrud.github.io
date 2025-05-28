@@ -1,0 +1,102 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass{res}
+
+\usepackage{amsmath}
+\usepackage{revnum}
+\usepackage{etaremune}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage[letterpaper, margin=1in]{geometry}
+
+\topmargin=-0.5in % start text higher on the page
+\textwidth=6in % increase textwidth to get smaller right margin
+\textheight=10in
+\setlength\parindent{0pt}
+
+%\renewcommand{\subsection}{\bff}
+\newcommand{\negindent}{\hspace*{-0.15in}}
+\newenvironment{bff}{\negindent\bf}{}
+
+\newcommand{\negsmallskip}{\vspace{-0.1in}}
+\newcommand{\negmedskip}{\vspace{-0.12in}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+\hspace{-0.5in}{\LARGE {\bf C{\sc urriculum} V{\sc itae}}}
+\end{center}
+
+\name{\LARGE M{\sc ahrud} S{\sc ayrafi} \\[0pt]}
+
+\address{
+  Fields Institute \\
+  222 College Street \\
+  Toronto, Ontario M5T 3J1
+  %% 557 Vincent Hall \\
+  %% 206 Church St SE \\
+  %% Minneapolis, MN 55455
+}
+
+\address{
+ %% \hfill Tel: \href{tel:510.309.8486}{(510) 309-8486} \\
+ \hfill \href{mailto:mahrud@fields.utoronto.ca}{\tt mahrud@fields.utoronto.ca} \\
+ \hfill \href{https://math.umn.edu/\~mahrud}{\tt math.umn.edu/$\sim$mahrud} \\
+}
+
+\begin{resume}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% research, teaching, service
+  
+%\input{purpose}
+
+\input{employment}
+
+\input{education}
+
+\input{grants}
+
+\input{papers}
+
+\break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{talks}
+
+\break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{teaching}
+
+\input{service}
+
+\input{work}
+
+\break %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{workshops}
+
+\input{projects}
+
+\input{professional}
+
+\input{research}
+
+\input{references}
+
+%\input{personal}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% \vfill
+
+%% \textit{\footnotesize
+%% Version 3.14159265358979323846264, updated September 2023 using \LaTeX. \\
+%%        %3.14159265358979323846264338327950288419
+%% References are available upon request.
+%% (Latest revision at \href{http://goo.gl/97dSND}{\tt goo.gl/97dSND})}
+
+\end{resume}
+\end{document}
