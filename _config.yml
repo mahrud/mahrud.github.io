@@ -2,8 +2,7 @@
 title:               Mahrud Sayrafi
 tagline:             Mahrud Sayrafi
 description:         >- # this means to ignore newlines until "url:"
-  I am a graduate student at the University of Minnesota
-  studying commutative algebra and algebraic geometry.
+  I am mathematician working in commutative algebra and algebraic geometry.
 url:                 https://math.umn.edu
 baseurl:             '/~mahrud' # the subpath of your site, e.g. /blog
 gtag:                G-7X5TT5VW46 # Google Analytics 4 Tag
