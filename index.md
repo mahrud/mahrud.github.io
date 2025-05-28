@@ -6,6 +6,10 @@ tagline: Mahrud Sayrafi
 
 {::options parse_block_html="true" /}
 
+We're moving to [mahrud.github.io](https://mahrud.github.io)!
+(So long, Minnesota, and thanks for all the dish! ❤️)
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 30px;"}
+
 <div style="display: flex; flex-wrap: wrap">
  <div style="margin-left: 10px">
   ![](static/mahrud-2021.jpg "Photo by Caitlin Knight"){:width="120px"}
