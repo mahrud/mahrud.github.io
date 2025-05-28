@@ -3,8 +3,8 @@ title:               Mahrud Sayrafi
 tagline:             Mahrud Sayrafi
 description:         >- # this means to ignore newlines until "url:"
   I am mathematician working in commutative algebra and algebraic geometry.
-url:                 https://math.umn.edu
-baseurl:             '/~mahrud' # the subpath of your site, e.g. /blog
+url:                 https://mahrud.github.io
+baseurl:             '' # the subpath of your site, e.g. /blog
 gtag:                G-7X5TT5VW46 # Google Analytics 4 Tag
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
