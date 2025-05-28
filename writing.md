@@ -9,17 +9,12 @@ order: 4
 - ["Splitting of Vector Bundles via Fourier--Mukai Theory"](exposition.pdf)
 {: style="font-size: smaller"}
 
-<!--
-- The Horrocks--Mumford Bundle
-- [Tate Resolutions for Products of Projective Spaces](https://arxiv.org/abs/1411.5724)
--->
-
 ## Blog Posts
-- [In order to prevent an exodus of students, mathematicians must stand together](https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
+- [In order to prevent an exodus of students, mathematicians must stand together](https://web.archive.org/web/20250126011222/https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
   - Related: [open letter by UMN community](UMN_Letter.pdf) (not written by me), and
   - [response by Minnesota Attorney General Ellison](Ellison.pdf).
-- [Mathematics From Arts?](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
-- [From Russia, With Love](https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
+- [Mathematics From Arts?](https://web.archive.org/web/20250125153109/https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
+- [From Russia, With Love](https://web.archive.org/web/20241211001414/https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
 {: style="font-size: smaller"}
 
 <!--
@@ -53,8 +48,3 @@ order: 4
   - Device-Independent Tripartite QKD from Three-Player Quantum Games
   - Applications of Secure Multiparty Computation in Secret Sharing
 {: style="font-size: smaller"}
-
-<!--
-- [The Maximal Rank Conjecture](https://arxiv.org/abs/1711.04906)
-- [Smooth Hilbert Schemes](http://www.ima.umn.edu/materials/2018-2019/SW7.22-26.19/28124/smith.pdf)
--->
