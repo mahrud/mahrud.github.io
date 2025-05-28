@@ -59,4 +59,4 @@ exclude:
   - _archive/
   - _drp/archive/
   - _teaching/archive/
-  - _static/reveal.js/
+  - static/reveal.js/
