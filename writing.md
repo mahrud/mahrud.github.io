@@ -6,7 +6,7 @@ order: 4
 ---
 
 ## Expositions
-- ["Splitting of Vector Bundles via Fourier--Mukai Theory"](exposition.pdf)
+- ["Splitting of Vector Bundles via Fourier--Mukai Theory"](oral/exposition.pdf)
 {: style="font-size: smaller"}
 
 ## Blog Posts
