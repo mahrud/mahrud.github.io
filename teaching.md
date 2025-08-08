@@ -5,6 +5,14 @@ tagline: Teaching Experience
 order: 2
 ---
 
+At **McMaster University** in Canada, I am responsible for teaching the following courses.
+
+- Spring      2026: Instructor for [MATH 1LS3 -- Calculus for the Life Sciences](s26-math1LS3)
+- Fall &nbsp; 2025: Instructor for [MATH 3GR3 -- Abstract Algebra](f25-math3GR3)
+{: style="font-family: monospace; font-size: small"}
+
+Previously, at the **University of Minnesota**, I taught the following courses.
+
 - Spring      2023: Instructor for [MATH 1272 -- Calculus 2](s23-math1272)
 - Fall &nbsp; 2022: Grader for [MATH 8253 -- Algebraic Geometry](https://math.umn.edu/~voronov/8253f22)
 - Spring      2022: Instructor for [MATH 1272 -- Calculus 2](s22-math1272)
@@ -14,7 +22,7 @@ order: 2
 - Fall &nbsp; 2018: TA for [MATH 1271 -- Calculus 1](f18-math1271)
 {: style="font-family: monospace; font-size: small"}
 
-Previously, I graded for the following courses at UC Berkeley.
+And long ago, I graded for the following courses at **UC Berkeley**.
 
 - Spring      2015: Math 113 -- Abstract Algebra
 - Fall &nbsp; 2014: Math 116 -- Introduction to Mathematical Cryptography

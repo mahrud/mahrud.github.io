@@ -13,32 +13,34 @@ tagline: Mahrud Sayrafi
 
  <div>
   - Postdoc Researcher
-  - [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) <br />
-    [222 College Street](https://maps.app.goo.gl/qxm7Uks3Chnbnpqf9) <br />
-	Toronto, Ontario M5T 3J1
-  - mahrud [at] fields.utoronto.ca
+  - [McMaster University](https://math.mcmaster.ca/) <br />
+    [1280 Main Street West](https://maps.app.goo.gl/GMMc7qHHo75FsNXC6) <br />
+	Hamilton, Ontario L8S 4L8
+  - mahrud [at] mcmaster.ca
   - Pronouns: He/Him
   {: style="font-size: small"}
  </div>
 </div>
 
 ### About me
-I am a postdoc fellow at [McMaster University](https://math.mcmaster.ca/), currently on leave at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
+I am a Britton postdoctoral fellow at [McMaster University](https://math.mcmaster.ca/) in Canada.
 
 Previously, I was a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
+[Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
 
 My CV is [here](mahrud.pdf), and here are some recent updates/plans:
 {% comment %}
-- *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
-- *Apr. 2025*: [Toric Geometry Workshop](https://www.mfo.de/occasion/2515/www_view) at Oberwolfach.
-- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
+- *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 {% endcomment %}
+- *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
+- *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
+- *Accepted*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799).
+_(Accepted to [Journal of Symbolic Computation](https://www.elsevier.com/locate/jsc)!)_{: style="font-size: small; float: right"}
 - *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
 - *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
-- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799).
 - *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
 - *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
 - *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
@@ -77,6 +79,9 @@ Things I've recently thought about:
 ## Activities
 
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
+
+### [December 2025: Commutative Algebra at the CMS Winter Meeting](https://winter25.cms.math.ca)
+With [Adam] and [Giulia], we are planning a commutative algebra special session in Toronto.
 
 ### [July 2025: M2 🤝 SIAM AAG](https://tjyahl.github.io/organizing/M2-Madison-2025/)
 With [Thomas B.] and [Thomas Y.], we are planning a Macaulay2 workshop in Madison.
@@ -130,6 +135,8 @@ Travel, talks, papers, et cetera:
 
 {% comment %}
 {% endcomment %}
+- *Apr. 2025*: [Toric Geometry Workshop](https://www.mfo.de/occasion/2515/www_view) at Oberwolfach.
+- *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
 - *Oct. 2024*: [Group actions, combinatorial methods, and Fano varieties](https://www.uibk.ac.at/mathematik/personal/braun/conference.html) in Innsbruck.
 - *Sep. 2024*: [Syzygies and Hilbert Schemes](https://syzygies.mimuw.edu.pl/) in Kraków, Poland.
 - *Sep. 2024*: [School on Deformation Theory IV](https://www.donatellaiacono.it/sdt/sdt.html) in Rome, Italy.
@@ -169,7 +176,8 @@ Travel, talks, papers, et cetera:
 I'm a fan of fermented foods, volcanoes, sewing & mending, anti-racism, biking, and backpacking. \\
 I also like [radio astronomy], anti-gerrymandering, cryptography, and privacy as a human right.
 
-
+[Adam]: https://ms.mcmaster.ca/~vantuyl/
+[Giulia]: https://www.giuliagaggero.com/
 [Maya]: https://sites.google.com/wisc.edu/mayabanks
 [Ola]: https://people.math.wisc.edu/~asobieska/
 [Ayah]: https://sites.google.com/view/ayah-almousa
