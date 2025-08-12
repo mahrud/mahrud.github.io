@@ -3,7 +3,7 @@ layout: page
 title: Exhibit
 tagline: Math Library pop-up exhibit
 category: activities
-order: 2
+order: 3
 ---
 
 {::options parse_block_html="true" /}

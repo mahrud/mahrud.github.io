@@ -3,7 +3,7 @@ layout: drp
 title: DRP
 tagline: What is the DRP?
 category: activities
-order: 1
+order: 4
 ---
 
 The Directed Reading Program is a graduate student-run program that provides
