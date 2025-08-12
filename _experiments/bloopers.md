@@ -7,4 +7,4 @@ title: "Geometric Arts Experiments: Bloopers!"
 
 <!-- <iframe id="p5jsFrame" src="experiments/bloopers.html" style="border: none; height: 430px; width: 620px"></iframe> -->
 
-<iframe id="cindyFrame" src="/~mahrud/experiments/bloopers.html" style="border: none; height: 660px; width: 800px"></iframe>
+<iframe id="cindyFrame" src="{{ site.baseurl }}/experiments/bloopers.html" style="border: none; height: 660px; width: 800px"></iframe>

@@ -23,7 +23,7 @@ title: Geometric Arts Experiments
 <p>
   Feel free to <a href="https://editor.p5js.org/mahrud/sketches/BJ_n6QzMN">change it yourself</a> and let me know!
 </p>
-<iframe id="p5jsFrame" src="/~mahrud/experiments/CM.html" style="border: none; height: 430px; width: 620px"></iframe>
+<iframe id="p5jsFrame" src="{{ site.baseurl }}/experiments/CM.html" style="border: none; height: 430px; width: 620px"></iframe>
 <p>
   In a previous iteration of this, at some point I made a <a href="../bloopers/">small but glorious mistake that I think is really pretty</a>
 </p>

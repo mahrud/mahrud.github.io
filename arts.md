@@ -3,7 +3,7 @@ layout: page
 title: Arts
 tagline: Arts & Mathematics
 category: activities
-order: 2
+order: 5
 ---
 
 {% comment %}
@@ -25,6 +25,8 @@ This page is also hard to define, and that's okay!
 *Spectres are strictly chiral aperiodic monotiles, even when reflections are permitted.<br />
 The hat is only weakly aperiodic, meaning that it tiles periodically if you allow reflections*
 {: style="text-align: center"}
+
+Also see: [A Gardner's Dozen—Martin's Scientific American Cover Stories](https://martin-gardner.org/SciAm12.html).
 
 ## [Raycasting Real Algebraic Surfaces](../experiments/surfaces/)
  This amazing experiment is rendered using [CindyJS](https://cindyjs.org) directly in your browser.
