@@ -1,14 +1,17 @@
 ---
 layout: seminar
 title: Seminars
-tagline: Student Seminars and Organizing
+tagline: Seminars Organizing
 category: activities
-order: 2
+order: 6
 ---
 
-{% assign seminars_list = site.seminars | sort: 'year' | sort: 'semester' | reverse %}
+## Fields Thematic Program in Commutative Algebra and Applications
+
+See [Commutative Algebra and Applications Seminar](http://www.fields.utoronto.ca/activities/24-25/caa-seminar).
 
 ## Student Commutative Algebra Meeting
+{% assign seminars_list = site.seminars | sort: 'year' | sort: 'semester' | reverse %}
 {% for seminar in seminars_list %}{% if seminar.title == "Student Commutative Algebra Meeting" -%}
 * [{{ seminar.semester }} {{ seminar.year }}]({{ site.baseurl }}{{ seminar.url }})
 {% endif %}{% endfor %}
