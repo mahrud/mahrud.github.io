@@ -31,20 +31,22 @@ Previously, I was a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/no
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
 
-My CV is [here](mahrud.pdf), and here are some recent updates/plans:
-{% comment %}
-- *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
-{% endcomment %}
+I am on the **job market**.
+My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
+- *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
 - *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
 - *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
-- *Accepted*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799).
-_(Accepted to [Journal of Symbolic Computation](https://www.elsevier.com/locate/jsc)!)_{: style="font-size: small; float: right"}
+- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _to appear in_{: style="font-size: small"} [Journal of Symbolic Computation](https://www.elsevier.com/locate/jsc)!
 - *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
 - *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
 - *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
 - *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
+
+{% comment %}
+- *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
+{% endcomment %}
 
 ### [Research](research)
 My research area is multigraded commutative algebra, particularly in the setting of toric geometry. Roughly speaking, I'm interested in using derived categories to translate the book [_Geometry of Syzygies_] to the toric setting and beyond.
@@ -80,6 +82,11 @@ Things I've recently thought about:
 
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
 
+{% comment %}
+### [April 2024: AMS Sectional in Milwaukee‍](https://www.ams.org/meetings/sectional/2318_program.html)
+With [Maya] and [Ola], we're planning a session on nonstandard & multigraded commutative algebra.
+{% endcomment %}
+
 ### [December 2025: Commutative Algebra at the CMS Winter Meeting](https://winter25.cms.math.ca)
 With [Adam] and [Giulia], we are planning a commutative algebra special session in Toronto.
 
@@ -100,32 +107,24 @@ The Directed Reading Program is a graduate student-run program that matches unde
 
 **New**{: style="color: red"}: read about the DRP in the School of Mathematics _[Critical Points newsletter!](https://cse.umn.edu/math/news/directed-reading-program-fosters-connection-and-community-mathematics-students)_
 
-{% comment %}
-### [April 2024: AMS Sectional in Milwaukee‍](https://www.ams.org/meetings/sectional/2318_program.html)
-With [Maya] and [Ola], we're planning a session on nonstandard & multigraded commutative algebra.
-
-### [Student Commutative Algebra Meeting](seminars/SCAM)
-- Spring      2023: (informal) Research Meetings
-- Fall &nbsp; 2022: (informal) Research Meetings
-- Spring      2022: Research Meetings
-- Fall &nbsp; 2021: Research Meetings
-- Spring      2021: Student talks and pre-talks for the adult seminar
-- Fall &nbsp; 2020: On hiatus
-- Spring      2020: Introductory topics and $D$-Modules
-- Fall &nbsp; 2019: [Boij-Söderberg theory](https://arxiv.org/abs/1106.0381)
-{: style="font-family: monospace"}
-{% endcomment %}
-
-### [Macaulay2 Development](journal)
-A main aspect of my research involves developing and implementing algorithms to study explicit examples
+### [Macaulay2fu](M2fu)
+A aspect of my research involves developing and implementing algorithms to study explicit examples
 in algebraic geometry and commutative algebra. Some packages I've [contributed] to:
 
-> [FGLM](https://www.macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/FGLM/html/),
-[LocalRings](https://www.macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/LocalRings/html/),
-[Saturation](https://www.macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/Saturation/html/),
-[Truncations](https://www.macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/Truncations/html/),
-[VirtualResolutions](https://www.macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/VirtualResolutions/html/),
-[NormalToricVarieties](https://www.macaulay2.com/doc/Macaulay2/share/doc/Macaulay2/NormalToricVarieties/html/).
+> Commutative Algebra
+([DirectSummands](https://mahrud.github.io/LearnM2/packages/#DirectSummands),
+[Isomorphism](https://mahrud.github.io/LearnM2/packages/#Isomorphism),
+[Truncations](https://mahrud.github.io/LearnM2/packages/#Truncations),
+[FGLM](https://mahrud.github.io/LearnM2/packages/#FGLM),
+[LocalRings](https://mahrud.github.io/LearnM2/packages/#LocalRings)), \\
+Algebraic Geometry
+([Varieties](https://mahrud.github.io/LearnM2/packages/#Varieties),
+[VirtualResolutions](https://mahrud.github.io/LearnM2/packages/#VirtualResolutions),
+[NormalToricVarieties](https://mahrud.github.io/LearnM2/packages/#NormalToricVarieties)), \\
+Algebraic Analysis
+([HolonomicSystems](https://mahrud.github.io/LearnM2/packages/#HolonomicSystems),
+[ConnectionMatrices](https://mahrud.github.io/LearnM2/packages/#ConnectionMatrices)), \\
+and various improvements in the core and engine of Macaulay2.
 {: style="font-family: monospace; font-size: 90%"}
 
 Always happy to chat about Macaulay2 and learn how others use it in research.
@@ -147,6 +146,7 @@ Travel, talks, papers, et cetera:
 - *Jan. 2024*: [Joint Math Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2300_presenters.html#SAYRAFI,%20MAHRUD) in San Francisco, CA.
 - *Dec. 2023*: [Iberoamerican Congress on Geometry](https://geometryrc.ufro.cl/icg2023/) at Pucón, Chile 🌋.
 - *Nov. 2023*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/wustl-fall-2023) at Washington University in St. Louis.
+- *Oct. 2023*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562) is [accepted](https://msp.org/ant/2024/18-10/p05.xhtml){: style="color: red"}!
 - *Oct. 2023*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2307_progfull.html#2307:SS9A) in Omaha, Nebraska.
 - *Sep. 2023*: [Syzygies and mirror symmetry](https://aimath.org/workshops/upcoming/syzygyms/) at AIM.
 - *Sep. 2023*: [Macaulay2 workshop](https://aimath.org/workshops/upcoming/macaulay2efie/) at AIM.
@@ -170,6 +170,19 @@ Travel, talks, papers, et cetera:
 - *Nov. 2020*: Blog post on the [AMS Capital Currents Blog](https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/).
 - *Dec. 2019*: Blog post on the [AMS Grad Blog](https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/).
 {: style="font-size: 90%"}
+
+Here are some activities I've been involved with in the past:
+
+### [Student Commutative Algebra Meeting](seminars/SCAM)
+- Spring      2023: (informal) Research Meetings
+- Fall &nbsp; 2022: (informal) Research Meetings
+- Spring      2022: Research Meetings
+- Fall &nbsp; 2021: Research Meetings
+- Spring      2021: Student talks and pre-talks for the adult seminar
+- Fall &nbsp; 2020: On hiatus
+- Spring      2020: Introductory topics and $D$-Modules
+- Fall &nbsp; 2019: [Boij-Söderberg theory](https://arxiv.org/abs/1106.0381)
+{: style="font-family: monospace"}
 
 ## Personal
 
