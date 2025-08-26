@@ -39,7 +39,7 @@ See my [prelim](../oral) and [defense](../defense) presentations for some topics
 
 - **Computing Direct Sum Decompositions** \\
 With [Devlin Mallory]. \\
-Accepted to [_Journal of Symbolic Computation_](https://www.elsevier.com/locate/jsc). \\
+In press at [_Journal of Symbolic Computation_](https://doi.org/10.1016/j.jsc.2025.102486). \\
 27 December 2024. [arXiv:2412.19799](https://arxiv.org/abs/2412.19799) [math.AC]
 
 > ![](../static/arXiv/2412.19799.png){:width="80%; display:block; margin: auto;"}
