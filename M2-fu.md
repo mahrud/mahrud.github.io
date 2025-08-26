@@ -28,17 +28,30 @@ Everyone uses M2 differently, depending on the unique computational aspects of t
 
 Ultimately, the goal is to form a community of colleagues amongst whom collaborations can be born. When discussing a project, it will be communicated clearly whether or not it is open to collaborators or an ongoing project obstructed by computational questions which motivate a separate project.
 
+## Previous Meetings
+
+### August 26, 2025: [Anna Brosowsky](https://anna-brosowsky.github.io/) on $F$-purity and colon ideals
+
+Anna talked about the problem of testing whether an ideal is $F$-Pure in positive characteristics + the Fedder's criterion which uses colon ideals + the naive algorithm for computing colon ideals using intersection as a blackbox. Anna and collaborators are working on a project about F-purity of certain combinatorial ideals and posed the problem of effective testing of F-purity as a separate project.
+
+After this, we used `profile` and `profileSummary` to investigate what pieces of code `isFPure` uses and split into three groups looking at:
+- where intersection algorithms are in the `Core`
+- where colon ideal algorithms are in the `Saturation` package
+- where `isFPure` is implemented in `TestIdeals` package
+
 ## I am intrigued! How do I join?
 
 ![]({{ site.baseurl }}/static/M2fu/bowl-400.png "ha"){: style="width: 150px; margin-left: 20px; float: right"}
 
+The next meeting will be late September/early October. In the meantime, send an email to <mailto:mahrud@mcmaster.ca> to be added to our Zulip channel.
+
+{% comment %}
 A 90-minute test run will happen at the end of August. The last 30 minutes will be an organizational discussion to decide the format of future meetings. If you'd like to join:
 - please **fill this [When2Meet](https://www.when2meet.com/?31675319-lAkc1) by Wednesday 8/20**, and
 - send an **email to <mailto:mahrud@mcmaster.ca>**.
 
 The meeting will be via Zoom. Details will be shared via email / Zulip / here.
 
-{% comment %}
 Whether you're a seasoned polynomial ring navigator or just starting to explore the world of computational commutative algebra, this is your chance to:
 
 • Share clever code snippets and time-saving techniques
@@ -57,4 +70,4 @@ P.S. - Bonus points if you can bring your most elegant one-liner or most frustra
 Footnotes:
 
 [^1]: Experienced grad students and non-tenured faculty are welcome. Feel free to send this link to others and please reach out if you're unsure whether this meeting is for you.
-[^2]: The ["-fu"](https://en.wiktionary.org/wiki/-fu) suffix is a slang used to form nouns indicating expertise or mastery of specified skill or area of knowledge, like kung fu. It's also a tofu pun.
+[^2]: The ["-fu"](https://en.wiktionary.org/wiki/-fu) suffix is a slang used to form nouns indicating expertise or mastery of specified skill or area of knowledge, like kung fu. It's also a tofu pun
