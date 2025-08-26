@@ -107,7 +107,7 @@ The Directed Reading Program is a graduate student-run program that matches unde
 
 **New**{: style="color: red"}: read about the DRP in the School of Mathematics _[Critical Points newsletter!](https://cse.umn.edu/math/news/directed-reading-program-fosters-connection-and-community-mathematics-students)_
 
-### [Macaulay2fu](M2fu)
+### [Macaulay2-fu](M2-fu)
 A aspect of my research involves developing and implementing algorithms to study explicit examples
 in algebraic geometry and commutative algebra. Some packages I've [contributed] to:
 
