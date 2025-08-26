@@ -102,14 +102,11 @@ With [Ayah], [Christine], [Tim], and [Mike], we organized a Macaulay2 workshop a
 ### [May 2022: GradMoCCA ☕](GradMoCCA)
 With [Christine], [Caitlyn], and [Connor], we held a graduate student conference in Minneapolis.
 
-### [Directed Reading Program](drp)
-The Directed Reading Program is a graduate student-run program that matches undergraduates with mathematics graduate students in independent reading projects followed by presentations.
+### Macaulay2 Research Group
 
-**New**{: style="color: red"}: read about the DRP in the School of Mathematics _[Critical Points newsletter!](https://cse.umn.edu/math/news/directed-reading-program-fosters-connection-and-community-mathematics-students)_
+Together with several other postdocs and early-career researchers, we started a focused research group called the [M2 Potluck Collective](M2-fu), where we work on computational obstructions in our research.
 
-### [Macaulay2-fu](M2-fu)
-A aspect of my research involves developing and implementing algorithms to study explicit examples
-in algebraic geometry and commutative algebra. Some packages I've [contributed] to:
+More generally, developing and implementing algorithms to study explicit examples in algebraic geometry and commutative algebra is an aspect of my research. Some packages I've [contributed] to:
 
 > Commutative Algebra
 ([DirectSummands](https://mahrud.github.io/LearnM2/packages/#DirectSummands),
@@ -124,10 +121,13 @@ Algebraic Geometry
 Algebraic Analysis
 ([HolonomicSystems](https://mahrud.github.io/LearnM2/packages/#HolonomicSystems),
 [ConnectionMatrices](https://mahrud.github.io/LearnM2/packages/#ConnectionMatrices)), \\
-and various improvements in the core and engine of Macaulay2.
+and various improvements in the core, engine, and interpreter of Macaulay2.
 {: style="font-family: monospace; font-size: 90%"}
 
-Always happy to chat about Macaulay2 and learn how others use it in research.
+### [Directed Reading Program](drp)
+The Directed Reading Program is a graduate student-run program that matches undergraduates with mathematics graduate students in independent reading projects followed by presentations.
+
+You can read about the DRP in the School of Mathematics _[Critical Points newsletter!](https://cse.umn.edu/math/news/directed-reading-program-fosters-connection-and-community-mathematics-students)_
 
 ## Old News
 Travel, talks, papers, et cetera:
