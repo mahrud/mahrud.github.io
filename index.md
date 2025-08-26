@@ -83,18 +83,23 @@ Things I've recently thought about:
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
 
 {% comment %}
-### [April 2024: AMS Sectional in Milwaukee‍](https://www.ams.org/meetings/sectional/2318_program.html)
+### [Apr. 2024: AMS Sectional in Milwaukee‍](https://www.ams.org/meetings/sectional/2318_program.html)
 With [Maya] and [Ola], we're planning a session on nonstandard & multigraded commutative algebra.
 {% endcomment %}
 
-### [December 2025: Commutative Algebra at the CMS Winter Meeting](https://winter25.cms.math.ca)
-With [Adam] and [Giulia], we are planning a commutative algebra special session in Toronto.
+### [Dec. 2025: CA-AG at the CMS Winter Meeting](https://winter25.cms.math.ca)
+With [Adam] and [Giulia], we are planning a commutative algebra special session in Toronto. \\
+A parallel session planned by [Megumi], [Brett], and [Sasha] focuses on algebraic geometry instead.
+
+[Megumi]: https://ms.mcmaster.ca/~haradam/
+[Brett]: https://sites.google.com/view/brett-nasserden/home
+[Sasha]: https://sites.google.com/view/szotine/home
 
 ### [July 2025: M2 🤝 SIAM AAG](https://tjyahl.github.io/organizing/M2-Madison-2025/)
-With [Thomas B.] and [Thomas Y.], we are planning a Macaulay2 workshop in Madison.
+With [Thomas B.] and [Thomas Y.], we organized a Macaulay2 workshop in Madison.
 
 ### [Nov. 2024: M2 in the Sciences 🧑‍🔬](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
-With [Ben], we are organizing a Macaulay2 workshop in Leipzig, Germany.
+With [Ben], we organized a Macaulay2 workshop in Leipzig, Germany.
 
 ### [June 2023: M2Week 🧑‍💻](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
 With [Ayah], [Christine], [Tim], and [Mike], we organized a Macaulay2 workshop and mini-school.
