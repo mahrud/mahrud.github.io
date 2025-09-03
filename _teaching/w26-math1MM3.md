@@ -1,7 +1,7 @@
 ---
 layout: course
-title: MATH 1LS3
-tagline: Calculus for Life Sciences
+title: MATH 1MM3
+tagline: Applied Calculus
 date: 01-02-2025
 ---
 
@@ -12,5 +12,5 @@ date: 01-02-2025
 - [Syllabus]()
 {% endcomment %}
 
-## Spring 2026 Office Hours:
+## Winter 2026 Office Hours:
 - TBD.

@@ -7,7 +7,7 @@ order: 2
 
 At **McMaster University** in Canada, I am responsible for teaching the following courses.
 
-- Spring      2026: Instructor for [MATH 1LS3 -- Calculus for the Life Sciences](s26-math1LS3)
+- Winter      2026: Instructor for [MATH 1MM3 -- Applied Calculus](w26-math1MM3)
 - Fall &nbsp; 2025: Instructor for [MATH 3GR3 -- Abstract Algebra](f25-math3GR3)
 {: style="font-family: monospace; font-size: small"}
 
@@ -57,10 +57,10 @@ I'm always open to discuss different [pedagogical strategies]. Feel free to reac
 
 
 [pedagogical strategies]: https://blogs.ams.org/matheducation/2018/09/15/comparing-educational-philosophies/
-[Instructional Practices Guide]: https://www.maa.org/sites/default/files/InstructPracGuide_web.pdf
-["How to get an "A" in my class"]: https://math.berkeley.edu/~kpmann/113getanA.pdf
+[Instructional Practices Guide]: https://maa.org/wp-content/uploads/2024/06/InstructPracGuide_web.pdf
+["How to get an "A" in my class"]: https://web.archive.org/web/20230922090750/https://math.berkeley.edu/~kpmann/113getanA.pdf
 [Mathematical Maturity]: https://blogs.ams.org/matheducation/2019/07/16/precise-definitions-of-mathematical-maturity-2/
-[Engaging Students]: http://sites.nd.edu/kaneb/2019/09/09/engaging-students-using-the-first-5-minutes-of-class/
+[Engaging Students]: https://web.archive.org/web/20240709095918/https://sites.nd.edu/kaneb/2019/09/09/engaging-students-using-the-first-5-minutes-of-class/
 [Inclusive Practices]: https://blogs.ams.org/inclusionexclusion/2019/08/30/inclusive-practices-syllabus-and-day-one/
 [Mathematics for action]: https://unesdoc.unesco.org/ark:/48223/pf0000380883.locale=en
 

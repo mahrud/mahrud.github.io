@@ -17,16 +17,23 @@ This course is an introduction to groups and rings with an emphasis on examples.
   &nbsp; An introduction to groups and rings, with an emphasis on concrete examples. Topics include: groups, subgroups, normal subgroups, quotient groups, group homomorphisms, First Isomorphism Theorem for groups, symmetric and alternating groups, rings, subrings, ideals, quotient rings, ring homomorphisms, and the First Isomorphism Theorem for rings.
 {% endcomment %}
 
-- Instructor: \\
-  &nbsp; Mahrud Sayrafi
-- TA: \\
-  &nbsp; TBD
-- Textbook: \\
+- **Instructor**: \\
+  &nbsp; Mahrud Sayrafi `<mahrud at ...>`
+- **TA**: \\
+  &nbsp; Kieran Bhaskara `<kieran.bhaskara at ...>`
+- **Textbook**: \\
   &nbsp; [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/download.html) \\
   &nbsp; Available for free download in English and Spanish.
+- Supplementary (_bedtime_) reading: \\
+  1. "Groups and Symmetry" by M. Armstrong.
+  2. "A Book of Abstract Algebra" by C. Pinter.
+  3. "History of Abstract Algebra" by J. Gray.
 - Prerequisites: \\
   &nbsp; Mathematical Reasoning (MATH 1C03), and \\
   &nbsp; Linear Algebra (MATH 2R03 or a grade of at least B in MATH 2LA3)
+- **[SimpleSyllabus](https://mcmaster.simplesyllabusca.com/en-US/doc/1dmviw7rs/Fall-2025-MATH-3GR3-C01-SAYRAFIM-Abstract-Algebra?mode=view)**: official course outline.
+- **[Avenue to Learn](https://avenue.cllmcmaster.ca/d2l/home/734862)**: announcements and course
+- [👉 How to get an **A** in this class! 👈](../getanA_3GR3.pdf)
 
 <table border="1" cellpadding="5" style="font-size: 14px; text-align: center">
   <tbody>
@@ -54,9 +61,7 @@ This course is an introduction to groups and rings with an emphasis on examples.
 
 - TBD.
 
-## Course Outline
-
-The official course outline is found on [SimpleSyllabus]().
+## Schedule
 
 | Date          | Topic    | Notes                |
 |---------------|----------|----------------------|
