@@ -5,12 +5,27 @@ tagline: Applied Calculus
 date: 01-02-2025
 ---
 
-{% comment %}
-- [Announcements]()
-- [Homework]()
-- [Schedule]()
-- [Syllabus]()
-{% endcomment %}
+- **Instructor**: \\
+  &nbsp; Mahrud Sayrafi `<mahrud at ...>`
+
+<table border="1" cellpadding="5" style="font-size: 14px; text-align: center">
+  <tbody>
+    <tr>
+      <th>Class</th>
+      <th>Title</th>
+      <th>Schedule</th>
+    </tr>
+    <tr>
+      <td>MATH 3MM3<br/>(#2069)</td>
+      <td>Applied Calculus<br/>(Lecture)</td>
+      <td>MoTh 12:30 - 13:20<br/> &nbsp;  &nbsp;&nbsp; &nbsp;
+	  Tu   13:30 - 14:20</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Winter 2026 Office Hours:
-- TBD.
+TBD
+
+## Schedule
+TBD

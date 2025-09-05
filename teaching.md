@@ -53,7 +53,8 @@ I'm always open to discuss different [pedagogical strategies]. Feel free to reac
 - Benjamin Braun: [Mathematical Maturity]
 - Kathryn Mulholland: [Engaging Students]
 - Brian Katz: [Inclusive Practices]
-- UNESCO: [Mathematics for action]: supporting science-based decision-making
+- UNESCO [Mathematics for action]: supporting science-based decision-making
+- Axioms of Mathematics Education: [Todos Cuentan]
 
 
 [pedagogical strategies]: https://blogs.ams.org/matheducation/2018/09/15/comparing-educational-philosophies/
@@ -63,6 +64,7 @@ I'm always open to discuss different [pedagogical strategies]. Feel free to reac
 [Engaging Students]: https://web.archive.org/web/20240709095918/https://sites.nd.edu/kaneb/2019/09/09/engaging-students-using-the-first-5-minutes-of-class/
 [Inclusive Practices]: https://blogs.ams.org/inclusionexclusion/2019/08/30/inclusive-practices-syllabus-and-day-one/
 [Mathematics for action]: https://unesdoc.unesco.org/ark:/48223/pf0000380883.locale=en
+[Todos Cuentan]: https://www.ams.org/publications/journals/notices/201610/rnoti-p1164.pdf
 
 {% comment %}
 TO READ:
