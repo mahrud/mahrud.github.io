@@ -49,50 +49,60 @@ This course is an introduction to groups, rings, and fields, with an emphasis on
 
 ## Fall 2025 Office Hours:
 
-- TBD.
+- Instructor: (all in HH 414)
+  - Monday 1:30-2:00
+  - Friday &nbsp;&nbsp; 1:00-1:30 (before lecture)
+  - And by appointment.
+
+- TA:
+  - Wednesday 1:00-1:30 and 2:30-3:00 (before/after tutorial), Math Cafe
+  - Thursday &nbsp;&nbsp; 2:30-3:30, HH 410
+
 
 ## Schedule
 
-| Date          | Topic        | Notes                         |
-|---------------|--------------|-------------------------------|
-| September 3   | Introduction | Proof Writing Diagnostic Quiz |
-| September 5   | §1.2, §3.1   |                               |
-| September 8   | §3.1-§3.2    |                               |
-| September 10  | §3.2-§3.3    | Last day to add/drop          |
-| September 12  | §3.3         |                               |
-| September 15  | §4.1         |                               |
-| September 17  | §4.2         |                               |
-| September 19  | §5.1         |                               |
-| September 22  |              |                               |
-| September 24  |              |                               |
-| September 26  |              |                               |
-| September 29  |              |                               |
-| October 1     |              |                               |
-| October 3     |              |                               |
-| October 6     |              |                               |
-| October 8     |              |                               |
-| October 10    |              |                               |
-| October 13    | No class     | Mid-term recess               |
-| October 15    | No class     | Mid-term recess               |
-| October 17    | No class     | Mid-term recess               |
-| October 20    |              |                               |
-| October 22    |              |                               |
-| October 24    |              |                               |
-| October 27    |              |                               |
-| October 29    |              |                               |
-| October 31    |              |                               |
-| November 3    |              |                               |
-| November 5    |              |                               |
-| November 7    |              |                               |
-| November 10   |              |                               |
-| November 12   |              |                               |
-| November 14   |              |                               |
-| November 17   |              |                               |
-| November 19   |              |                               |
-| November 21   |              | Last day to withdraw          |
-| November 24   |              |                               |
-| November 26   |              |                               |
-| November 28   |              |                               |
-| December 1    |              |                               |
-| December 3    |              | Last day of class             |
-| December 6-19 |              | Final exam date: TBD          |
+The section numbers refer to sections in the textbook.
+
+| Date          | Topic        | Notes                                  |
+|:--------------|:-------------|:---------------------------------------|
+| September 3   | Introduction | Proof Writing Diagnostic Quiz          |
+| September 5   | §1.2         |                                        |
+| September 8   | §1.2, §3.1   | Bonus points for Sonobe platonic solid |
+| September 10  | §3,1, §3.2   | Last day to add/drop                   |
+| September 12  | §3.3         |                                        |
+| September 15  | §4.1         |                                        |
+| September 17  | §4.2         |                                        |
+| September 19  | §5.1         |                                        |
+| September 22  |              |                                        |
+| September 24  |              |                                        |
+| September 26  |              |                                        |
+| September 29  |              |                                        |
+| October 1     |              |                                        |
+| October 3     |              |                                        |
+| October 6     |              |                                        |
+| October 8     |              |                                        |
+| October 10    |              |                                        |
+| October 13    | No class     | Mid-term recess                        |
+| October 15    | No class     | Mid-term recess                        |
+| October 17    | No class     | Mid-term recess                        |
+| October 20    |              |                                        |
+| October 22    |              |                                        |
+| October 24    |              |                                        |
+| October 27    |              |                                        |
+| October 29    |              |                                        |
+| October 31    |              |                                        |
+| November 3    |              |                                        |
+| November 5    |              |                                        |
+| November 7    |              |                                        |
+| November 10   |              |                                        |
+| November 12   |              |                                        |
+| November 14   |              |                                        |
+| November 17   |              |                                        |
+| November 19   |              |                                        |
+| November 21   |              | Last day to withdraw                   |
+| November 24   |              |                                        |
+| November 26   |              |                                        |
+| November 28   |              |                                        |
+| December 1    |              |                                        |
+| December 3    |              | Last day of class                      |
+| December 6-19 |              | Final exam date: TBD                   |
