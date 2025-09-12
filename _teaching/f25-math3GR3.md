@@ -61,48 +61,62 @@ This course is an introduction to groups, rings, and fields, with an emphasis on
 
 ## Schedule
 
+The topics are tentative and may be adjusted.
 The section numbers refer to sections in the textbook.
 
-| Date          | Topic        | Notes                                  |
-|:--------------|:-------------|:---------------------------------------|
-| September 3   | Introduction | Proof Writing Diagnostic Quiz          |
-| September 5   | §1.2         |                                        |
-| September 8   | §1.2, §3.1   | Bonus points for Sonobe platonic solid |
-| September 10  | §3,1, §3.2   | Last day to add/drop                   |
-| September 12  | §3.3         |                                        |
-| September 15  | §4.1         |                                        |
-| September 17  | §4.2         |                                        |
-| September 19  | §5.1         |                                        |
-| September 22  |              |                                        |
-| September 24  |              |                                        |
-| September 26  |              |                                        |
-| September 29  |              |                                        |
-| October 1     |              |                                        |
-| October 3     |              |                                        |
-| October 6     |              |                                        |
-| October 8     |              |                                        |
-| October 10    |              |                                        |
-| October 13    | No class     | Mid-term recess                        |
-| October 15    | No class     | Mid-term recess                        |
-| October 17    | No class     | Mid-term recess                        |
-| October 20    |              |                                        |
-| October 22    |              |                                        |
-| October 24    |              |                                        |
-| October 27    |              |                                        |
-| October 29    |              |                                        |
-| October 31    |              |                                        |
-| November 3    |              |                                        |
-| November 5    |              |                                        |
-| November 7    |              |                                        |
-| November 10   |              |                                        |
-| November 12   |              |                                        |
-| November 14   |              |                                        |
-| November 17   |              |                                        |
-| November 19   |              |                                        |
-| November 21   |              | Last day to withdraw                   |
-| November 24   |              |                                        |
-| November 26   |              |                                        |
-| November 28   |              |                                        |
-| December 1    |              |                                        |
-| December 3    |              | Last day of class                      |
-| December 6-19 |              | Final exam date: TBD                   |
+| Date          | Topic                | Notes                                  |
+|:--------------|:---------------------|:---------------------------------------|
+| September 3   | Introduction         | Proof Writing Diagnostic Quiz          |
+| September 5   | §1.2                 |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| September 8   | §1.2, §3.1           | Bonus points for Sonobe platonic solid |
+| September 10  | §3,1, §3.2           | Last day to add/drop                   |
+| September 12  | §3.3                 |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| September 15  | §3.3                 |                                        |
+| September 17  | §4.1                 |                                        |
+| September 19  | §4.2                 |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| September 22  | §5.1                 |                                        |
+| September 24  | §5.1, §5.2           |                                        |
+| September 26  | §5.2                 |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| September 29  | §6.1                 |                                        |
+| October 1     | §6.2                 | Test #1 on groups, during tutorial     |
+| October 3     | §6.3                 |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| October 6     | §9.1                 |                                        |
+| October 8     | §9.1, §9.2           |                                        |
+| October 10    | §10.1                |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| October 13    | No class             | Mid-term recess                        |
+| October 15    | No class             | Mid-term recess                        |
+| October 17    | No class             | Mid-term recess                        |
+|:--------------|:---------------------|:---------------------------------------|
+| October 20    | §10.2                |                                        |
+| October 22    | §10.2                |                                        |
+| October 24    | Midterm              |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| October 27    | §11.1                |                                        |
+| October 29    | §11.2                |                                        |
+| October 31    | §13.1                |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| November 3    | §16.1                |                                        |
+| November 5    | §16.2                |                                        |
+| November 7    | §16.3                |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| November 10   | §16.4                |                                        |
+| November 12   | §17.1                |                                        |
+| November 14   | §17.2                |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| November 17   | §17.3                |                                        |
+| November 19   | §18.1                | Test #2 (tentatively), during tutorial |
+| November 21   | §18.2                | Last day to withdraw                   |
+|:--------------|:---------------------|:---------------------------------------|
+| November 24   | §21.1                |                                        |
+| November 26   | §21.2                |                                        |
+| November 28   | §21.3                |                                        |
+|:--------------|:---------------------|:---------------------------------------|
+| December 1    | §22.1                |                                        |
+| December 3    | §23.2 (not on final) | Last day of class                      |
+| December 6-19 |                      | Final exam date: TBD                   |
