@@ -64,6 +64,7 @@ This course is an introduction to groups, rings, and fields, with an emphasis on
 The topics are tentative and may be adjusted.
 The section numbers refer to sections in the textbook.
 
+|:--------------|:---------------------|:---------------------------------------|
 | Date          | Topic                | Notes                                  |
 |:--------------|:---------------------|:---------------------------------------|
 | September 3   | Introduction         | Proof Writing Diagnostic Quiz          |
@@ -95,7 +96,7 @@ The section numbers refer to sections in the textbook.
 |:--------------|:---------------------|:---------------------------------------|
 | October 20    | §10.2                |                                        |
 | October 22    | §10.2                |                                        |
-| October 24    | Midterm              |                                        |
+| October 24    | N/A                  | Midterm Exam                           |
 |:--------------|:---------------------|:---------------------------------------|
 | October 27    | §11.1                |                                        |
 | October 29    | §11.2                |                                        |
@@ -119,4 +120,5 @@ The section numbers refer to sections in the textbook.
 |:--------------|:---------------------|:---------------------------------------|
 | December 1    | §22.1                |                                        |
 | December 3    | §23.2 (not on final) | Last day of class                      |
-| December 6-19 |                      | Final exam date: TBD                   |
+| December 9    | Final Exam           | Time: 9am-11:30am, Location: TBA       |
+|:--------------|:---------------------|:---------------------------------------|
