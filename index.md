@@ -33,10 +33,14 @@ Before that I was an undergraduate at UC Berkeley.
 
 I am on the **job market**.
 My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
+
+- *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
+- *Sep. 2025*: [Route 81 Mathematics Conference](https://mast.queensu.ca/~ggsmith/2025Route81/) at Queen's University.
 - *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
 - *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
-- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _to appear in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
+- *New*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103).
+- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _published in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
 - *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
 - *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
 - *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).

@@ -30,6 +30,15 @@ See my [prelim](../oral) and [defense](../defense) presentations for some topics
 [Publications]: https://mathscinet.ams.org/mathscinet/author?authorId=1422471
 [preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
 
+- **Computing global Ext for complexes** \\
+With [Michael K. Brown], [Souvik Dey], [Guanyu Li]. \\
+29 September 2025. [arXiv:2509.25103](https://arxiv.org/abs/2509.25103) [math.AG] [math.AC]
+
+> ![](../static/arXiv/ext.png){:width="80%; display:block; margin: auto;"}
+*The Hirzebruch surface of type 2 has a full strong exceptional collection of complexes, \\
+constructed via a spherical twist functor, which are not quasi-isomorphic to any sheaves.*
+{: style="text-align: center"}
+
 - **Splitting of vector bundles on toric varieties** \\
 27 December 2024. [arXiv:2412.19793](https://arxiv.org/abs/2412.19793) [math.AG]
 
@@ -39,7 +48,7 @@ See my [prelim](../oral) and [defense](../defense) presentations for some topics
 
 - **Computing Direct Sum Decompositions** \\
 With [Devlin Mallory]. \\
-In press at [_Journal of Symbolic Computation_](https://doi.org/10.1016/j.jsc.2025.102486). \\
+[_Journal of Symbolic Computation_](https://doi.org/10.1016/j.jsc.2025.102486), Volume 133, March 2026. \\
 27 December 2024. [arXiv:2412.19799](https://arxiv.org/abs/2412.19799) [math.AC]
 
 > ![](../static/arXiv/2412.19799.png){:width="80%; display:block; margin: auto;"}
@@ -124,3 +133,6 @@ Subscribe to my [MathSciNet](https://mathscinet.ams.org/mathscinet/author?author
 [H. Schroeder]: #
 [N. Weiss]: #
 [F. Zaffalon]: https://sites.google.com/view/francescazaffalon/home
+
+[Souvik Dey]: #
+[Guanyu Li]: https://math.cornell.edu/guanyu-li
