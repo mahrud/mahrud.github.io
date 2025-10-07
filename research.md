@@ -25,10 +25,10 @@ Assuming $p$-adic Hodge Theory has the same goal, can you coherently introduce h
 My current projects all involve commutative algebra over Cox rings of projective varieties. \\
 See my [prelim](../oral) and [defense](../defense) presentations for some topics and questions that lead me to this point.
 
-## [Publications] and [preprints] in Mathematics
+## [Publications] and [Preprints] in Mathematics
 
 [Publications]: https://mathscinet.ams.org/mathscinet/author?authorId=1422471
-[preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
+[Preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
 
 - **Computing global Ext for complexes** \\
 With [Michael K. Brown], [Souvik Dey], [Guanyu Li]. \\

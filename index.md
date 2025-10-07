@@ -25,9 +25,8 @@ tagline: Mahrud Sayrafi
 ### About me
 I am a Britton postdoctoral fellow at [McMaster University](https://math.mcmaster.ca/) in Canada.
 
-Previously, I was a postdoc at the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
-[Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
 
