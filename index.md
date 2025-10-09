@@ -56,12 +56,12 @@ My research area is multigraded commutative algebra, particularly in the setting
 
 Things I've recently thought about:
 
-- Green's $N_p$ conditions for subvarieties of toric varieties
+- Weighted Green's $N_p$ conditions for subvarieties of weighted toric stacks
 - Projectivized toric vector bundles and complexity one $T$-varieties
-- GIT fan and truncations of modules over Cox rings
+- GIT fan and truncations of modules in the Cox category
 - $F$-thickness of del Pezzo surfaces and other Mori dream spaces
-- Fourier--Mukai transforms and exceptional collections in derived categories
-- Beilinson monads and homological mirror symmetry
+- Fourier--Mukai transforms and exceptional collections for toric varieties
+- BT-monads in the Cox category and homological mirror symmetry
 - Horrocks splitting criterion and virtual resolutions
 - $K$-equivalence and $D$-equivalence
 {: style="font-size: 95%"}
@@ -101,7 +101,7 @@ A parallel session planned by [Megumi], [Brett], and [Sasha] focuses on algebrai
 ### [July 2025: M2 🤝 SIAM AAG](https://tjyahl.github.io/organizing/M2-Madison-2025/)
 With [Thomas B.] and [Thomas Y.], we organized a Macaulay2 workshop in Madison.
 
-### [Nov. 2024: M2 in the Sciences 🧑‍🔬](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
+### [Nov. 2024: M2 in the Sciences 🧑‍🔬](https://www.mis.mpg.de/events/series/macaulay2-in-the-sciences)
 With [Ben], we organized a Macaulay2 workshop in Leipzig, Germany.
 
 ### [June 2023: M2Week 🧑‍💻](https://macaulay2.github.io/Workshop-2023-Minneapolis/)
