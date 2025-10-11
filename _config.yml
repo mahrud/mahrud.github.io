@@ -5,7 +5,7 @@ description:         >- # this means to ignore newlines until "url:"
   I am mathematician working in commutative algebra and algebraic geometry.
 url:                 https://mahrud.github.io
 baseurl:             '' # the subpath of your site, e.g. /blog
-gtag:                G-7X5TT5VW46 # Google Analytics 4 Tag
+cf_beacon:           'd27b5f2c1f2e4ba789d97184971739e0' # Cloudflare beacon token
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme:
