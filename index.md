@@ -23,7 +23,7 @@ tagline: Mahrud Sayrafi
 </div>
 
 ### About me
-I am a Britton postdoc at [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/) in Canada.
+I am a Britton postdoc at [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/).
 
 Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
