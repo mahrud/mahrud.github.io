@@ -23,7 +23,7 @@ tagline: Mahrud Sayrafi
 </div>
 
 ### About me
-I am a Britton postdoctoral fellow at [McMaster University](https://math.mcmaster.ca/) in Canada.
+I am a Britton postdoc at [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/) in Canada.
 
 Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
@@ -38,7 +38,7 @@ My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans
 - *New*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103).
 - *Sep. 2025*: [Route 81 Mathematics Conference](https://mast.queensu.ca/~ggsmith/2025Route81/) at Queen's University.
 - *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
-- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _published in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
+- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _is in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
 - *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
 - *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
 - *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
