@@ -34,7 +34,7 @@ See my [prelim](../oral) and [defense](../defense) presentations for some topics
 With [Michael K. Brown], [Souvik Dey], [Guanyu Li]. \\
 29 September 2025. [arXiv:2509.25103](https://arxiv.org/abs/2509.25103) [math.AG] [math.AC]
 
-> ![](../static/arXiv/ext.png){:width="80%; display:block; margin: auto;"}
+> ![](../static/arXiv/2509.25103.png){:width="80%; display:block; margin: auto;"}
 *The Hirzebruch surface of type 2 has a full strong exceptional collection of complexes, \\
 constructed via a spherical twist functor, which are not quasi-isomorphic to any sheaves.*
 {: style="text-align: center"}
