@@ -18,6 +18,12 @@ Mathematics is often presented as a sequence of Definitions, Propositions, Theor
 Yet, Art has always defied [definitions](https://plato.stanford.edu/entries/art-definition/).
 This page is also hard to define, and that's okay!
 
+There are numerous curated exhibits dedicated to mathematics. Some as small as a cabinet full of slide rules or [plaster](https://dataphys.org/list/plaster-models-of-mathematical-functions/) [models](https://archive.bridgesmathart.org/2010/bridges2010-11.html) of [mathematical](https://mathtourist.blogspot.com/2012/11/plaster-models-of-mathematical-surfaces.html) [surfaces](https://dataphys.org/list/jonathan-chertoks-reproductions-of-mathematical-plaster-models/) in your local math department, and some as large as [whole](https://www.arithmeum.uni-bonn.de/en/arithmeum/museum.html) [museums](https://momath.org) dedicated to mathematics. There are also quite [beautiful](https://web.archive.org/web/20250223184843/https://virtualmathmuseum.org/) [online](https://www.wired.com/2014/06/math-equations-models/) [galleries](https://silviana.org/gallery/) and [collections](https://www-users.cse.umn.edu/~rogness/visualization/), and maybe that is all that this page aspires to be.
+
+> ![](../static/utah_sliderules.jpg){: style="width: 400px; display:block; margin: auto;"}
+*"It is impossible to be a mathematician without being a poet in soul." -- Sofya Kovalevskaya*
+{: style="text-align: center"}
+
 ## [Aperiodic Monotile Puzzles](../experiments/monotile/)
  The [discovery](https://www.scientificamerican.com/article/newfound-mathematical-einstein-shape-creates-a-never-repeating-pattern/) of the ["hat"](https://cs.uwaterloo.ca/~csk/hat/) and ["Spectre"](https://cs.uwaterloo.ca/~csk/spectre/) monotiles in 2023 has inspired lots of creative renditions and even a [contest](https://momath.org/hatcontest/). In the link above you can find resources for laser-cutting Spectre puzzles.
 
