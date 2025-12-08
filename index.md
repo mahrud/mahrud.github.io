@@ -35,6 +35,8 @@ My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans
 
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
+- *New*{: style="color: red"}: [_Seshadri Regions and the Asymptotic Shape of Multigraded Regularity_](https://arxiv.org/abs/2512.05289).
+- *Dec. 2025*: [AZ-NM Symposium on Geometric Combinatorics ](https://sites.google.com/asu.edu/az-nmsymposium/).
 - *New*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103).
 - *Sep. 2025*: [Route 81 Mathematics Conference](https://mast.queensu.ca/~ggsmith/2025Route81/) at Queen's University.
 - *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
@@ -194,8 +196,8 @@ Here are some activities I've been involved with in the past:
 
 ## Personal
 
-I'm a fan of fermented foods, volcanoes, sewing & mending, anti-racism, biking, and backpacking. \\
-I also like [radio astronomy], anti-gerrymandering, cryptography, and privacy as a human right.
+I'm a fan of fermented foods, volcanoes, sewing & mending, [alleycat races], and backpacking. \\
+I also like [radio astronomy], public policy, cryptography, and digital privacy as a human right.
 
 [Adam]: https://ms.mcmaster.ca/~vantuyl/
 [Giulia]: https://www.giuliagaggero.com/
@@ -213,6 +215,7 @@ I also like [radio astronomy], anti-gerrymandering, cryptography, and privacy as
 [Christine Berkesch]: https://math.umn.edu/~cberkesc/
 
 [contributed]: https://github.com/Macaulay2/M2/commits?author=mahrud
+[alleycat races]: https://en.wikipedia.org/wiki/Alleycat_race
 [radio astronomy]: {{ site.baseurl }}/static/astro121_North Polar Spur.gif
 [_Geometry of Syzygies_]: https://math.umn.edu/~reiner/REU/REU2019notes/2005_Book_TheGeometryOfSyzygies.pdf
 [Doctoral Dissertation Fellowship]: https://cse.umn.edu/math/news/anh-trong-nam-hoang-and-mahrud-sayrafi-awarded-doctoral-dissertation-fellowships

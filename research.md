@@ -30,8 +30,17 @@ See my [prelim](../oral) and [defense](../defense) presentations for some topics
 [Publications]: https://mathscinet.ams.org/mathscinet/author?authorId=1422471
 [Preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
 
+- **Seshadri Regions and the Asymptotic Shape of Multigraded Regularity** \\
+With [Juliette Bruce], [Lauren Cranton Heller], [Alexandra Seceleanu]. \\
+4 December 2025. [arXiv:2512.05289](https://arxiv.org/abs/2512.05289) [math.AG] [math.AC]
+
+> ![](../static/arXiv/2512.05289.png){:width="30%; display:block; margin: auto;"}
+*The Seshadri region packages the classical Seshadri constants with respect to every line bundle simultaneously.*
+{: style="text-align: center"}
+
 - **Computing global Ext for complexes** \\
 With [Michael K. Brown], [Souvik Dey], [Guanyu Li]. \\
+Submitted. \\
 29 September 2025. [arXiv:2509.25103](https://arxiv.org/abs/2509.25103) [math.AG] [math.AC]
 
 > ![](../static/arXiv/2509.25103.png){:width="80%; display:block; margin: auto;"}
@@ -124,6 +133,7 @@ Subscribe to my [MathSciNet](https://mathscinet.ams.org/mathscinet/author?author
 [Michael K. Brown]: http://webhome.auburn.edu/~mkb0096/
 [Juliette Bruce]: https://juliettebruce.github.io/
 [Lauren Cranton Heller]: https://lcrantonh.github.io/
+[Alexandra Seceleanu]: https://aseceleanu.github.io/
 [Michael C. Loper]: https://www.uwrf.edu/FacultyStaff/5803758.cfm
 [Devlin Mallory]: https://devlin-mallory.github.io
 
