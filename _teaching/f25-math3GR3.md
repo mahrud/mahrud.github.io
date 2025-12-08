@@ -5,7 +5,11 @@ tagline: Abstract Algebra
 date: 01-01-2025
 ---
 
-This course is an introduction to groups, rings, and fields, with an emphasis on examples.
+What are all finite simple abelian groups? What rings allow long division or computing
+greatest common divisors? What do straightedge and compass constructions have to
+do with fields, and [why was Apollo mad at Athenians](https://www.geogebra.org/m/Xfayrrj8#material/tyFCp7uM)?
+Why is $ax^2+bx+c$ solvable using radicals but $x^5-x-1$ isn't?
+This course is an introduction to groups, rings, and fields, with an emphasis on examples such as these.
 
 - **Instructor**: \\
   &nbsp; Mahrud Sayrafi `<mahrud at ...>`
@@ -57,7 +61,6 @@ This course is an introduction to groups, rings, and fields, with an emphasis on
 - TA:
   - Wednesday 1:00-1:30 and 2:30-3:00 (before/after tutorial), Math Cafe
   - Thursday &nbsp;&nbsp; 2:30-3:30, HH 410
-
 
 ## Schedule
 

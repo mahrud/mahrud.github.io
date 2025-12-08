@@ -16,7 +16,7 @@ date: 01-02-2025
       <th>Schedule</th>
     </tr>
     <tr>
-      <td>MATH 3MM3<br/>(#2069)</td>
+      <td>MATH 1MM3<br/>(#2069)</td>
       <td>Applied Calculus<br/>(Lecture)</td>
       <td>MoTh 12:30 - 13:20<br/> &nbsp;  &nbsp;&nbsp; &nbsp;
 	  Tu   13:30 - 14:20</td>
