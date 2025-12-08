@@ -41,6 +41,9 @@ order: 3
   - Geometry Center: <http://www.geom.uiuc.edu/external/graphics.html>
 * Monsters
   - [ATLAS](https://primo.lib.umn.edu/permalink/01UMN_INST/1ssodfo/alma9923841980001701)
+* Slide rules
+  - [Oughtred Society](https://www.oughtred.org)
+  - [Peter Alfeld's page](https://web.archive.org/web/20240527090517/http://www.math.utah.edu/~pa/sliderules/)
 
 ---
 
