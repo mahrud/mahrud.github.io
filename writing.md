@@ -5,24 +5,31 @@ tagline: Notes, Manuscripts, Et Cetera
 order: 4
 ---
 
+{% comment %}
 ## Expositions
 - ["Splitting of Vector Bundles via Fourier--Mukai Theory"](oral/exposition.pdf)
 {: style="font-size: smaller"}
 
-## Blog Posts
+## Reviews
+-
+{: style="font-size: smaller"}
+{% endcomment %}
+
+## Advocacy
 - [In order to prevent an exodus of students, mathematicians must stand together](https://web.archive.org/web/20250126011222/https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/)
   - Related: [open letter by UMN community](UMN_Letter.pdf) (not written by me), and
   - [response by Minnesota Attorney General Ellison](Ellison.pdf).
+{: style="font-size: smaller"}
+
+## Technical
+- [Introducing DNS Resolver for Tor](https://blog.cloudflare.com/welcome-hidden-resolver/)
+- [Introducing the Cloudflare Onion Service](https://blog.cloudflare.com/cloudflare-onion-service/)
+{: style="font-size: smaller"}
+
+## Blog Posts
 - [Mathematics From Arts?](https://web.archive.org/web/20250125153109/https://blogs.ams.org/mathgradblog/2019/12/27/mathematics-from-arts/)
 - [From Russia, With Love](https://web.archive.org/web/20241211001414/https://guide.math.berkeley.edu/2016/04/04/from-russia-with-love/)
 {: style="font-size: smaller"}
-
-<!--
-- [Introducing DNS Resolver for Tor](https://blog.cloudflare.com/welcome-hidden-resolver/)
-- [Introducing the Cloudflare Onion Service](https://blog.cloudflare.com/cloudflare-onion-service/)
--->
-
-[//]: ## Reviews
 
 ## Et cetera
 - Math 191: Experimental Mathematics

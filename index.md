@@ -18,6 +18,11 @@ tagline: Mahrud Sayrafi
 	Hamilton, Ontario L8S 4L8
   - mahrud [at] mcmaster.ca
   - Pronouns: He/Him
+  - [![](../static/arXiv.ico){:width="17px"}](https://arxiv.org/search/?query=Mahrud&searchtype=author)
+    [![](../static/MathSciNet.ico){:width="15px"}](https://mathscinet.ams.org/mathscinet/author?authorId=1422471)
+    [![](../static/zbMATH.ico){:width="17px"}](https://zbmath.org/authors/sayrafi.mahrud)
+    [![](../static/orcid.svg){:width="20px"}](https://orcid.org/0000-0003-3402-3844)
+    [![](../static/scholar.ico){:width="20px"}](https://scholar.google.com/citations?user=Jj1Bx6gAAAAJ&hl=en)
   {: style="font-size: small"}
  </div>
 </div>
@@ -40,15 +45,15 @@ My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans
 - *New*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103).
 - *Sep. 2025*: [Route 81 Mathematics Conference](https://mast.queensu.ca/~ggsmith/2025Route81/) at Queen's University.
 - *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
-- *New*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _is in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
+- *Published*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _is in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
 - *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
 - *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
 - *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
-- *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
-- *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
 
 {% comment %}
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
+- *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
+- *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
 - *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
 {% endcomment %}
@@ -83,6 +88,14 @@ Things I've recently thought about:
 *[commutative algebra]: of the combinatorial kind!
 {% endcomment %}
 
+See the [research](research) tab for a list of my papers.
+
+### [Teaching](teaching)
+
+Fall 2025: [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3). \\
+Winter 2026: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3). \\
+See the [teaching](teaching) tab for more details and older links.
+
 ## Activities
 
 If you'd like to join or contribute to any of these activities, feel free to get in touch.
@@ -116,7 +129,7 @@ With [Christine], [Caitlyn], and [Connor], we held a graduate student conference
 
 Together with several other postdocs and early-career researchers, we started a focused research group called the [M2 Potluck Collective](M2-fu), where we work on computational obstructions in our research.
 
-More generally, developing and implementing algorithms to study explicit examples in algebraic geometry and commutative algebra is an aspect of my research. Some packages I've [contributed] to:
+More generally, developing and implementing algorithms to study explicit examples in algebraic geometry and commutative algebra is an aspect of my research. Some packages I've [contributed](https://github.com/Macaulay2/M2/commits?author=mahrud) to:
 
 > Commutative Algebra
 ([DirectSummands](https://mahrud.github.io/LearnM2/packages/#DirectSummands),
@@ -196,8 +209,8 @@ Here are some activities I've been involved with in the past:
 
 ## Personal
 
-I'm a fan of fermented foods, volcanoes, sewing & mending, [alleycat races], and backpacking. \\
-I also like [radio astronomy], public policy, cryptography, and digital privacy as a human right.
+I'm a fan of fermented foods, [volcanoes], sewing & mending, [alleycat races], and [backpacking]. \\
+I also like [radio astronomy], [advocacy], cryptography, and [digital privacy as a human right].
 
 [Adam]: https://ms.mcmaster.ca/~vantuyl/
 [Giulia]: https://www.giuliagaggero.com/
@@ -214,9 +227,13 @@ I also like [radio astronomy], public policy, cryptography, and digital privacy 
 [Christine]: https://math.umn.edu/~cberkesc/
 [Christine Berkesch]: https://math.umn.edu/~cberkesc/
 
-[contributed]: https://github.com/Macaulay2/M2/commits?author=mahrud
+[volcanoes]: ../static/basalt.jpeg
+[backpacking]: ../static/backpacking.jpeg
+[advocacy]: https://web.archive.org/web/20250126011222/https://blogs.ams.org/capitalcurrents/2020/11/04/in-order-to-prevent-an-exodus-of-international-phd-students-we-must-stand-together/
 [alleycat races]: https://en.wikipedia.org/wiki/Alleycat_race
-[radio astronomy]: {{ site.baseurl }}/static/astro121_North Polar Spur.gif
+[radio astronomy]: ../static/astro121_North Polar Spur.gif
+[digital privacy as a human right]: https://blog.cloudflare.com/cloudflare-onion-service/
+
 [_Geometry of Syzygies_]: https://math.umn.edu/~reiner/REU/REU2019notes/2005_Book_TheGeometryOfSyzygies.pdf
 [Doctoral Dissertation Fellowship]: https://cse.umn.edu/math/news/anh-trong-nam-hoang-and-mahrud-sayrafi-awarded-doctoral-dissertation-fellowships
 [Combinatorial Algebraic Geometry]: https://icerm.brown.edu/programs/sp-s21/
