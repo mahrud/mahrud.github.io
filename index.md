@@ -28,7 +28,7 @@ tagline: Mahrud Sayrafi
 </div>
 
 ### About me
-I am a Britton postdoc at [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/).
+I am a Britton postdoc in the [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/).
 
 Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
@@ -37,6 +37,7 @@ Before that I was an undergraduate at UC Berkeley.
 
 I am on the **job market**.
 My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
@@ -63,17 +64,16 @@ My research area is multigraded commutative algebra, particularly in the setting
 
 Things I've recently thought about:
 
+- Exceptional collections and phantoms in the derived categories of toric varieties
+- Buchweitz--Greuel--Schreyer's Conjecture B and Horrocks' splitting criterion
 - Weighted Green's $N_p$ conditions for subvarieties of weighted toric stacks
 - Projectivized toric vector bundles and complexity one $T$-varieties
 - GIT fan and truncations of modules in the Cox category
 - $F$-thickness of del Pezzo surfaces and other Mori dream spaces
-- Fourier--Mukai transforms and exceptional collections for toric varieties
-- BT-monads in the Cox category and homological mirror symmetry
-- Horrocks splitting criterion and virtual resolutions
-- $K$-equivalence and $D$-equivalence
 {: style="font-size: 95%"}
 
 {% comment %}
+- $K$-equivalence and $D$-equivalence
 - Tate resolutions and the (toric) BGG correspondence
 - Weak factorization of toric varieties and positivity
 - Mori Dream Spaces and GKM Varieties
@@ -92,9 +92,10 @@ See the [research](research) tab for a list of my papers.
 
 ### [Teaching](teaching)
 
-Fall 2025: [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3). \\
-Winter 2026: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3). \\
-See the [teaching](teaching) tab for more details and older links.
+- Now:  [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3).
+- Next: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3).
+
+See the [teaching](teaching) tab for past teaching and more details.
 
 ## Activities
 

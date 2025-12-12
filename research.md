@@ -44,7 +44,7 @@ With [Juliette Bruce], [Lauren Cranton Heller], [Alexandra Seceleanu]. \\
 4 December 2025. [arXiv:2512.05289](https://arxiv.org/abs/2512.05289) [math.AG] [math.AC]
 
 > ![](../static/arXiv/2512.05289.png){:width="30%"}
-*The Seshadri region packages the classical Seshadri constants with respect to every line bundle simultaneously.*
+*The Seshadri region packages the classical Seshadri constants with respect to every line bundle.*
 {: style="text-align: center"}
 
 - **Computing Global Ext for Complexes** \\
@@ -93,7 +93,7 @@ Submitted. \\
 *Multigraded regularity of powers of two ideals on the Hirzebruch surface.*
 {: style="text-align: center"}
 
-- **Characterizing Multigraded Regularity and Virtual Resolutions on Products of Projective Spaces** \\
+- **Characterizing Multigraded Regularity and Virtual Resolutions on $\PP^{n_1}\times\cdots\times\PP^{n_r}$** \\
 With [Juliette Bruce], [Lauren Cranton Heller]. \\
 Submitted. \\
 20 October 2021. [arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG]
