@@ -2,7 +2,7 @@
 layout: course
 title: MATH 1MM3
 tagline: Applied Calculus
-date: 01-02-2025
+date: 01-12-2025
 ---
 
 - **Instructor**: \\

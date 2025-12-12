@@ -2,7 +2,7 @@
 layout: course
 title: MATH 3GR3
 tagline: Abstract Algebra
-date: 01-01-2025
+date: 01-09-2025
 ---
 
 What are all finite simple abelian groups? What rings allow long division or computing
@@ -26,7 +26,7 @@ This course is an introduction to groups, rings, and fields, with an emphasis on
   &nbsp; Mathematical Reasoning (MATH 1C03), and \\
   &nbsp; Linear Algebra (MATH 2R03 or a grade of at least B in MATH 2LA3)
 - **[SimpleSyllabus](https://mcmaster.simplesyllabusca.com/en-US/doc/1dmviw7rs/Fall-2025-MATH-3GR3-C01-SAYRAFIM-Abstract-Algebra?mode=view)**: official course outline.
-- **[Avenue to Learn](https://avenue.cllmcmaster.ca/d2l/home/734862)**: announcements and course
+- **[Avenue to Learn](https://avenue.cllmcmaster.ca/d2l/home/734862)**: announcements and grades.
 - [👉 How to get an **A** in this class! 👈](../getanA_3GR3.pdf)
 
 <table border="1" cellpadding="5" style="font-size: 14px; text-align: center">
