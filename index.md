@@ -14,7 +14,7 @@ tagline: Mahrud Sayrafi
  <div>
   - Postdoc Researcher
   - [McMaster University](https://math.mcmaster.ca/) <br />
-    [1280 Main Street West](https://maps.app.goo.gl/GMMc7qHHo75FsNXC6) <br />
+    [Hamilton Hall, Room 414](https://maps.app.goo.gl/QbaiTBRyDffonCqY8) <br />
 	Hamilton, Ontario L8S 4L8
   - mahrud [at] mcmaster.ca
   - Pronouns: He/Him
