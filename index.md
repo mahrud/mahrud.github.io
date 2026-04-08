@@ -30,7 +30,7 @@ tagline: Mahrud Sayrafi
 ### About me
 I am a Britton postdoc in the [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/).
 
-Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br /> I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
@@ -58,6 +58,12 @@ My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans
 - *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
 {% endcomment %}
+
+Checkout [FanoCats](https://mahrud.github.io/FanoCats/): a tool to visually study the geography of toric derived categories.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
+
+Checkout [LearnM2](https://mahrud.github.io/LearnM2/): a slightly better documentation portal for Macaulay2 for beginners.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
 ### [Research](research)
 My research area is multigraded commutative algebra, particularly in the setting of toric geometry. Roughly speaking, I'm interested in using derived categories to translate the book [_Geometry of Syzygies_] to the toric setting and beyond.
@@ -92,8 +98,8 @@ See the [research](research) tab for a list of my papers.
 
 ### [Teaching](teaching)
 
-- Now:  [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3).
-- Next: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3).
+- Now:  [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3) (for business and social sciences).
+- Prev: [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3).
 
 See the [teaching](teaching) tab for past teaching and more details.
 
