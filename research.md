@@ -41,6 +41,7 @@ Like and subscribe 👉 &nbsp;
 
 - **Seshadri Regions and the Asymptotic Shape of Multigraded Regularity** \\
 With [Juliette Bruce], [Lauren Cranton Heller], [Alexandra Seceleanu]. \\
+Submitted. \\
 4 December 2025. [arXiv:2512.05289](https://arxiv.org/abs/2512.05289) [math.AG] [math.AC]
 
 > ![](../static/arXiv/2512.05289.png){:width="30%"}
@@ -95,8 +96,9 @@ Submitted. \\
 
 - **Characterizing Multigraded Regularity and Virtual Resolutions on $\PP^{n_1}\times\cdots\times\PP^{n_r}$** \\
 With [Juliette Bruce], [Lauren Cranton Heller]. \\
-Submitted. \\
+[_Advances in Mathematics_](https://www.sciencedirect.com/journal/advances-in-mathematics), to appear. \\
 20 October 2021. [arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG]
+{: style="list-style-image: url('../static/GoldStar.png')"}
 
 > ![](../static/arXiv/2110.10705.png){:width="80%"}
 *The terms in Beilinson's spectral sequence corresponding to linearity and quaslinearity.*

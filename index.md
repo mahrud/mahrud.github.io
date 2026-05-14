@@ -28,17 +28,17 @@ tagline: Mahrud Sayrafi
 </div>
 
 ### About me
-I am a Britton postdoc in the [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/).
+I am a Britton postdoc in the [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/). \\
+Beginning fall 2026, I will join [Commutative Algebra @ Nebraska](https://nebraskacommalg.github.io/RTG/) as an NSF RTG postdoc.
 
 Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
 
-I am on the **job market**.
 My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
+- *Accepted*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705) is accepted for publication in the journal _**Advances in Mathematics**_ 🎊.
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
 - *New*{: style="color: red"}: [_Seshadri Regions and the Asymptotic Shape of Multigraded Regularity_](https://arxiv.org/abs/2512.05289).
@@ -54,16 +54,9 @@ My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans
 {% comment %}
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
-- *Updated*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705).
 - *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
 _(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
 {% endcomment %}
-
-Checkout [FanoCats](https://mahrud.github.io/FanoCats/): a tool to visually study the geography of toric derived categories.
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
-
-Checkout [LearnM2](https://mahrud.github.io/LearnM2/): a slightly better documentation portal for Macaulay2 for beginners.
-{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
 ### [Research](research)
 My research area is multigraded commutative algebra, particularly in the setting of toric geometry. Roughly speaking, I'm interested in using derived categories to translate the book [_Geometry of Syzygies_] to the toric setting and beyond.
@@ -111,6 +104,12 @@ If you'd like to join or contribute to any of these activities, feel free to get
 ### [Apr. 2024: AMS Sectional in Milwaukee‍](https://www.ams.org/meetings/sectional/2318_program.html)
 With [Maya] and [Ola], we're planning a session on nonstandard & multigraded commutative algebra.
 {% endcomment %}
+
+Checkout [FanoCats](https://mahrud.github.io/FanoCats/): a tool to visually study the geography of toric derived categories.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
+
+Checkout [LearnM2](https://mahrud.github.io/LearnM2/): a slightly better documentation portal for Macaulay2 for beginners.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
 ### [Dec. 2025: CA-AG at the CMS Winter Meeting](https://winter25.cms.math.ca)
 With [Adam] and [Giulia], we are planning a commutative algebra special session in Toronto. \\
