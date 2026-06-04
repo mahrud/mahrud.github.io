@@ -31,31 +31,25 @@ tagline: Mahrud Sayrafi
 I am a Britton postdoc in the [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/). \\
 Beginning fall 2026, I will join [Commutative Algebra @ Nebraska](https://nebraskacommalg.github.io/RTG/) as an NSF RTG postdoc.
 
-Previously, I was at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
+Previously, I was a resident at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br />
+I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
 Before that I was an undergraduate at UC Berkeley.
 {% endcomment %}
 
 My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
 
-- *Accepted*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705) is accepted for publication in the journal _**Advances in Mathematics**_ 🎊.
+- *Jun. 2026*: [Workshop on Algebraic Geometry and Machine Learning](https://icarm.io/project/workshop-on-algebraic-geometry-and-machine-learning/) at [ICARM](https://icarm.io/).
+- *Published*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705),<br /> joint with [Juliette Bruce] and [Lauren Cranton Heller], is in [_**Advances in Mathematics**_](https://www.sciencedirect.com/science/article/pii/S0001870826002719)! 🎊
+- *Accepted*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362) has been accepted to _**JSAG**_.
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
-- *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
 - *New*{: style="color: red"}: [_Seshadri Regions and the Asymptotic Shape of Multigraded Regularity_](https://arxiv.org/abs/2512.05289).
-- *Dec. 2025*: [AZ-NM Symposium on Geometric Combinatorics ](https://sites.google.com/asu.edu/az-nmsymposium/).
 - *New*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103).
-- *Sep. 2025*: [Route 81 Mathematics Conference](https://mast.queensu.ca/~ggsmith/2025Route81/) at Queen's University.
-- *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
-- *Published*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _is in_{: style="font-size: small"} [Journal of Symbolic Computation](https://doi.org/10.1016/j.jsc.2025.102486)!
-- *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
-- *New*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362).
-- *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
+- *Published*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _is in_{: style="font-size: small"} [_**Journal of Symbolic Computation**_](https://doi.org/10.1016/j.jsc.2025.102486)!
 
 {% comment %}
-- *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
+- *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
 - *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
-- *Published*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562).
-_(Published in [Algebra & Number Theory](https://msp.org/ant/about/journal/about.html)!)_{: style="font-size: small; float: right"}
 {% endcomment %}
 
 ### [Research](research)
@@ -108,7 +102,7 @@ With [Maya] and [Ola], we're planning a session on nonstandard & multigraded com
 Checkout [FanoCats](https://mahrud.github.io/FanoCats/): a tool to visually study the geography of toric derived categories.
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
-Checkout [LearnM2](https://mahrud.github.io/LearnM2/): a slightly better documentation portal for Macaulay2 for beginners.
+Checkout [LearnM2](https://mahrud.github.io/LearnM2/): an improved documentation portal for Macaulay2 beginners.
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
 ### [Dec. 2025: CA-AG at the CMS Winter Meeting](https://winter25.cms.math.ca)
@@ -163,6 +157,11 @@ Travel, talks, papers, et cetera:
 
 {% comment %}
 {% endcomment %}
+- *Jan. 2026*: [Joint Math Meetings](https://jointmathematicsmeetings.org/meetings/national/jmm2026/jmm2026-agenda) in Washington, D.C.
+- *Dec. 2025*: [AZ-NM Symposium on Geometric Combinatorics ](https://sites.google.com/asu.edu/az-nmsymposium/).
+- *Sep. 2025*: [Singularities, D-modules, and Connections to Physics](https://www.birs.ca/events/2025/5-day-workshops/25w5338) at BIRS.
+- *Sep. 2025*: [Route 81 Mathematics Conference](https://mast.queensu.ca/~ggsmith/2025Route81/) at Queen's University.
+- *Aug. 2025*: [Mirror symmetry and syzygies](https://aimath.org/workshops/upcoming/hmsandmga/) at AIM.
 - *Apr. 2025*: [Toric Geometry Workshop](https://www.mfo.de/occasion/2515/www_view) at Oberwolfach.
 - *Spring 2025*: [Fields semester in Commutative Algebra and Applications](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto.
 - *Oct. 2024*: [Group actions, combinatorial methods, and Fano varieties](https://www.uibk.ac.at/mathematik/personal/braun/conference.html) in Innsbruck.
@@ -175,7 +174,7 @@ Travel, talks, papers, et cetera:
 - *Jan. 2024*: [Joint Math Meetings](https://www.jointmathematicsmeetings.org/meetings/national/jmm2023/2300_presenters.html#SAYRAFI,%20MAHRUD) in San Francisco, CA.
 - *Dec. 2023*: [Iberoamerican Congress on Geometry](https://geometryrc.ufro.cl/icg2023/) at Pucón, Chile 🌋.
 - *Nov. 2023*: [WAGS](https://sites.google.com/a/wagsymposium.org/current/wustl-fall-2023) at Washington University in St. Louis.
-- *Oct. 2023*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562) is [accepted](https://msp.org/ant/2024/18-10/p05.xhtml){: style="color: red"}!
+- *Oct. 2023*{: style="color: red"}: [_A short resolution of the diagonal for bigraded smooth projective toric varieties_](https://arxiv.org/abs/2208.00562),<br /> joint with [Michael K. Brown], is published in [_**Algebra & Number Theory**_](https://msp.org/ant/about/journal/about.html)!
 - *Oct. 2023*: [AMS sectional meeting](https://www.ams.org/meetings/sectional/2307_progfull.html#2307:SS9A) in Omaha, Nebraska.
 - *Sep. 2023*: [Syzygies and mirror symmetry](https://aimath.org/workshops/upcoming/syzygyms/) at AIM.
 - *Sep. 2023*: [Macaulay2 workshop](https://aimath.org/workshops/upcoming/macaulay2efie/) at AIM.
@@ -232,6 +231,9 @@ I also like [radio astronomy], [advocacy], cryptography, and [digital privacy as
 [Thomas Y.]: https://tjyahl.github.io/
 [Christine]: https://math.umn.edu/~cberkesc/
 [Christine Berkesch]: https://math.umn.edu/~cberkesc/
+[Michael K. Brown]: http://webhome.auburn.edu/~mkb0096/
+[Juliette Bruce]: https://juliettebruce.github.io/
+[Lauren Cranton Heller]: https://lcrantonh.github.io/
 
 [volcanoes]: ../static/basalt.jpeg
 [backpacking]: ../static/backpacking.jpeg

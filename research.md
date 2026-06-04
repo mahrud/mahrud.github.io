@@ -24,7 +24,7 @@ Assuming $p$-adic Hodge Theory has the same goal, can you coherently introduce h
 Like and subscribe 👉 &nbsp;
 {% endcomment %}
 
-My current projects all involve commutative algebra over Cox rings of projective varieties. \\
+My current projects mostly involve commutative algebra over Cox rings of projective varieties. \\
 See my [prelim](../oral) and [defense](../defense) presentations for some topics and questions that lead me to this point.
 
 Like and subscribe 👉 &nbsp;
@@ -34,10 +34,44 @@ Like and subscribe 👉 &nbsp;
 [![](../static/orcid.svg){:width="23px"}](https://orcid.org/0000-0003-3402-3844)
 [![](../static/scholar.ico){:width="23px"}](https://scholar.google.com/citations?user=Jj1Bx6gAAAAJ&hl=en)
 
-## [Publications] and [Preprints] in Mathematics
+
+## [Publications] in Mathematics
 
 [Publications]: https://mathscinet.ams.org/mathscinet/author?authorId=1422471
 [Preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
+
+- **Characterizing Multigraded Regularity and Virtual Resolutions on $\PP^{n_1}\times\cdots\times\PP^{n_r}$** \\
+With [Juliette Bruce] and [Lauren Cranton Heller]. \\
+[_Advances in Mathematics_](https://doi.org/10.1016/j.aim.2026.111049), Volume 500 (2026) 111049. \\
+27 May 2026. [arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG]
+{: style="list-style-image: url('../static/GoldStar.png')"}
+
+> ![](../static/arXiv/2110.10705.png){:width="80%"}
+*The terms in Beilinson's spectral sequence corresponding to linearity and quaslinearity.*
+{: style="text-align: center"}
+
+- **Computing Direct Sum Decompositions** \\
+With [Devlin Mallory]. \\
+[_Journal of Symbolic Computation_](https://doi.org/10.1016/j.jsc.2025.102486), Volume 133 (2026) 102486. \\
+11 August 2025. [arXiv:2412.19799](https://arxiv.org/abs/2412.19799) [math.AC]
+{: style="list-style-image: url('../static/GoldStar.png')"}
+
+> ![](../static/arXiv/2412.19799.png){:width="80%"}
+*Decomposing a module is equivalent to block diagonalizing its presentation.*
+{: style="text-align: center"}
+
+- **A Short Resolution of the Diagonal for Smooth Proj. Toric Varieties of Picard Rank 2** \\
+With [Michael K. Brown]. \\
+[_Algebra & Number Theory_](https://msp.org/ant/2024/18-10/p05.xhtml) **18-10** (2024), 1923-1943. \\
+23 October 2024. [arXiv:2208.00562](https://arxiv.org/abs/2208.00562) [math.AG] [math.AC]
+{: style="list-style-image: url('../static/GoldStar.png')"}
+
+> ![](../static/arXiv/2208.00562.png){:width="80%"}
+*The terms of a resolution of the diagonal for Hirzebruch surface of type a.*
+{: style="text-align: center"}
+
+
+## [Preprints] in Mathematics
 
 - **Seshadri Regions and the Asymptotic Shape of Multigraded Regularity** \\
 With [Juliette Bruce], [Lauren Cranton Heller], [Alexandra Seceleanu]. \\
@@ -59,49 +93,20 @@ constructed via a spherical twist functor, which are not quasi-isomorphic to any
 {: style="text-align: center"}
 
 - **Splitting of Vector Bundles on Toric Varieties** \\
+Submitted. \\
 27 December 2024. [arXiv:2412.19793](https://arxiv.org/abs/2412.19793) [math.AG]
 
 > ![](../static/arXiv/2412.19793.png){:width="80%"}
 *The vanishing requirements which imply a Horrocks-type splitting criterion.*
 {: style="text-align: center"}
 
-- **Computing Direct Sum Decompositions** \\
-With [Devlin Mallory]. \\
-[_Journal of Symbolic Computation_](https://doi.org/10.1016/j.jsc.2025.102486), Volume 133, March 2026. \\
-27 December 2024. [arXiv:2412.19799](https://arxiv.org/abs/2412.19799) [math.AC]
-{: style="list-style-image: url('../static/GoldStar.png')"}
-
-> ![](../static/arXiv/2412.19799.png){:width="80%"}
-*Decomposing a module is equivalent to block diagonalizing its presentation.*
-{: style="text-align: center"}
-
-- **A Short Resolution of the Diagonal for Smooth Proj. Toric Varieties of Picard Rank 2** \\
-With [Michael K. Brown]. \\
-[_Algebra & Number Theory_](https://msp.org/ant/2024/18-10/p05.xhtml) **18-10** (2024), 1923-1943. \\
-7 October 2024. [arXiv:2208.00562](https://arxiv.org/abs/2208.00562) [math.AG] [math.AC]
-{: style="list-style-image: url('../static/GoldStar.png')"}
-
-> ![](../static/arXiv/2208.00562.png){:width="80%"}
-*The terms of a resolution of the diagonal for Hirzebruch surface of type a.*
-{: style="text-align: center"}
-
 - **Bounds on Multigraded Regularity** \\
 With [Juliette Bruce], [Lauren Cranton Heller]. \\
 Submitted. \\
-23 August 2022. [arXiv:2208.11115](https://arxiv.org/abs/2208.11115) [math.AC]
+28 February 2025. [arXiv:2208.11115](https://arxiv.org/abs/2208.11115) [math.AC]
 
 > ![](../static/arXiv/2208.11115.png){:width="80%"}
 *Multigraded regularity of powers of two ideals on the Hirzebruch surface.*
-{: style="text-align: center"}
-
-- **Characterizing Multigraded Regularity and Virtual Resolutions on $\PP^{n_1}\times\cdots\times\PP^{n_r}$** \\
-With [Juliette Bruce], [Lauren Cranton Heller]. \\
-[_Advances in Mathematics_](https://www.sciencedirect.com/journal/advances-in-mathematics), to appear. \\
-20 October 2021. [arXiv:2110.10705](https://arxiv.org/abs/2110.10705) [math.AC] [math.AG]
-{: style="list-style-image: url('../static/GoldStar.png')"}
-
-> ![](../static/arXiv/2110.10705.png){:width="80%"}
-*The terms in Beilinson's spectral sequence corresponding to linearity and quaslinearity.*
 {: style="text-align: center"}
 
 
@@ -109,8 +114,9 @@ With [Juliette Bruce], [Lauren Cranton Heller]. \\
 
 - **Connection Matrices in Macaulay2** \\
 With [P. Görlach], [J. Koefler], [A.-L. Sattelberger], [H. Schroeder], [N. Weiss], [F. Zaffalon]. \\
-Submitted. \\
-2 April 2025. [arXiv:2504.01362](https://arxiv.org/abs/2504.01362) [math.AG] [cs.SC]
+[_Journal of Software for Algebra and Geometry_](https://doi.org/10.2140/jsag.2026.16.101), Volume 16 (2026). \\
+25 May 2026. [arXiv:2504.01362](https://arxiv.org/abs/2504.01362) [math.AG] [cs.SC]
+{: style="list-style-image: url('../static/GoldStar.png')"}
 
 > ![](../static/arXiv/2504.01362.png){:width="80%"}
 *Connection matrices of a $D$-ideal satisfy the integtability condition $\partial_i\bullet A_j - \partial_j\bullet A_i = [A_i, A_j]$.*
@@ -118,8 +124,8 @@ Submitted. \\
 
 - **The Virtual Resolutions Package for Macaulay2** \\
 With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper]. \\
-[Journal of Software for Algebra and Geometry, Volume 10 (2020)](https://doi.org/10.2140/jsag.2020.10.51) \\
-16 May 2019. [arXiv:1905.07022](https://arxiv.org/abs/1905.07022) [math.AG] [math.AC]
+[_Journal of Software for Algebra and Geometry_,](https://doi.org/10.2140/jsag.2020.10.51) Volume 10 (2020). \\
+19 May 2020. [arXiv:1905.07022](https://arxiv.org/abs/1905.07022) [math.AG] [math.AC]
 {: style="list-style-image: url('../static/GoldStar.png')"}
 
 > ![](../static/arXiv/1905.07022.png){:width="70%"}
@@ -135,7 +141,7 @@ With [Ayah Almousa], [Juliette Bruce], [Michael C. Loper]. \\
 
 - **What is the optimal way to prepare a Bell state using measurement and feedback?** \\
 With Leigh S. Martin, K. Birgitta Whaley. \\
-[Quantum Science and Technology, Volume 2, Number 4 (2017)](https://doi.org/10.1088/2058-9565/aa804c) \\
+[_Quantum Science and Technology_, Volume 2, Number 4 (2017)](https://doi.org/10.1088/2058-9565/aa804c) \\
 2 April 2017. [arXiv:1704.00332](https://arxiv.org/abs/1704.00332) [quant-ph]
 {: style="list-style-image: url('../static/GoldStar.png')"}
 
