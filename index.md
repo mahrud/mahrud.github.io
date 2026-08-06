@@ -12,11 +12,11 @@ tagline: Mahrud Sayrafi
  </div>
 
  <div>
-  - Postdoc Researcher
-  - [McMaster University](https://math.mcmaster.ca/) <br />
-    [Hamilton Hall, Room 414](https://maps.app.goo.gl/QbaiTBRyDffonCqY8) <br />
-	Hamilton, Ontario L8S 4L8
-  - mahrud [at] mcmaster.ca
+  - NSF RTG Postdoc
+  - [University of Nebraska -- Lincoln](https://math.unl.edu/) <br />
+    [Avery Hall, Room TBD](https://maps.app.goo.gl/iSYJLSUFLPF7FzTM6) <br />
+	Lincoln, NE 68588
+  - msayrafi2 [at] unl.edu
   - Pronouns: He/Him
   - [![](../static/arXiv.ico){:width="17px"}](https://arxiv.org/search/?query=Mahrud&searchtype=author)
     [![](../static/MathSciNet.ico){:width="15px"}](https://mathscinet.ams.org/mathscinet/author?authorId=1422471)
@@ -28,10 +28,9 @@ tagline: Mahrud Sayrafi
 </div>
 
 ### About me
-I am a Britton postdoc in the [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) group at [McMaster University](https://math.mcmaster.ca/). \\
-Beginning fall 2026, I will join [Commutative Algebra @ Nebraska](https://nebraskacommalg.github.io/RTG/) as an NSF RTG postdoc.
+I am an NSF RTG postdoc in the [Commutative Algebra @ Nebraska](https://nebraskacommalg.github.io/RTG/) group.
 
-Previously, I was a resident at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br />
+Previously, I was a Britton postdoc in [Combinatorial Algebraic Geometry](https://sites.google.com/view/mcmastercag) at [McMaster University](https://math.mcmaster.ca/), a resident at the commutative algebra semester program at the [Fields Institute](http://www.fields.utoronto.ca/activities/24-25/commutative) in Toronto, and before that I was a postdoc in the [Nonlinear Algebra](https://www.mis.mpg.de/nonlinear-algebra) group at MPI MiS in Leipzig, Germany. <br />
 I obtained my PhD from University of Minnesota in May 2024, advised by [Christine Berkesch].
 {% comment %}
 Before that I was an undergraduate at UC Berkeley.
