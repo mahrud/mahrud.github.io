@@ -40,6 +40,17 @@ Like and subscribe 👉 &nbsp;
 [Publications]: https://mathscinet.ams.org/mathscinet/author?authorId=1422471
 [Preprints]: https://arxiv.org/search/?query=Mahrud&searchtype=author
 
+- **Computing Global Ext for Complexes** \\
+With [Michael K. Brown], [Souvik Dey], [Guanyu Li]. \\
+[_Journal of Pure and Applied Algebra_](https://doi.org/10.1016/j.jpaa.2026.108365), Volume 230 (2026) 108365. \\
+13 August 2026. [arXiv:2509.25103](https://arxiv.org/abs/2509.25103) [math.AG] [math.AC]
+{: style="list-style-image: url('../static/GoldStar.png')"}
+
+> ![](../static/arXiv/2509.25103.png){:width="80%"}
+*The Hirzebruch surface of type 2 has a full strong exceptional collection of complexes, \\
+constructed via a spherical twist functor, which are not quasi-isomorphic to any sheaves.*
+{: style="text-align: center"}
+
 - **Characterizing Multigraded Regularity and Virtual Resolutions on $\PP^{n_1}\times\cdots\times\PP^{n_r}$** \\
 With [Juliette Bruce] and [Lauren Cranton Heller]. \\
 [_Advances in Mathematics_](https://doi.org/10.1016/j.aim.2026.111049), Volume 500 (2026) 111049. \\
@@ -80,16 +91,6 @@ Submitted. \\
 
 > ![](../static/arXiv/2512.05289.png){:width="30%"}
 *The Seshadri region packages the classical Seshadri constants with respect to every line bundle.*
-{: style="text-align: center"}
-
-- **Computing Global Ext for Complexes** \\
-With [Michael K. Brown], [Souvik Dey], [Guanyu Li]. \\
-Submitted. \\
-29 September 2025. [arXiv:2509.25103](https://arxiv.org/abs/2509.25103) [math.AG] [math.AC]
-
-> ![](../static/arXiv/2509.25103.png){:width="80%"}
-*The Hirzebruch surface of type 2 has a full strong exceptional collection of complexes, \\
-constructed via a spherical twist functor, which are not quasi-isomorphic to any sheaves.*
 {: style="text-align: center"}
 
 - **Splitting of Vector Bundles on Toric Varieties** \\

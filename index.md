@@ -12,8 +12,8 @@ tagline: Mahrud Sayrafi
  </div>
 
  <div>
-  - NSF RTG Postdoc
-  - [University of Nebraska -- Lincoln](https://math.unl.edu/) <br />
+  - Postdoctoral Researcher
+  - [Uni. of Nebraska -- Lincoln](https://math.unl.edu/) <br />
     [Avery Hall, Room TBD](https://maps.app.goo.gl/iSYJLSUFLPF7FzTM6) <br />
 	Lincoln, NE 68588
   - msayrafi2 [at] unl.edu
@@ -38,15 +38,16 @@ Before that I was an undergraduate at UC Berkeley.
 
 My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
 
+- *Published*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103) is in [_**Journal of Pure and Applied Algebra**_](https://doi.org/10.1016/j.jpaa.2026.108365)!
 - *Jun. 2026*: [Workshop on Algebraic Geometry and Machine Learning](https://icarm.io/project/workshop-on-algebraic-geometry-and-machine-learning/) at [ICARM](https://icarm.io/).
-- *Published*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705),<br /> joint with [Juliette Bruce] and [Lauren Cranton Heller], is in [_**Advances in Mathematics**_](https://www.sciencedirect.com/science/article/pii/S0001870826002719)! 🎊
+- *Published*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705),<br /> joint with [Juliette Bruce] and [Lauren Cranton Heller], is in [_**Advances in Mathematics**_](https://doi.org/10.1016/j.jpaa.2026.108365)! 🎊
 - *Accepted*{: style="color: red"}: [_Connection Matrices in Macaulay2_](https://arxiv.org/abs/2504.01362) has been accepted to _**JSAG**_.
 - *Apr. 2026*: [Regularity in Algebra, Combinatorics, and Geometry](https://www.birs.ca/events/2026/5-day-workshops/26w5583) at BIRS.
 - *New*{: style="color: red"}: [_Seshadri Regions and the Asymptotic Shape of Multigraded Regularity_](https://arxiv.org/abs/2512.05289).
-- *New*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103).
 - *Published*{: style="color: red"}: [_Computing Direct Sum Decompositions_](https://arxiv.org/abs/2412.19799) _is in_{: style="font-size: small"} [_**Journal of Symbolic Computation**_](https://doi.org/10.1016/j.jsc.2025.102486)!
 
 {% comment %}
+- *Oct. 2026*: [New Homological Methods in Toric Geometry](https://www.mfo.de/www/activity/2642) at Oberwolfach.
 - *New*{: style="color: red"}: [_Splitting of vector bundles on toric varieties_](https://arxiv.org/abs/2412.19793).
 - *Updated*{: style="color: red"}: [_Bounds on Multigraded Regularity_](https://arxiv.org/abs/2208.11115).
 {% endcomment %}
