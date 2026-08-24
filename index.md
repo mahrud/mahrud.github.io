@@ -85,9 +85,8 @@ See the [research](research) tab for a list of my papers.
 
 ### [Teaching](teaching)
 
-- Now:  [MATH 309 – Intro to Proofs](teaching/f26-math309)
-- Prev: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3) (for business and social sciences).
-- Prev: [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3).
+- Now:  [MATH 309 – Introduction to Mathematical Proofs](teaching/f26-math309), at UNL.
+- Prev: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3) (for business and social sciences), at McMaster.
 
 See the [teaching](teaching) tab for past teaching and more details.
 
