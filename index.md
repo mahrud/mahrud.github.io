@@ -14,7 +14,7 @@ tagline: Mahrud Sayrafi
  <div>
   - Postdoctoral Researcher
   - [Uni. of Nebraska -- Lincoln](https://math.unl.edu/) <br />
-    [Avery Hall, Room TBD](https://maps.app.goo.gl/iSYJLSUFLPF7FzTM6) <br />
+    [Avery Hall, Room 302⅒](https://maps.app.goo.gl/iSYJLSUFLPF7FzTM6) <br />
 	Lincoln, NE 68588
   - msayrafi2 [at] unl.edu
   - Pronouns: He/Him
@@ -85,7 +85,8 @@ See the [research](research) tab for a list of my papers.
 
 ### [Teaching](teaching)
 
-- Now:  [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3) (for business and social sciences).
+- Now:  [MATH 309 – Intro to Proofs](teaching/f26-math309)
+- Prev: [MATH 1MM3 – Applied Calculus](teaching/w26-math1MM3) (for business and social sciences).
 - Prev: [MATH 3GR3 – Abstract Algebra](teaching/f25-math3GR3).
 
 See the [teaching](teaching) tab for past teaching and more details.

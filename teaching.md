@@ -5,13 +5,18 @@ tagline: Teaching Experience
 order: 2
 ---
 
-At **McMaster University** in Canada, I am responsible for teaching the following courses.
+At the **University of Nebraska, Lincoln**:
+
+- Fall &nbsp; 2026: Instructor for [MATH 309 -- Introduction to Proofs](f26-math309)
+{: style="font-family: monospace; font-size: small"}
+
+At **McMaster University** in Ontario, Canada:
 
 - Winter      2026: Instructor for [MATH 1MM3 -- Applied Calculus](w26-math1MM3)
 - Fall &nbsp; 2025: Instructor for [MATH 3GR3 -- Abstract Algebra](f25-math3GR3)
 {: style="font-family: monospace; font-size: small"}
 
-Previously, at the **University of Minnesota**, I taught the following courses.
+At the **University of Minnesota, Twin Cities**, as a graduate student:
 
 - Spring      2023: Instructor for [MATH 1272 -- Calculus 2](s23-math1272)
 - Fall &nbsp; 2022: Grader for [MATH 8253 -- Algebraic Geometry](https://math.umn.edu/~voronov/8253f22)
@@ -22,7 +27,7 @@ Previously, at the **University of Minnesota**, I taught the following courses.
 - Fall &nbsp; 2018: TA for [MATH 1271 -- Calculus 1](f18-math1271)
 {: style="font-family: monospace; font-size: small"}
 
-And long ago, I graded for the following courses at **UC Berkeley**.
+And long ago, at **UC Berkeley**, I was an undergraduate grader.
 
 - Spring      2015: Math 113 -- Abstract Algebra
 - Fall &nbsp; 2014: Math 116 -- Introduction to Mathematical Cryptography
