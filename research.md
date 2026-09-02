@@ -84,6 +84,14 @@ With [Michael K. Brown]. \\
 
 ## [Preprints] in Mathematics
 
+- **Weighted Syzygies of Pointed Curves** \\
+With [Maya Banks] and [John Cobb]. \\
+31 August 2026. [arXiv:2609.00312](https://arxiv.org/abs/2609.00312) [math.AG] [math.AC]
+
+> ![](../static/arXiv/2609.00312.png){:width="100%"}
+*How does the complexity of syzygies of weighted embeddings by $|\mathcal{O}(dP)|$ change as $d$ grows?*
+{: style="text-align: center"}
+
 - **Seshadri Regions and the Asymptotic Shape of Multigraded Regularity** \\
 With [Juliette Bruce], [Lauren Cranton Heller], [Alexandra Seceleanu]. \\
 Submitted. \\
@@ -151,8 +159,10 @@ With Leigh S. Martin, K. Birgitta Whaley. \\
 {: style="text-align: center"}
 
 [Ayah Almousa]: https://sites.google.com/view/ayah-almousa
+[Maya Banks]: https://sites.google.com/view/mayabanks
 [Michael K. Brown]: http://webhome.auburn.edu/~mkb0096/
 [Juliette Bruce]: https://juliettebruce.github.io/
+[John Cobb]: https://johndcobb.github.io/
 [Lauren Cranton Heller]: https://lcrantonh.github.io/
 [Alexandra Seceleanu]: https://aseceleanu.github.io/
 [Michael C. Loper]: https://www.uwrf.edu/FacultyStaff/5803758.cfm

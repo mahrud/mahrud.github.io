@@ -38,6 +38,8 @@ Before that I was an undergraduate at UC Berkeley.
 
 My CV is [here](mahrud.pdf), and here are some recent updates and upcoming plans:
 
+- *New*{: style="color: red"}: [_Weighted Syzygies of Pointed Curves_](https://arxiv.org/abs/2609.00312), with [Maya Banks] and [John Cobb]. \\
+👉 Also checkout the accompanying data and visualizations at [WeightedSyzygies](https://mahrud.github.io/WeightedSyzygies/).
 - *Published*{: style="color: red"}: [_Computing Global Ext for Complexes_](https://arxiv.org/abs/2509.25103) is in [_**Journal of Pure and Applied Algebra**_](https://doi.org/10.1016/j.jpaa.2026.108365)!
 - *Jun. 2026*: [Workshop on Algebraic Geometry and Machine Learning](https://icarm.io/project/workshop-on-algebraic-geometry-and-machine-learning/) at [ICARM](https://icarm.io/).
 - *Published*{: style="color: red"}: [_Characterizing Multigraded Regularity and Virtual Resolutions on $\mathbb P^n\times\dots\\times\mathbb P^m$_](https://arxiv.org/abs/2110.10705),<br /> joint with [Juliette Bruce] and [Lauren Cranton Heller], is in [_**Advances in Mathematics**_](https://doi.org/10.1016/j.jpaa.2026.108365)! 🎊
@@ -98,6 +100,9 @@ If you'd like to join or contribute to any of these activities, feel free to get
 ### [Apr. 2024: AMS Sectional in Milwaukee‍](https://www.ams.org/meetings/sectional/2318_program.html)
 With [Maya] and [Ola], we're planning a session on nonstandard & multigraded commutative algebra.
 {% endcomment %}
+
+Checkout [WeightedSyzygies](https://mahrud.github.io/WeightedSyzygies/): a visualization of syzygies of weighted embeddings.
+{: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
 
 Checkout [FanoCats](https://mahrud.github.io/FanoCats/): a tool to visually study the geography of toric derived categories.
 {: style="background-color: #fef5c4; border-left: 8px solid #FADF98; padding: 10px 10px;"}
@@ -234,6 +239,8 @@ I also like [radio astronomy], [advocacy], cryptography, and [digital privacy as
 [Michael K. Brown]: http://webhome.auburn.edu/~mkb0096/
 [Juliette Bruce]: https://juliettebruce.github.io/
 [Lauren Cranton Heller]: https://lcrantonh.github.io/
+[Maya Banks]: https://sites.google.com/view/mayabanks
+[John Cobb]: https://johndcobb.github.io/
 
 [volcanoes]: ../static/basalt.jpeg
 [backpacking]: ../static/backpacking.jpeg
